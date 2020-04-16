@@ -1,4 +1,4 @@
-### [**00 _#_** Preface](L00)  
+### [**00 _#_** Einführung](L00)  
 - WWW, Client/Server, HTTP, W3C
 - Entwicklungsumgebung
 
