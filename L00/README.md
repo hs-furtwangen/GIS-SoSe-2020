@@ -7,15 +7,15 @@
 </video>
 
 **Tools / Software**
-- https://code.visualstudio.com/
-- https://git-scm.com/
-- https://github.com/
-- https://desktop.github.com/
-- https://www.gitkraken.com/
-- https://www.sourcetreeapp.com/
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Github Desktop](https://desktop.github.com/)
+- [Gitkraken](https://www.gitkraken.com/)
+- [Sourcetree](https://www.sourcetreeapp.com/)
 
 **Kursseiten Informationen**
-- https://webuser.hs-furtwangen.de/~sor/lehrveranstaltungen/gis/teilnehmer/
+- [Kursseite](https://webuser.hs-furtwangen.de/~sor/lehrveranstaltungen/gis/teilnehmer/)
 - Gruppen:
   - Mi, 2. Block blau: OMB, Lukas Scheuerle
   - Mi, 2. Block orange: OMB, Andreas Reich
