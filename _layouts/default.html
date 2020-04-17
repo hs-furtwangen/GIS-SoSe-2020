@@ -27,8 +27,8 @@
             <div class="logo-wrapper">
                 <div class="logo"></div>
             </div>
-            <h1 class="project-name"><a href="{{ site.url }}">{{ site.github.repository_name }}</a></h1>
-            <h2 class="project-tagline">{{ site.github.project_tagline }}</h2>
+            <h1 class="project-name"><a href="{{ site.url }}">{{ site.title }}</a></h1>
+            <h2 class="project-tagline">{{ site.github.description }}</h2>
         </div>
     </header>
 
@@ -36,7 +36,7 @@
         {{ content }}
 
         <footer class="site-footer">
-            <a href="participants"><h3>Zur Teilnehmerliste</h3></a>
+            <a href="/participants"><h3>Zur Teilnehmerliste</h3></a>
             {% if site.github.is_project_page %}
             <span class="site-footer-owner"><a
                     href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a
