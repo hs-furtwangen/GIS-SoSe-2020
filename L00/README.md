@@ -1,6 +1,15 @@
 ## **00 _#_** Einführung
 
-### Vorbereitung
+
+### Einführung in die Thematik
+<video controls width="100%"> 
+    <source src="https://scheuerle.net/lehre/gis/videos/00_Einfuehrung.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/00_Einfuehrung.mp4">Zum Video</a>
+</video>
+
+---
+
+### Vorbereitung / Tools
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/00_Arbeitsumgebung.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/00_Arbeitsumgebung.mp4">Zum Video</a>
@@ -53,13 +62,6 @@
   - ...einen **Link** zu dem ausführbaren Code auf Ihrer Github Pages (github.io) Seite.
 
 ---
-
-### Einführung in die Thematik
-<video controls width="100%"> 
-    <source src="https://scheuerle.net/lehre/gis/videos/00_Einfuehrung.mp4" type="video/mp4"> 
-    <a href="https://scheuerle.net/lehre/gis/videos/00_Einfuehrung.mp4">Zum Video</a>
-</video>
-
 
 
 ## Aufgabe
