@@ -2,7 +2,7 @@
 
 **Wochentag, 01.01.2020 11:30 Uhr**
 
-Protokol führte: [HIER GITHUB NUTZERNAME EINTRAGEN](https://github.com/LINK-ZU-GITHUB-PROFIL)
+Zusammengestellt von: [HIER GITHUB NUTZERNAME EINTRAGEN](https://github.com/LINK-ZU-GITHUB-PROFIL)
 
 
 ## Topic A
