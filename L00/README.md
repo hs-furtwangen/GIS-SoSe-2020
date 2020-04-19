@@ -46,8 +46,12 @@
 - Machen Sie sich mit GIT vertraut
 -> Wir empfehlen Ihnen die Verwendung von einem Visual-Git-Tool wie z.B. GitKraken (s.o.)
 - Registrieren Sie sich auf der Kursseite und legen Sie einen Steckbrief an
+- Ändern Sie das Bild und stellen Sie sicher, dass das bild und die Steckbrief.htm korrekt angezeigt werden
 - Hierfür müssen Sie ihr Repository über GitHub pages als Website veröffentlichen.
+
 
 Ziel der Aufabe: 
 
 Sie sind arbeitsfähig, d.h. Sie haben sich auf der Kursseite registriert und kennen sich mit den grundlegensten Funktionen von GIT aus. Sie sind dazu in der Lage Ihre Abgaben auf GitHub hochzuladen und wissen wie Sie ihre info.htm aktualisieren können.
+
+## Abgabedatum 26.04.2020 um 18:00

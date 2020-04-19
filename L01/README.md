@@ -28,3 +28,5 @@ Entdecken Sie die Entwicklungswerkzeuge, die in Ihrem Browser eingebaut sind:
 Ziel der Aufgabe:
 
 Sie haben die grundlegensten Elemente von HTML5 kennengelernt und verstanden und haben Ihre erste, simple & stillose Website erstellt in der Sie sich selbst vorstellen.
+
+## Abgabedatum 03.05.2020 um 18:00
