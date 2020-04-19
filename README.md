@@ -20,7 +20,7 @@ Folgende wöchentliche Termine sind vorgesehen (mit Links zum Betreten der Onlin
 
 Der Ablauf der Praktikum Workshops wird in einem [eigenen Kapitel der Einleitung](L00/#ablauf-vorlesung-und-praktikum) erklärt. 
 
-Die Abgaben der Lösungen zu den Aufgaben erfolgen über die [Workshop Seite](workshops), auf der Sie zunächst ihren *Streckbrief* registrieren müssen (siehe Links auf der Workshop Seite). Lösungen gelten nur als abgegeben, wenn sie in Ihrem Steckbrief auf der Workshop Seite publiziert sind. Die Abgabe muss in der Regel bis Sonntag 18:00 Uhr vor dem nächsten Workshop Termin erfolgen (nur jene Termine gelten). Die genauen Abgabetermione werden jeweils mit der Aufgabe veröffentlicht.
+Die Abgaben der Lösungen zu den Aufgaben erfolgen über die [Workshop Seite](workshops), auf der Sie zunächst ihren *Streckbrief* registrieren müssen (siehe Links auf der Workshop Seite). Lösungen gelten nur als abgegeben, wenn sie in Ihrem Steckbrief auf der Workshop Seite publiziert sind. Die Abgabe muss in der Regel bis Sonntag 18:00 Uhr vor dem nächsten Workshop Termin erfolgen. Die genauen Abgabetermione werden jeweils mit der Aufgabe veröffentlicht.
 
 Die Praktikumsaufgaben werden laufend mit einem *Ampelsystem* bewertet:
 - Das Ampelsystem hat 5 Stufen zwischen grün bis rot – alle Ampeln starten auf grün.
