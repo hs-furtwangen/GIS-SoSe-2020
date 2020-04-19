@@ -1,4 +1,4 @@
-# Q&A zum Kickoff Meeting
+# Q&A
 
 **Wochentag, 01.01.2020 00:00 Uhr**
 

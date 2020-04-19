@@ -1,4 +1,4 @@
-## **00 _#_** Einführung
+## [**22 _Apr_** Einführung]()
 
 ### Einführung in die Thematik
 <video controls width="100%"> 
@@ -23,7 +23,7 @@
 - [Sourcetree](https://www.sourcetreeapp.com/)
 
 **Kursseiten Informationen**
-- [Workshop Seite](workshops)
+- [Workshop Seite](../workshops)
 
 --- 
 
@@ -37,7 +37,6 @@
 
 ---
 
-
-## Aufgabe
+## **A** Praktikumsaufgabe
 
 tba

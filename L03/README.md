@@ -1,4 +1,4 @@
-## **03 _#_** Einstieg in CSS
+## [**13 _Mai_** Einstieg CSS]()
 
 
 ### Einführung
@@ -41,7 +41,7 @@ Text.
 
 ---
 
-## Aufgabe
+## **A** Praktikumsaufgabe
 
 Starten Sie mit ein paar "Hygiene-Aufgaben", damit Sie arbeitsfähig werden und bereit für den Kurs sind:
 

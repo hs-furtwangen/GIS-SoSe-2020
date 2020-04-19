@@ -1,4 +1,4 @@
-## **04 _#_** CSS Vertiefung
+## [**20 _Mai_** CSS Vertiefung]()
 
 ### Komplexe Selektoren
 <video controls width="100%"> 
@@ -31,9 +31,8 @@
 </video>
 
 
-
 ---
 
-## Aufgabe
+## **A** Praktikumsaufgabe
 
 tba
