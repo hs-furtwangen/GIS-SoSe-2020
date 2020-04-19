@@ -48,6 +48,7 @@
 - Registrieren Sie sich auf der Kursseite und legen Sie einen Steckbrief an
 - Ändern Sie das Bild und stellen Sie sicher, dass das bild und die Steckbrief.htm korrekt angezeigt werden
 - Hierfür müssen Sie ihr Repository über GitHub pages als Website veröffentlichen.
+- Erstellen Sie ein HTML-Dokument mit einer Überschrift und einem weiteren HTML Element Ihrer Wahl und verlinken sie dieses Dokument in Ihrem Steckbrief
 
 
 Ziel der Aufabe: 
