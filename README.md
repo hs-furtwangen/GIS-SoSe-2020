@@ -8,13 +8,13 @@ Die Vorlesung findet durch aufgezeichenete Videokapitel sowie eine Q&A Online Si
 
 Alle Online-Termine werden über *alfaview&reg;* abgehalten. Die Q&A Termine werden zusammengefaßt und in dem Unterkapitel *Q&A* des jeweiligen Kurskapitels (hier unten) nachträglich veröffentlicht.
 
-Folgende wöchentliche Termine sind vorgesehen:
+Folgende wöchentliche Termine sind vorgesehen (mit Links zum Betreten der Online-Räume):
 - Q & A zur Vorlesung → Online-Raum ??? (Link folgt bis spätestens Dienstagmittag, 21. April 2020)
 - Workshops
-  - OMB A (blau): Mi, 2. Block, Lukas Scheuerle [→ Online-Raum](https://rooms.hs-furtwangen.de/rooms/dm16)
-  - OMB B (orange): Mi, 2. Block, Andreas Reich [→ Online-Raum](https://rooms.hs-furtwangen.de/rooms/dm9)
-  - MIB A (lila): Mi, 3. Block, Lukas Scheuerle [→ Online-Raum](https://rooms.hs-furtwangen.de/rooms/dm16)
-  - MIB B (gelb): Mi, 3. Block, Andreas Reich [→ Online-Raum](https://rooms.hs-furtwangen.de/rooms/dm9)
+  - OMB A (blau): Mi, 2. Block, Lukas Scheuerle [→ Online-Raum DM-16](https://rooms.hs-furtwangen.de/rooms/dm16)
+  - OMB B (orange): Mi, 2. Block, Andreas Reich [→ Online-Raum DM-9](https://rooms.hs-furtwangen.de/rooms/dm9)
+  - MIB A (lila): Mi, 3. Block, Lukas Scheuerle [→ Online-Raum DM-16](https://rooms.hs-furtwangen.de/rooms/dm16)
+  - MIB B (gelb): Mi, 3. Block, Andreas Reich [→ Online-Raum DM-9](https://rooms.hs-furtwangen.de/rooms/dm9)
 
 #### Praktikum Workshops
 
@@ -29,7 +29,7 @@ Die Praktikumsaufgaben werden laufend mit einem *Ampelsystem* bewertet:
   - Abgabe nicht erfolgt: 2 Stufen
   - Abgabe ist unzureichend oder kopiert: 1 Stufe
 
-Um eine Herabstufung bei mangelhafter Abgabe zu beheben, müssen g.g.f. eine neue Lösung publizieren und Ihrem Betreuer den Sachverhalt während des nächsten Workshop Termins erklären.
+Um eine Herabstufung bei mangelhafter Abgabe zu beheben, müssen g.g.f. eine neue Lösung publizieren und Ihrem Betreuer den Sachverhalt während des nächsten Workshop Termins erklären. Bei Erfolg wird die Ampel allerdings höchstens eine Stufe wieder heraufgesetzt.
 
 #### Fragen und Probleme
 
