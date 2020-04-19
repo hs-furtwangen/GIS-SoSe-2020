@@ -6,7 +6,7 @@ Die Vorlesungen und Praktika zu *Grundlagen interaktiver Systeme* für die Studi
 
 ### Materialien und Termine
 
-Die Vorlesung findet durch aufgezeichenete Videokapitel sowie einen wöchentlichen Q&A Online Termin mit Fragen und Antworten zu den Kursinhalten statt (zum Vorlesungstermin, gemeinsam für MIB und OMB). Die Teilnehmenden sind dazu angehalten sich die Kursmaterialien vor dem jeweiligen Q&A Termin zu erarbeiten. Die vollständigen Materialien zu einem Termin – inkl. Praktikumsaufgaben –  werden spätenstens bis zum Freitagmittag der Vorwoche unter dem entsprechenden Kapitel (Links in diesem Dokument weiter unten) veröffentlicht. Die Praktikumsgruppen werden in Online Workshops betreut.
+Die Vorlesung findet durch aufgezeichenete Videokapitel sowie einen wöchentlichen Q&A Online Termin mit Fragen und Antworten zu den Kursinhalten statt (zum Vorlesungstermin, gemeinsam für MIB und OMB). Die Teilnehmenden sind dazu angehalten sich die Kursmaterialien vor dem jeweiligen Q&A Termin zu erarbeiten. Die vollständigen Materialien zu einem Termin – inkl. Praktikumsaufgaben –  werden spätenstens bis zum Freitagmittag der Vorwoche unter dem entsprechenden Kapitel (Links in diesem Dokument weiter unten) veröffentlicht. Auch die Praktikumsgruppen werden in Online Terminen betreut.
 
 Alle Online Termine werden über *alfaview&reg;* abgehalten. Die Q&A Termine werden zusammengefaßt und im Abschnitt *Q&A* des jeweiligen Kurskapitels (hier unten) nachträglich veröffentlicht.
 
