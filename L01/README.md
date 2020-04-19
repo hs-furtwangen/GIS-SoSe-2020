@@ -1,11 +1,10 @@
-## **00 _#_** Grundlagen HTML
-
+## [**29 _Apr_** Grundlagen HTML]() 
 
 tba
 
 ---
 
-## Aufgabe
+## **A** Praktikumsaufgabe
 
 Erstellen Sie eine stillose Webstite (HTML-dokument **KEIN CSS oder JS**) zu Ihrer Person die mindestens folgende Elemente enthält: 
 

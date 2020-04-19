@@ -1,4 +1,4 @@
-## **00 _#_** Einführung
+## [**22 _Apr_** Einführung]()
 
 ### Einführung in die Thematik
 <video controls width="100%"> 
@@ -23,7 +23,7 @@
 - [Sourcetree](https://www.sourcetreeapp.com/)
 
 **Kursseiten Informationen**
-- [Workshop Seite](workshops)
+- [Workshop Seite](../workshops)
 
 --- 
 
@@ -37,8 +37,7 @@
 
 ---
 
-
-## Aufgabe
+## **A** Praktikumsaufgabe
 
 - Installieren Sie sich Visual Studio Code oder eine IDE (Entwicklungsumgebung) Ihrer Wahl
 - Installieren Sie sich GIT

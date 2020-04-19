@@ -9,6 +9,26 @@ a {
     text-decoration: none;
 }
 
+em {
+    a {
+        display: block;
+        position: relative;
+        background: white;
+        color: #aaa;
+        font-size: 1.17em;
+        font-style: normal;
+
+        &::before {
+            content: "→";
+            display: block;
+            background: #fff;
+            position: absolute;
+            top: -2px;
+            left: -28px;
+        }
+    }
+}
+
 .page-header {
     background-color: white;
     background: white;
@@ -16,6 +36,11 @@ a {
     padding: 0;
     text-align: left;
     margin: 0 0 2rem 0;
+
+
+    h1 {
+        margin-bottom: 0;
+    }
 
     .page-header-inner {
         margin-top: 2rem;
@@ -53,16 +78,25 @@ a {
 }
 
 .content-wrapper {
-
     hr {
         margin: 4rem 0 2rem;
     }
         
-    h2, h3, h4 {
+    h2 {
+        font-size: 32px;
+    }
+
+    h3, h4, h5 {
+        font-size: 1.17em;
+    }
+
+
+    h2, h3, h4, h5 {
         position: relative;
+        margin-top: 0;
+        margin-bottom: -20px;
         background: white;
         color: #ccc;
-        font-size: 1.17em;
 
         strong {
             position: absolute;
@@ -76,25 +110,23 @@ a {
             line-height: 1;
             text-align: center;
             width: 48px;
+
+            em {
+                font-weight: normal;
+                font-style: normal;
+                display: block;
+                font-size: 20px;
+            }
         }
 
-        em {
-            font-weight: normal;
-            font-style: normal;
-            display: block;
-            font-size: 20px;
-        }
-
-        a {
-            color: #ccc;
-        }
+        color: #ccc;
     }
 
-    h2, h3 {
+    h2, h3, h4 {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
-        padding: 20px 0 0;
+        padding: 20px 0 22px 0;
         z-index: 1;
 
         &, a {
@@ -119,7 +151,7 @@ a {
     }
 
     h2 {
-        font-size: 32px;
+        padding: 10px 0 10px 0;
 
         strong {
             top: 18px;
@@ -127,10 +159,25 @@ a {
     }
 }
 
-footer.site-footer, footer a {
+footer.site-footer {
     font-size: .75rem;
     color: $main-color;
     font-weight: none;
+    padding-top: 1rem;
+
+    a {
+        font-size: 1rem;
+        color: $main-color;
+
+    }
+
+    em {
+        display: block;
+    }
+
+    .site-footer-credits {
+      padding-top: 2em;
+    }
 }
 
 /**
