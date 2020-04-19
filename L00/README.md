@@ -40,4 +40,14 @@
 
 ## Aufgabe
 
-tba
+- Installieren Sie sich Visual Studio Code oder eine IDE (Entwicklungsumgebung) Ihrer Wahl
+- Installieren Sie sich GIT
+- Legen Sie, falls noch nicht vorhanden, ein GitHub Konto an, sowie ein Repository mit dem Namen GIS-SoSe-2020
+- Machen Sie sich mit GIT vertraut
+-> Wir empfehlen Ihnen die Verwendung von einem Visual-Git-Tool wie z.B. GitKraken (s.o.)
+- Registrieren Sie sich auf der Kursseite und legen Sie einen Steckbrief an
+- Hierfür müssen Sie ihr Repository über GitHub pages als Website veröffentlichen.
+
+Ziel der Aufabe: 
+
+Sie sind arbeitsfähig, d.h. Sie haben sich auf der Kursseite registriert und kennen sich mit den grundlegensten Funktionen von GIT aus. Sie sind dazu in der Lage Ihre Abgaben auf GitHub hochzuladen und wissen wie Sie ihre info.htm aktualisieren können.
