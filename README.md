@@ -1,4 +1,6 @@
-### **💬 _!!!_** Vorwort (unbedingt beachten!)
+### [→ Zu den Kurskapiteln](#00--einführung)
+
+### Allgemeines und Regeln
 
 Die Vorlesungen und Praktika zu *Grundlagen interaktiver Systeme* für die Studiengänge MIB und MKB werden im SoSe 2020 gemeinsam von Prof. Dr. Norbert Schnell, Lukas Scheuerle und Andreas Reich in Zusammenarbeit mit Prof. Dr. Gabriel Rausch und Prof. Jirka Dell'Oro-Friedl zusammengestellt und betreut.
 
@@ -58,9 +60,10 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
 ---
 
-### [**01 _#_** Einstieg HTML](L01)  
-- Grundlagen HTML
-- Semantische Struktur, DOM
+### [**01 _#_** Grundlagen HTML](L01)  
+- HTML Basics
+- HTML Syntax und erste Elemente
+- HTML Bilder und Verweise
 
 #### [**29 _Apr_** Q&A #01](L01/qna)
 
