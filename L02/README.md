@@ -1,10 +1,9 @@
 ## [**02 _#_** HTML5 Familie]()
 
-tba
-
+(wird noch vervollständigt)
 
 ---
 
 ## **A** Praktikumsaufgabe
 
-tba
+(wird noch vervollständigt)

@@ -1,4 +1,7 @@
-## [**22 _Apr_** Einführung]()
+## **22 _Apr_** Einführung
+
+*[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
+*[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
 ### Einführung in die Thematik
 <video controls width="100%"> 
@@ -14,7 +17,7 @@
     <a href="https://scheuerle.net/lehre/gis/videos/00_Arbeitsumgebung.mp4">Zum Video</a>
 </video>
 
-**Tools / Software**
+#### Tools / Software
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
@@ -22,11 +25,10 @@
 - [Gitkraken](https://www.gitkraken.com/)
 - [Sourcetree](https://www.sourcetreeapp.com/)
 
-**Kursseiten Informationen**
+#### Kursseiten Informationen
 - [Workshop Seite](../workshops)
 
 --- 
-
 
 ### Ablauf Vorlesung und Praktikum
 <video controls width="100%"> 
@@ -34,12 +36,10 @@
     <a href="https://scheuerle.net/lehre/gis/videos/00_Ablauf_Vorlesung.mp4">Zum Video</a>
 </video>
 
-
 ---
 
-## **A** Praktikumsaufgabe
+## **A _---_** Praktikumsaufgabe
 
-- 
 - Installieren Sie sich Visual Studio Code oder eine IDE (Entwicklungsumgebung) Ihrer Wahl
 - Installieren Sie sich GIT
 - Legen Sie, falls noch nicht vorhanden, ein GitHub Konto an, sowie ein Repository mit dem Namen GIS-SoSe-2020
@@ -50,9 +50,24 @@
 - Hierfür müssen Sie ihr Repository über GitHub pages als Website veröffentlichen.
 - Erstellen Sie ein HTML-Dokument mit einer Überschrift und einem weiteren HTML Element Ihrer Wahl und verlinken sie dieses Dokument in Ihrem Steckbrief
 
-
-Ziel der Aufabe: 
+### Ziel der Aufgabe
 
 Sie sind arbeitsfähig, d.h. Sie haben sich auf der Kursseite registriert und kennen sich mit den grundlegensten Funktionen von GIT aus. Sie sind dazu in der Lage Ihre Abgaben auf GitHub hochzuladen und wissen wie Sie ihre info.htm aktualisieren können.
 
-## Abgabedatum 26.04.2020 um 18:00
+### Abgabetermin: 26.04.2020 um 18:00!
+
+---
+
+## **?! _<small>Q&A</small>_** Fragen und Antworten
+
+(die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
+
+Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+
+### Erste Frage?
+LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+
+### Zweite Frage?
+Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+
+## ...

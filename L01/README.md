@@ -1,6 +1,6 @@
 ## [**29 _Apr_** Grundlagen HTML]() 
 
-tba
+(wird noch vervollständigt)
 
 ---
 
@@ -16,7 +16,7 @@ Erstellen Sie eine stillose Webstite (HTML-dokument **KEIN CSS oder JS**) zu Ihr
 - Einen [Link](https://www.w3schools.com/tags/att_a_href.asp) (a tag) von einem [Textblock](https://www.w3schools.com/tags/tag_p.asp) (p tag) auf einen anderen ([Anker](https://de.wikipedia.org/wiki/Anker_(HTML)) -> verwenden Sie dafür das name/id-Attribut in einem anderen HTML Element)
 - mindestens 3 Links auf Websites Ihrer Kollegen
 
-#### Tipp: 
+### Tipp
 
 Entdecken Sie die Entwicklungswerkzeuge, die in Ihrem Browser eingebaut sind:
 - [Chrome](https://developer.chrome.com/devtools)
@@ -25,8 +25,8 @@ Entdecken Sie die Entwicklungswerkzeuge, die in Ihrem Browser eingebaut sind:
 - [Opera](https://www.opera.com/dragonfly/)
 - [Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
 
-Ziel der Aufgabe:
+### Ziel der Aufgabe
 
 Sie haben die grundlegensten Elemente von HTML5 kennengelernt und verstanden und haben Ihre erste, simple & stillose Website erstellt in der Sie sich selbst vorstellen.
 
-## Abgabedatum 03.05.2020 um 18:00
+### Abgabetermin: 03.05.2020 um 18:00

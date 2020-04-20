@@ -1,6 +1,5 @@
 ## [**13 _Mai_** Einstieg CSS]()
 
-
 ### Einführung
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/01_Einstieg_in_CSS.mp4" type="video/mp4"> 
@@ -56,4 +55,4 @@ Starten Sie mit ein paar "Hygiene-Aufgaben", damit Sie arbeitsfähig werden und 
     3. Dateien mit eigenen Inhalten ergänzen (die Dateinamen, wie sie in der Vorlage definiert sind, dürfen nicht verändert werden!)
     4. EIA1-Kursseite öffnen und Steckbrief URL (der Link zur IO-Seite, also bspw. https://mein-nutzername.github.io) angeben
 
-
+### Abgabetermin: 17.05.2020 um 18:00!

@@ -35,4 +35,6 @@
 
 ## **A** Praktikumsaufgabe
 
-tba
+(wird noch vervollständigt)
+
+### Abgabetermin: 24.05.2020 um 18:00!
