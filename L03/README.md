@@ -43,7 +43,7 @@ Text.
 
 ---
 
-## **A** Praktikumsaufgabe
+## **A _---_** Praktikumsaufgabe
 
 Starten Sie mit ein paar "Hygiene-Aufgaben", damit Sie arbeitsfähig werden und bereit für den Kurs sind:
 

@@ -37,7 +37,7 @@ em {
         color: #aaa;
         font-size: 1em;
         font-style: normal;
-        left: 24px;
+        left: 12px;
 
         &::before {
             position: absolute;
@@ -135,10 +135,11 @@ em {
             position: absolute;
             content: "";
             top: -10px;
-            left: 0px;
+            left: -20%;
             background: white;
-            width: 120%;
-            height: 10px;
+            width: 140%;
+            height: 64px;
+            z-index: -1;
         }        
 
         strong {

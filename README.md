@@ -1,6 +1,6 @@
-## **! _---_** Über diesen Kurs
-
 *[direkt zu den Kurskapiteln](#22-apr-einführung)*
+
+## **! _---_** Über diesen Kurs
 
 Die Vorlesungen und Praktika zu *Grundlagen interaktiver Systeme* für die Studiengänge MIB und MKB werden im SoSe 2020 gemeinsam von Prof. Dr. Norbert Schnell, Lukas Scheuerle und Andreas Reich in Zusammenarbeit mit Prof. Dr. Gabriel Rausch, Prof. Jirka Dell'Oro-Friedl und Prof. Stephanie Heintz zusammengestellt und betreut.
 

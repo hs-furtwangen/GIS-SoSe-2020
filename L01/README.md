@@ -7,7 +7,7 @@
 
 ---
 
-## **A** Praktikumsaufgabe
+## **A _---_** Praktikumsaufgabe
 
 Erstellen Sie eine stillose Webstite (HTML-dokument **KEIN CSS oder JS**) zu Ihrer Person die mindestens folgende Elemente enthält: 
 
@@ -16,7 +16,7 @@ Erstellen Sie eine stillose Webstite (HTML-dokument **KEIN CSS oder JS**) zu Ihr
 - ein Bild von Ihnen - siehe [Image tag](https://www.w3schools.com/html/html_images.asp) 
 - jeweils einen Textabsatz zu Ihrer Person und zu Ihrem Studium - siehe [Überschrift](https://www.w3schools.com/tags/tag_hn.asp) (h tag) & [Textblock](https://www.w3schools.com/tags/tag_p.asp) (p tag)
 - Einen [Link](https://www.w3schools.com/tags/tag_a.asp) (a tag) auf eine andere Website ihrer Wahl
-- Einen [Link](https://www.w3schools.com/tags/att_a_href.asp) (a tag) von einem [Textblock](https://www.w3schools.com/tags/tag_p.asp) (p tag) auf einen anderen ([Anker](https://de.wikipedia.org/wiki/Anker_(HTML)) -> verwenden Sie dafür das name/id-Attribut in einem anderen HTML Element)
+- Einen [Link](https://www.w3schools.com/tags/att_a_href.asp) (a tag) von einem [Textblock](https://www.w3schools.com/tags/tag_p.asp) (p tag) auf einen anderen ([Anker](https://de.wikipedia.org/wiki/Anker_(HTML)) → verwenden Sie dafür das name/id-Attribut in einem anderen HTML Element)
 - mindestens 3 Links auf Websites Ihrer Kollegen
 
 ### Tipp

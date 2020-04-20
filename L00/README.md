@@ -43,11 +43,10 @@
 - Installieren Sie sich Visual Studio Code oder eine IDE (Entwicklungsumgebung) Ihrer Wahl
 - Installieren Sie sich GIT
 - Legen Sie, falls noch nicht vorhanden, ein GitHub Konto an, sowie ein Repository mit dem Namen GIS-SoSe-2020
-- Machen Sie sich mit GIT vertraut
--> Wir empfehlen Ihnen die Verwendung von einem Visual-Git-Tool wie z.B. GitKraken (s.o.)
+- Machen Sie sich mit GIT vertraut → Wir empfehlen Ihnen die Verwendung von einem Visual-Git-Tool wie z.B. GitKraken (s.o.)
 - Registrieren Sie sich auf der Kursseite und legen Sie einen Steckbrief an
 - Ändern Sie das Bild und stellen Sie sicher, dass das bild und die Steckbrief.htm korrekt angezeigt werden
-- Hierfür müssen Sie ihr Repository über GitHub pages als Website veröffentlichen.
+- Hierfür müssen Sie ihr Repository über GitHub Pages als Website veröffentlichen.
 - Erstellen Sie ein HTML-Dokument mit einer Überschrift und einem weiteren HTML Element Ihrer Wahl und verlinken sie dieses Dokument in Ihrem Steckbrief
 
 ### Ziel der Aufgabe
