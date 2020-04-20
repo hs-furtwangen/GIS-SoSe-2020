@@ -1,6 +1,6 @@
-*[direkt zu den Kurskapiteln](#22-apr-einführung)*
-
 ## **! _---_** Über diesen Kurs
+
+*[direkt zu den Kurskapiteln](#22-apr-einführung)*
 
 Die Vorlesungen und Praktika zu *Grundlagen interaktiver Systeme* für die Studiengänge MIB und MKB werden im SoSe 2020 gemeinsam von Prof. Dr. Norbert Schnell, Lukas Scheuerle und Andreas Reich in Zusammenarbeit mit Prof. Dr. Gabriel Rausch, Prof. Jirka Dell'Oro-Friedl und Prof. Stephanie Heintz zusammengestellt und betreut.
 
@@ -11,12 +11,12 @@ Die Vorlesung findet durch aufgezeichenete Videokapitel sowie einen wöchentlich
 Alle Online Termine werden über *alfaview&reg;* abgehalten. Die Q&A Termine werden zusammengefaßt und im Abschnitt *Q&A* des jeweiligen Kurskapitels (hier unten) nachträglich veröffentlicht.
 
 Folgende wöchentliche Termine sind vorgesehen (mit Links zum Betreten der Online-Räume):
-- Q&A Termine zur Vorlesung: Mi, 8:30 Uhr → Online-Raum ??? (Link folgt bis spätestens Dienstagmittag, 21. April 2020)
+- Q&A Termine zur Vorlesung: Mi, 8:30 Uhr → [Online-Raum DM-03](https://rooms.hs-furtwangen.de/rooms/dm03)
 - Praktikumstermine
-  - OMB A (blau): Mi, 2. Block, Lukas Scheuerle [→ Online-Raum DM-16](https://rooms.hs-furtwangen.de/rooms/dm16)
-  - OMB B (orange): Mi, 2. Block, Andreas Reich [→ Online-Raum DM-9](https://rooms.hs-furtwangen.de/rooms/dm9)
-  - MIB A (lila): Mi, 3. Block, Lukas Scheuerle [→ Online-Raum DM-16](https://rooms.hs-furtwangen.de/rooms/dm16)
-  - MIB B (gelb): Mi, 3. Block, Andreas Reich [→ Online-Raum DM-9](https://rooms.hs-furtwangen.de/rooms/dm9)
+  - OMB A (blau): Mi, 2. Block, Lukas Scheuerle → [Online-Raum DM-16](https://rooms.hs-furtwangen.de/rooms/dm16)
+  - OMB B (orange): Mi, 2. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
+  - MIB A (lila): Mi, 3. Block, Lukas Scheuerle → [Online-Raum DM-16](https://rooms.hs-furtwangen.de/rooms/dm16)
+  - MIB B (gelb): Mi, 3. Block, Andreas Reich → [Online-Raum DM-09](https://rooms.hs-furtwangen.de/rooms/dm09)
 
 ### Praktikum
 

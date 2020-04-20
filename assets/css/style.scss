@@ -12,11 +12,10 @@ p {
     margin-block-end: 0.4em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-
 }
 
 a {
-    color: #606c71;
+    color: $main-color;
 }
 
 ul, ol {
@@ -24,7 +23,7 @@ ul, ol {
 
     li {
         a {
-            color: #606c71;
+            color: $main-color;
         }
     }
 }
