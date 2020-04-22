@@ -1,4 +1,4 @@
-## [**13 _Mai_** Einstieg CSS]()
+## **13 _Mai_** Einstieg CSS
 
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*

@@ -1,4 +1,4 @@
-## [**02 _#_** HTML5 Familie]()
+## **02 _#_** HTML5 Familie
 
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*

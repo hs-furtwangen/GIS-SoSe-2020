@@ -1,4 +1,4 @@
-## [**20 _Mai_** CSS Vertiefung]()
+## **20 _Mai_** CSS Vertiefung
 
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
