@@ -63,10 +63,10 @@ Sie sind arbeitsfähig, d.h. Sie haben sich auf der Kursseite registriert und ke
 
 Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### Gibt es eine Anwesenheitspflicht?
+Nein. Grundsätzlich besteht keine Praktikumspflicht. Lediglich Ampelstufen müssen im Praktikum verteidigt werden.
 
 ### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+
 
 ## ...
