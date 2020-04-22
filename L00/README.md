@@ -61,9 +61,7 @@ Sie sind arbeitsfähig, d.h. Sie haben sich auf der Kursseite registriert und ke
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
-
-# FAQ
+Zusammenfassung von: [&lt;Logophoman&gt;](https://github.com/Logophoman)
 
 ## Gibt es eine Anwesenheitspflicht?
 Nein. Grundsätzlich besteht keine Anwesenheitspflicht im Praktikum. Lediglich Ampelstufen müssen im Praktikum verteidigt werden.
@@ -71,7 +69,7 @@ Nein. Grundsätzlich besteht keine Anwesenheitspflicht im Praktikum. Lediglich A
 ## Muss man Git zwingend installieren?
 GIT in seiner reinform ist nicht zwingend (außer Sie möchten es per VS Code benutzen), aber empfehlenswert.
 
-## Wenn ich das Praktikum schon bei einem anderen Prof bestanden hab?
+## Wenn ich das Praktikum schon bestanden hab?
 Dann müssen Sie nicht kommen.
 
 ## Sind die Inhalte gleich wie bei vorherigen Profs?
@@ -97,11 +95,11 @@ Q&A ist ein Ort um Fragen zur Vorlesung zu stellen
 ## Erfolgt die Abgabe per FELIX?
 Nein. Die Abgabe findet auf GitHub & unserer Praktikumsseite statt.
 
-## Ist es weniger stark mit VS Code statt GIT in der Konsole zu arbeiten?
+## Ist es schlecht mit VS Code statt GIT in der Konsole zu arbeiten?
 Prinzipiell für die Grundlegensten Funktionen nein. Alle arbeiten mit GIT aber es kann sein, dass advancte Funktionen nicht in allen Grafischen Tools zur Verfügung stehten.
 
-## Wie wahrscheinlich ist es, dass wir GIT nur über die Konsole benutzen?
-Das bleibt Ihnen überlassen. Sie können sowohl GIT per Konsole oder grafischem Tool benutzen.
+## Werden wir in der Industrie GIT nur über die Konsole benutzen?
+Das bleibt Ihnen jetzt aber vermutlich auch dann selbst überlassen. Sie können sowohl GIT per Konsole oder grafischem Tool benutzen. Lediglich sehr "advancte" Features stehen Ihnen nur in der Konsole zur Verfügung.
 
 ## Wie komme ich in GitKraken zur Konsole?
 Gar nicht - Sie müssen entweder GIT im Windows CMD oder direkt die GIT Konsole als Windows app starten.
