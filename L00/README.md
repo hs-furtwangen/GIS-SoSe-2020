@@ -43,15 +43,15 @@
 - Installieren Sie sich Visual Studio Code oder eine IDE (Entwicklungsumgebung) Ihrer Wahl
 - Installieren Sie sich GIT
 - Legen Sie, falls noch nicht vorhanden, ein GitHub Konto an, sowie ein Repository mit dem Namen GIS-SoSe-2020
-- Machen Sie sich mit GIT vertraut → Wir empfehlen Ihnen die Verwendung von einem Visual-Git-Tool wie z.B. GitKraken (s.o.)
+- Machen Sie sich mit GIT vertraut → Wir empfehlen Ihnen die Verwendung eines Visual-Git-Tools wie z.B. GitKraken (s.o.)
 - Registrieren Sie sich auf der Kursseite und legen Sie einen Steckbrief an
-- Ändern Sie das Bild und stellen Sie sicher, dass das bild und die Steckbrief.htm korrekt angezeigt werden
+- Ändern Sie das Bild und stellen Sie sicher, dass das Bild und die steckbrief.htm korrekt angezeigt werden
 - Hierfür müssen Sie ihr Repository über GitHub Pages als Website veröffentlichen.
-- Erstellen Sie ein HTML-Dokument mit einer Überschrift und einem weiteren HTML Element Ihrer Wahl und verlinken sie dieses Dokument in Ihrem Steckbrief
+- Erstellen Sie ein HTML-Dokument mit einer Überschrift und einem weiteren HTML Element Ihrer Wahl und verlinken sie dieses Dokument in Ihrem Steckbrief als Aufgabe 0
 
 ### Ziel der Aufgabe
 
-Sie sind arbeitsfähig, d.h. Sie haben sich auf der Kursseite registriert und kennen sich mit den grundlegensten Funktionen von GIT aus. Sie sind dazu in der Lage Ihre Abgaben auf GitHub hochzuladen und wissen wie Sie ihre info.htm aktualisieren können.
+Sie sind arbeitsfähig, d.h. Sie haben sich auf der Kursseite registriert und kennen sich mit den grundlegensten Funktionen von GIT aus. Sie sind dazu in der Lage Ihre Abgaben auf GitHub hochzuladen und wissen wie Sie ihre `steckbrief.htm` aktualisieren können.
 
 ### Abgabetermin: 26.04.2020 um 18:00!
 
@@ -63,10 +63,10 @@ Sie sind arbeitsfähig, d.h. Sie haben sich auf der Kursseite registriert und ke
 
 Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### Gibt es eine Anwesenheitspflicht?
+Nein. Grundsätzlich besteht keine Praktikumspflicht. Lediglich Ampelstufen müssen im Praktikum verteidigt werden.
 
 ### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+
 
 ## ...
