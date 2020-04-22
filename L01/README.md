@@ -1,4 +1,4 @@
-## [**29 _Apr_** Grundlagen HTML]() 
+## **29 _Apr_** Grundlagen HTML
 
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
