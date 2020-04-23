@@ -3,7 +3,23 @@
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
-(wird noch vervollständigt)
+(wird bis spätestens 24. April vervollständigt)
+
+### HTML Basics
+<video controls width="100%"> 
+    <source src="https://scheuerle.net/lehre/gis/videos/???.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/???">Zum Video</a>
+</video>
+
+---
+
+### HTML Syntax und erste Elemente
+<video controls width="100%"> 
+    <source src="https://scheuerle.net/lehre/gis/videos/???" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/???.mp4">Zum Video</a>
+</video>
+
+### HTML Bilder und Verweise
 
 ---
 
