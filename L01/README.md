@@ -3,23 +3,28 @@
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
-(wird bis spätestens 24. April vervollständigt)
-
 ### HTML Basics
 <video controls width="100%"> 
-    <source src="https://scheuerle.net/lehre/gis/videos/???.mp4" type="video/mp4"> 
-    <a href="https://scheuerle.net/lehre/gis/videos/???">Zum Video</a>
+    <source src="https://scheuerle.net/lehre/gis/videos/01_GIS-EIA1-HTML-Basics.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/01_GIS-EIA1-HTML-Basics.mp4">Zum Video</a>
 </video>
 
 ---
 
 ### HTML Syntax und erste Elemente
 <video controls width="100%"> 
-    <source src="https://scheuerle.net/lehre/gis/videos/???" type="video/mp4"> 
-    <a href="https://scheuerle.net/lehre/gis/videos/???.mp4">Zum Video</a>
+    <source src="https://scheuerle.net/lehre/gis/videos/01_GIS-EIA1-HTML-Syntax.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/01_GIS-EIA1-HTML-Syntax.mp4">Zum Video</a>
 </video>
 
+---
+
 ### HTML Bilder und Verweise
+
+_Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst erarbeiten._
+<embed src="https://scheuerle.net/lehre/gis/videos/01_GIS-EIA1-HTML-Bilder-Verweise.pdf" type="application/pdf" width="100%" height = "400px"/>
+
+Den Foliensatz zu **HTML Bilder und Verweise** können Sie auch [hier](https://scheuerle.net/lehre/gis/videos/01_GIS-EIA1-HTML-Bilder-Verweise.pdf) als PDF herunterladen.
 
 ---
 
@@ -43,6 +48,8 @@ Entdecken Sie die Entwicklungswerkzeuge, die in Ihrem Browser eingebaut sind:
 - [Safari](https://developer.apple.com/safari/tools/)
 - [Opera](https://www.opera.com/dragonfly/)
 - [Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
+
+Diese sind extrem hilfreich im Laufe des gesamten Semesters (und darüber hinaus), wir empfehlen Ihnen also dringend sich hier einzulesen.
 
 ### Ziel der Aufgabe
 

@@ -3,6 +3,13 @@
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
+
+### HTML Audio und Video
+
+### HTML Weiterführend
+
+### HTML DOM Klassendiagramm
+
 (wird noch vervollständigt)
 
 ---
