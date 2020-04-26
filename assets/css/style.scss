@@ -105,29 +105,15 @@ em {
     }
         
     h2 {
-        font-size: 1.82em;
-        color: $main-color;
-        padding: 4px 0 0 0;
-    }
-
-    h3 {
-        font-size: 1.17em;
-        color: $main-color;
-        padding: 12px 0 0 0;
-    }
-
-    h4, h5 {
-        font-size: 1.1em;
-        color: #606c71;
-    }
-
-    h2 {
         position: -webkit-sticky;
         position: sticky;
         top: 10px;
         width: 120%;
         height: 56px;
         z-index: 1;
+        font-size: 1.82em;
+        color: $main-color;
+        padding: 4px 0 0 0;
         margin-top: 20px;
         margin-bottom: 0;
         background: white;
@@ -176,9 +162,28 @@ em {
         }
     }
 
+    h3 {
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        padding: 0;
+        font-size: 1.25em;
+        color: $main-color;
+    }
+
     h4 {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        padding: 0;
+        font-size: 1.1em;
+        color: $main-color;
+    }
+
+    h5 {
+        margin-top: 1rem;
+        margin-bottom: 0;
+        padding: 0;
+        font-size: 1.1em;
+        color: #606c71;
     }
 }
 

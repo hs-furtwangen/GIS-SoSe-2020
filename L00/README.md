@@ -17,7 +17,7 @@
     <a href="https://scheuerle.net/lehre/gis/videos/00_Arbeitsumgebung.mp4">Zum Video</a>
 </video>
 
-#### Tools / Software
+##### Tools / Software
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
@@ -25,7 +25,7 @@
 - [Gitkraken](https://www.gitkraken.com/)
 - [Sourcetree](https://www.sourcetreeapp.com/)
 
-#### Kursseiten Informationen
+##### Kursseiten Informationen
 - [Workshop Seite](../workshops)
 
 --- 
@@ -43,7 +43,7 @@
 - Installieren Sie sich Visual Studio Code oder eine IDE (Entwicklungsumgebung) Ihrer Wahl
 - Installieren Sie sich GIT
 - Legen Sie, falls noch nicht vorhanden, ein GitHub Konto an, sowie ein Repository mit dem Namen GIS-SoSe-2020
-- Machen Sie sich mit GIT vertraut → Wir empfehlen Ihnen die Verwendung eines Visual-Git-Tools wie z.B. GitKraken (s.o.)
+- Machen Sie sich mit GIT vertraut → Wir empfehlen Ihnen die Verwendung eines Visual-GIT-Tools wie z.B. GitKraken (s.o.)
 - Registrieren Sie sich auf der Kursseite und legen Sie einen Steckbrief an
 - Ändern Sie das Bild und stellen Sie sicher, dass das Bild und die steckbrief.htm korrekt angezeigt werden
 - Hierfür müssen Sie ihr Repository über GitHub Pages als Website veröffentlichen.
@@ -59,53 +59,51 @@ Sie sind arbeitsfähig, d.h. Sie haben sich auf der Kursseite registriert und ke
 
 ## **?! _<small>Q&A</small>_** Fragen und Antworten
 
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
+Zusammenfassung von: [Logophoman](https://github.com/Logophoman)
 
-Zusammenfassung von: [&lt;Logophoman&gt;](https://github.com/Logophoman)
-
-## Gibt es eine Anwesenheitspflicht?
+#### Gibt es eine Anwesenheitspflicht?
 Nein. Grundsätzlich besteht keine Anwesenheitspflicht im Praktikum. Lediglich Ampelstufen müssen im Praktikum verteidigt werden.
 
-## Muss man Git zwingend installieren?
+#### Muss man GIT zwingend installieren?
 GIT in seiner reinform ist nicht zwingend (außer Sie möchten es per VS Code benutzen), aber empfehlenswert.
 
-## Wenn ich das Praktikum schon bestanden hab?
+#### Wenn ich das Praktikum schon bestanden habe?
 Dann müssen Sie nicht kommen.
 
-## Sind die Inhalte gleich wie bei vorherigen Profs?
-Die HTML & CSS inhalte sollten alle gleich sein - TypeScript & Node.Js sind vermutlich anders im vergleich zu anderen Profs.
+#### Sind die Inhalte gleich wie bei vorherigen Profs?
+Die HTML & CSS inhalte sollten alle gleich sein, TypeScript & Node.Js sind vermutlich anders im Vergleich zu anderen Profs.
 
-## JavaScript und TypeScript?
+#### JavaScript und TypeScript?
 Wir verwenden im Kurs hauptsächlich TypeScript aber TypeScript erzeugt JS code. Der Hauptunterschied ist, dass TypeScript JavaScript mit strikten Typen versieht.
 
-## Ich habe VS Code auf Englisch, ist das schlimm?
+#### Ich habe VS Code auf Englisch, ist das schlimm?
 Nein, überhaupt nicht - Dinge heißen einfach nur anders. Es gibt das Deutsche Sprachpaket -> Das Paket kann man Links in Vs Code in der Plugins Sektion hinzufügen (einfach nach German Language suchen).
 
-## Wird die Prüfung überwiegend auf den Videos basieren?
+#### Wird die Prüfung überwiegend auf den Videos basieren?
 Ja - die Videos sind die Vorlesung. Die Prüfung basiert auch normalerweise auf der Vorlesung -> Hauptsächlich ist die Vorlesung auf die Übung getrimmt. D.h. Wenn Sie alle Übungen gut bestehen, sollten Sie dazu in der Lage sein
 
-## Zugangsdaten? Wie ist es mit dem einloggen? 
+#### Zugangsdaten? Wie ist es mit dem einloggen? 
 Einfach das Passwort aus der E-Mail benutzen - das bekommen Sie aus der E-Mail oder von Ihren Kollegen
 
-## Q&A/Praktikum?
-Praktikumsaufgabe für Heute: Arbeitsfähig werden
-Allgemein das Praktikum: Ein Ort um spezifische Fragen zu stellen
+#### Q&A/Praktikum?
+Praktikumsaufgabe für Heute: Arbeitsfähig werden<br />
+Allgemein das Praktikum: Ein Ort um spezifische Fragen zu stellen<br />
 Q&A ist ein Ort um Fragen zur Vorlesung zu stellen
 
-## Erfolgt die Abgabe per FELIX?
+#### Erfolgt die Abgabe per FELIX?
 Nein. Die Abgabe findet auf GitHub & unserer Praktikumsseite statt.
 
-## Ist es schlecht mit VS Code statt GIT in der Konsole zu arbeiten?
+#### Ist es schlecht mit VS Code statt GIT in der Konsole zu arbeiten?
 Prinzipiell für die Grundlegensten Funktionen nein. Alle arbeiten mit GIT aber es kann sein, dass advancte Funktionen nicht in allen Grafischen Tools zur Verfügung stehten.
 
-## Werden wir in der Industrie GIT nur über die Konsole benutzen?
+#### Werden wir in der Industrie GIT nur über die Konsole benutzen?
 Das bleibt Ihnen jetzt aber vermutlich auch dann selbst überlassen. Sie können sowohl GIT per Konsole oder grafischem Tool benutzen. Lediglich sehr "advancte" Features stehen Ihnen nur in der Konsole zur Verfügung.
 
-## Wie komme ich in GitKraken zur Konsole?
+#### Wie komme ich in GitKraken zur Konsole?
 Gar nicht - Sie müssen entweder GIT im Windows CMD oder direkt die GIT Konsole als Windows app starten.
 
-## Ist es schlimm wenn ich eine andere GIT Version benutze?
+#### Ist es schlimm wenn ich eine andere GIT Version benutze?
 In der Regel nein. Meistens ändern sich die grundlegensten Funktionen nicht. Die Aktuelle Version schadet jedoch nicht.
 
-## Sind die Gruppen strickt nach a und b aufgeteilt?
+#### Sind die Gruppen strickt nach A und B aufgeteilt?
 Noch können Sie frei wählen - wir werden das Ganze dann gleichmäßig verteilen.
