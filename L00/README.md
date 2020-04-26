@@ -26,7 +26,7 @@
 - [Sourcetree](https://www.sourcetreeapp.com/)
 
 ##### Kursseiten Informationen
-- [Workshop Seite](../workshops)
+- [Praktikumsseite](../workshops)
 
 --- 
 
