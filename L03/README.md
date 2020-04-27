@@ -9,13 +9,29 @@
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/01_Einstieg_in_CSS.mp4">Zum Video</a>
 </video>
 
+CSS (steht für Cascading Style Sheets) ist eine browser-basierte Gestaltungssprache, mit der Webanwendungen visuell angepasst werden können. CSS-Anweisungen können auf drei Arten eingebunden werden: 
+* **Inline**: nicht zu empfehlen, da Redundanzen in der Regeldefinition mehrerer Elemente entsteht und ab einer gewissen Deklarationsmenge die Eigenschafts-Werte-Paare nicht mehr pflegbar sein. Zudem ist eine klare Trennung zwischen Inhalt und Gestlatung nicht mehr möglich.
+* **Style-Tag im Head**: schafft eine Trennung zwischen Inhalt und Gestaltung, verursacht aber auch eine Redundanz über mehrere HTML-Seiten. 
+* **externes CSS-Stylesheet**: im Head des HTML-Dokuments verlinkt ist. Schafft eine klare Trennung zwischen Inhalt und Gestaltung, kann in beliebig vielen HTML-Seiten genutzt und an einer zentralen Stelle administiert werden.
+
+Eine CSS-Anweisung besteht immer aus einem Selektor und der Deklaration, die aus Eigenschaft und Wert besteht.
+
+**Links im Video**
+
+Übersicht von sämtlichen aktuellen CSS-Anweisungen mit Beispielen:
+
+<a href="https://www.w3schools.com/css/">https://www.w3schools.com/css/</a>
+
 ### Eigenschaften
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/02_CSS_Eigenschaften.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/02_CSS_Eigenschaften.mp4">Zum Video</a>
 </video>
 
-Text.
+Die aktuellen Möglichkeiten der visuellen Gestaltung mit CSS sind scheinbar endlos. In diesem Video werden die gängigsten Eigenschaften sowie ein effizienter Workflow mit Visual Studio Code vorgestellt und die Funktionen der verschiedenen CSS-Anweisungen erklärt.
+
+Eigenschaften stehen immer in Abhängigkeit zu dem entsprechenden Element, sodass nicht alle Eigenschaften bei allen Elementen sinnvoll sind oder schlicht keine Auswirkung haben.
+
 
 ### Selektoren
 <video controls width="100%"> 
@@ -23,11 +39,19 @@ Text.
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/03_CSS_Selektoren.mp4">Zum Video</a>
 </video>
 
+Um CSS-Anweisungen an bestimmte Elemente eines HTML-Dokument zu adressieren, kann man mithilfe von Selektoren auf ein oder mehrere Elemente zugreifen.
+
+Es gibt verschiedene Arten von Selektoren: die drei Haupt-Selektoren sind **Element-Selektoren** (gebildet aus dem Tag-Namen), **ID-Selektoren** (wirken sich auf Elemente aus, die mit einer eindeutigen ID versehen wurden) und **Klassen-Selektoren** (ermöglichen die Auswahl mehrerer HTML-Elemente, auf die mit der Formatierung zugegriffen werden soll).
+
 ### Kaskadierung und Vererbung
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/04_Kaskadierung_und_Vererbung.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/04_Kaskadierung_und_Vererbung.mp4">Zum Video</a>
 </video>
+
+Das Grundprinzip der Kaskadierung bewirkt eine Reihen- oder Rangfolge, in der Eigenschaften in CSS vererbt werden, denn die einzelnen CSS-Selektoren werden unterschiedlich schwer gewichtet. Es ist hilfreich, diese Regeln zu kennen, um zu verstehen, wann welche Anweisungen umgesetzt werden (bzw. warum nicht) und welche Anweisungen andere überschreiben.
+
+Definierte Eigenschaften werden an die (semantisch untergeordneten) Kinderelemente des selektierten Elements vererbt. Werden jedoch die Eigenschaften für die untergeordneten Elemente neu definiert, überschreiben diese die vererbten Eigenschaften.
 
 ### Box Model und Masseinheiten
 <video controls width="100%"> 
@@ -35,30 +59,31 @@ Text.
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/05_CSS_Box_Model_und_Masseinheiten.mp4">Zum Video</a>
 </video>
 
+Das CSS-Box-Model beschreibt, dass alle Elemente im Browser auf Basis einer Box beschrieben werden können, die aus einer bestimmten Größe (Höhe x Breite), einem Innenabstand (**padding**), einem Rahmen (**border**) und einem Außenabstand (**margin**) bestehen.
+
+Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt das Pixelmaß (**px**). Ansonsten gibt es beispielsweise noch Angaben in **pt** (statisch, Anwendung im Druck), **em** und **rem** (relative Angabe) oder **Prozent**.
+
 ### Take Aways
 <video controls width="100%"> 
     <source src="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/06_Take_Aways.mp4" type="video/mp4"> 
     <a href="https://lehre.gabriel-rausch.de/HFU/EIA1_SoSe20/L03/06_Take_Aways.mp4">Zum Video</a>
 </video>
 
+* CSS definiert die Darstellung von Inhalten im Browser und kann auf drei Wegen eingebunden werden: Inline, im Head oder als externes Stylesheet.
+* CSS-Anweisungen bestehen aus Selektor(-pfad/-kette) und Deklaration und es gibt viele verschiedene CSS-Eigenschaften zur Manipulation der Darstellung im Browser.
+* Es gibt drei Haupt-Selektoren, welche eine Art Rangfolge besitzen.
+* Eigenschaften werden von Eltern- an Kinderelemente vererbt, können aber auch überschrieben werden.
+* Das CSS-Box-Model beschreibt verschiedene Abstandsmaße für Elemente.
+
 ---
 
 ## **A _---_** Praktikumsaufgabe
 
-Starten Sie mit ein paar "Hygiene-Aufgaben", damit Sie arbeitsfähig werden und bereit für den Kurs sind:
+tbd
 
-1. Registrieren Sie sich auf der Entwicklerplattform **github**.
+### **Abgabetermin: 17.05.2020 um 18:00!**
 
-2. Installieren Sie sich die ersten Bausteine Ihrer Entwicklungsumgebung: **Visual Studio Code** und **Github Desktop**.
-
-3. Fügen Sie ihren Steckbrief auf der EIA1-Kursseite ein: https://webuser.hs-furtwangen.de/~rag/lehre/SoeSe20/EIA1/Kursseite/
-
-    1. Steckbrief-Vorlage herunterladen (Downloadlink hier: )
-    2. Dateien zu Github Pages Repo hinzufügen (mein-nutzername.github.io)
-    3. Dateien mit eigenen Inhalten ergänzen (die Dateinamen, wie sie in der Vorlage definiert sind, dürfen nicht verändert werden!)
-    4. EIA1-Kursseite öffnen und Steckbrief URL (der Link zur IO-Seite, also bspw. https://mein-nutzername.github.io) angeben
-
-### Abgabetermin: 17.05.2020 um 18:00!
+Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_3).
 
 ---
 
