@@ -32,11 +32,10 @@
   - form
   - div
   - Attribute / Eigenschaften: alt, disabled, id, style, title, etc…
-  - audio und video
+- Sie kennen sich mit HTML Audio und Video aus
   - gängige Audio- und Videoformate
   - Internet Media Types (MIME)
   - Datendurchsatz von Audio- und Videostreams
-von Norbert
 
 ---
 
@@ -44,10 +43,12 @@ von Norbert
 
 Verlinken Sie immer als oberstes Element in Ihrer Steckbrief.htm Datei mithilfe eines a-Tags auf Ihr Repository unter dem Reiter "Issues", sodass wir Ihnen sowohl auf der Kursseite als auch auf GitHub detailliertes Feedback zu Ihren Abgaben geben können. 
 
-Bachten achte Sie bitte darauf Ihren korrekten Nutzernamen & Repository-Namen anzugeben:
+Achten Sie bitte darauf Ihren korrekten Nutzernamen & Repository-Namen anzugeben:
 https://github.com/nutzername/GIS_SoSe2020/issues
 
 #### Diese Aufgabe baut auf die vorherige Aufgabe #01 auf.
+
+**Sie benötigen für diese Aufgabe _KEIN_ CSS UND KEIN JS**
 
 Im nächsten Schritt ergänzen Sie die Website aus Aufgabe 01 mit eigenen Inhalten. Ziel ist es eine Portfolio-Website für Sie anzulegen. Legen Sie für diese und jede Folgende Abgabe bitte einen neuen Ordner an und **überschreiben Sie Ihre bisherige Arbeit nicht**. Sie können für die Portfolioseite bestehende Arbeiten von Ihnen nutzten. 
 
@@ -63,7 +64,7 @@ Neben der Portfolio-Haupt-Seite sollten **mindestens zwei weitere HTML-Dokumente
 
 -> Wenn Sie möchten können Sie natürlich weitere Unterseiten erstellen.
 
-Verwenden Sie für die 3 HTML Seiten jeweils die [grundlegende HTML5 Seitenstruktur]((https://www.w3schools.com/tags/tag_doctype.asp)) und zusätzlich zu den gundlegenden Elementen **mindestens 12 verschiedene HTML5 Elemente** um sich mit dem Umgang mit diesen Elementen vertraut zu machen (z.B. [Iframe](https://www.w3schools.com/tags/tag_iframe.asp), [a](https://www.w3schools.com/tags/tag_a.asp), [p](https://www.w3schools.com/tags/tag_p.asp), [div](https://www.w3schools.com/tags/tag_div.ASP), [li](https://www.w3schools.com/tags/tag_li.asp), [img](https://www.w3schools.com/tags/tag_img.asp), [audio](https://www.w3schools.com/html/html5_audio.asp), [video](https://www.w3schools.com/tags/tag_video.asp), [h](https://www.w3schools.com/tags/tag_hn.asp), etc... ). Sie dürfen natürlich mehr verschiedene HTML5-Tags verwenden.
+Verwenden Sie für die 3 HTML Seiten jeweils die [grundlegende HTML5 Seitenstruktur](https://www.w3schools.com/tags/tag_doctype.asp) und zusätzlich zu den gundlegenden Elementen **mindestens 12 verschiedene HTML5 Elemente** um sich mit dem Umgang mit diesen Elementen vertraut zu machen (z.B. [Iframe](https://www.w3schools.com/tags/tag_iframe.asp), [a](https://www.w3schools.com/tags/tag_a.asp), [p](https://www.w3schools.com/tags/tag_p.asp), [div](https://www.w3schools.com/tags/tag_div.ASP), [li](https://www.w3schools.com/tags/tag_li.asp), [img](https://www.w3schools.com/tags/tag_img.asp), [audio](https://www.w3schools.com/html/html5_audio.asp), [video](https://www.w3schools.com/tags/tag_video.asp), [h](https://www.w3schools.com/tags/tag_hn.asp), etc... ). Sie dürfen natürlich mehr verschiedene HTML5-Tags verwenden.
 
 Ihre Website soll auf **mindestens 3 Dateien verschiedenen Typs** (z.B. Bilder/Videos/Audio/PDF/3D-Modell/GIFS) verweisen die keine Weblinks sind, sondern die sich im Aufgabenordner (gleicher Ordner wie "portfolio.html", "about_me.html" und "contact.html") befinden. Sie dürfen natürlich auf mehr Dateien lokal & im Web verweisen.
 
@@ -85,6 +86,7 @@ Folgende mögliche Werkzeuge können Sie bei der Erstellung der visuellen Kompon
 - [Adobe Photoshop](https://www.adobe.com/de/products/photoshop.html) (*)
 - [Adobe Illustrator](https://www.adobe.com/de/products/illustrator.html) (*)
 - [Gimp](https://www.gimp.org/) (OpenSource & Kostenlos), vergleichbar mit Adobe Photoshop
+- [Paint.net](https://www.getpaint.net/), vergleichbar mit Gimp
 - [Inkscape](https://inkscape.org/de/) (OpenSource & Kostenlos) (OpenSource), vergleichbar mit Adobe Illustrator
 - [Affinity Photo](https://affinity.serif.com/de/education/) (Studentenrabatt), vergleichbar mit Adobe Photoshop
 - [Sketch](https://www.sketch.com/store/edu/) (fairer Studentenrabatt & Mac only), vergleichbar mit Adobe Illustrator
