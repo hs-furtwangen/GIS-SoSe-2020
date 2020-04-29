@@ -44,7 +44,7 @@ Erstellen Sie eine stillose Webstite (HTML-dokument **KEIN CSS oder JS**) zu Ihr
 
 Entdecken Sie die Entwicklungswerkzeuge, die in Ihrem Browser eingebaut sind:
 - [Chrome](https://developer.chrome.com/devtools)
-- [Firefox](https://developer.mozilla.org/son/docs/Tools)
+- [Firefox](https://developer.mozilla.org/docs/Tools)
 - [Safari](https://developer.apple.com/safari/tools/)
 - [Opera](https://www.opera.com/dragonfly/)
 - [Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide)
