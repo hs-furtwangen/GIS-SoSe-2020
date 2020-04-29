@@ -74,6 +74,8 @@ Die drei HTML-Seiten werden miteinander verlinkt. Sie sollen also eine rudiment�
 
 Erstellen Sie eine HTML Seite mit dem Namen tags_used.html im Aufgabenordner auf der Sie die verwendeten HTML Tags [tabellarisch auflisten](https://www.w3schools.com/html/html_tables.asp). Verlinken Sie diese in Ihrer Steckbrief.htm. Sie müssen keine Navigation zwischen dieser HTML Seite und den anderen Seiten herstellen.
 
+Alle Ihre Seiten sollen nur aus gültigem HTML5 aufgebaut sein. Sie können zum Prüfen Ihrer Seite den [W3 HTML VALIDIERER](https://validator.w3.org/#validate_by_upload) verwenden.
+
 Mit dieser Aufgabe sollten Sie die Grundlagen von HTML, das Einbinden von medialen Elementen und Verlinken von HTML-Dokumenten besser verstehen. Die Qualität der Gestaltung spielt für diese Aufgabe eine untergeordnete Rolle. In der nächsten Lektion beschäftigen wir uns mit dem Styling von HTML, um eine bessere Optik zu erzielen.
 
 ---
