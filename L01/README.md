@@ -63,7 +63,7 @@ Sie haben die grundlegensten Elemente von HTML5 kennengelernt und verstanden und
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+Zusammenfassung von: [&lt;Logophoman&gt;](https://github.com/Logophoman)
 
 ### Was ist die Bildgöße für das Profilbild?
 
@@ -113,11 +113,11 @@ Mit ctrl + space oder Tab kann man sich den aktuell eingebenen Befehl automatisc
 
 DS.Store ist eine versteckte Datei, die immer in jedem MAC OS Ordner liegen. Da MAC OS auf Unix basiert, braucht aufgrund der Konvention jeder Ordner diese Datei. Sie ist für den Nutzer normalerweise nicht sichtbar. Sie können eine .gitignore Datei anlegen und die .dsstore Datei dort ignorieren lassen. Sie wird dann nicht auf GitHub abgelegt. 
 
-### Was sind node_modules
+### Was sind node_modules?
 
 Die Abhängigkeiten von Node.js. Wir kommen bei der Lektion Serverentwicklung darauf zurück. Momentan sind sie noch nicht relevant.
 
-### Was ist eine .gitignore
+### Was ist eine .gitignore Datei?
 
 In dieser Datei stehen konkrete Dateien, Dateitypen oder Ordner nicht auf GitHub hochgeladen werden sollen. Sie werden von GIT ignoriert. 
 
@@ -125,6 +125,6 @@ In dieser Datei stehen konkrete Dateien, Dateitypen oder Ordner nicht auf GitHub
 
 Nein.
 
-### Was ist Pflicht? 
+### Was ist alles Pflicht? 
 
 Die wöchentlichen Abgaben & die Klausur am Ende des Semester. 
