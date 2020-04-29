@@ -41,6 +41,8 @@
 
 ## **A _---_** Praktikumsaufgabe
 
+Stellen Sie Sicher, dass Ihr Profilbild exakt die Maße 85x110 Pixel hat. 
+
 Verlinken Sie immer als oberstes Element in Ihrer Steckbrief.htm Datei mithilfe eines a-Tags auf Ihr Repository unter dem Reiter "Issues", sodass wir Ihnen sowohl auf der Kursseite als auch auf GitHub detailliertes Feedback zu Ihren Abgaben geben können. 
 
 Achten Sie bitte darauf Ihren korrekten Nutzernamen & Repository-Namen anzugeben:

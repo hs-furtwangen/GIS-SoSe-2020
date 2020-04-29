@@ -65,10 +65,66 @@ Sie haben die grundlegensten Elemente von HTML5 kennengelernt und verstanden und
 
 Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### Was ist die Bildgöße für das Profilbild?
 
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+85x110 Pixel
 
-## ...
+### Die Größe ist halt zu klein für ein anständiges Bild. Kann ich das nicht ändern?
+
+Nein, da das Bild auf der Kursseite in dieser Größe angezeigt wird.
+
+### Mit welcher Software kriegt man das Bild auf 85x110?
+
+Eine Liste von Bildbearbeitungssoftwares finden Sie in der nächsten Vorlesung
+
+### In den Folien stand, dass SVG XML basiert ist, was genau bedeutet das?
+
+SVG ist ein Bildformat das in dem Speicherformat XML formattiert ist. Die Struktur von SVG ist XML basiert. 
+
+### Git Kraken braucht manchmal lange zum pushen. Woran liegt das?
+
+An der hohen Auslastung von GitHub. Es muss eine Verbindung aufgebaut und die Daten übertragen werden.
+
+### Auf der Steckbrief Seite sind Änderungen nicht sofort sichtbar. Woran liegt das? 
+
+Da GitHub Pages einige Zeit zum Kompilieren braucht. Das kann zwischen 10 Sekunden und 5 Minuten dauern.
+
+### Wie kann ich mein HTML dirket inspizieren?
+
+Indem Sie es einfach mit einem Browser ihrer Wahl lokal öffnen. Mit Rechtsklick auf ein Element und "Element Untersuchen" kann man das HTML inspizieren. Bei Änderungen die Seite einfach mit F5 oder STRG F5 (löscht alte Files aus dem Cache) neu laden.
+
+### Was ist Occlusion Culling?
+
+Der Prozess wie Elemente "ausgemerzt" werden, die nicht sichtbar sind. Elemente die nicht auf dem Bildschirm angezeigt werden müssen, werden nicht geladen.
+
+### Unteschied zwischen Visual Studio & Visual Studio Code?
+
+Visual Studio ist eine sehr mächtige Entwickungsumgebung mit dem Hauptfokus auf Windows Entwicklung und sehr groß. Visual Studio Code ist eine Lightweight Version von Visual Studio die aber für die Entwicklung für Code aller Art verwendet werden kann. Es ist ein sehr mächtiger Text/Code Editor Für die Vorlesung reicht Visual Studio Code volkommen aus. 
+
+### Wie formattiere ich meinen Code in Visual Studio Code? 
+
+ALT + SHIFT + F -> dadurch wird Ihr Code schöner.
+
+### Was ist auto completion?
+
+Mit ctrl + space oder Tab kann man sich den aktuell eingebenen Befehl automatisch vervollständigen lassen, solange er richig geschrieben ist. Mit den Pfeiltasten kann man zwischen Vorschlägen navigieren und sich den besten aussuchen.
+
+### Gitkraken erkennt in meinem repository eine datei ".DSStore", welche für mich nicht ersichtlich ist, wenn ich in den Ordner schaue. Was ist das?
+
+DS.Store ist eine versteckte Datei, die immer in jedem MAC OS Ordner liegen. Da MAC OS auf Unix basiert, braucht aufgrund der Konvention jeder Ordner diese Datei. Sie ist für den Nutzer normalerweise nicht sichtbar. Sie können eine .gitignore Datei anlegen und die .dsstore Datei dort ignorieren lassen. Sie wird dann nicht auf GitHub abgelegt. 
+
+### Was sind node_modules
+
+Die Abhängigkeiten von Node.js. Wir kommen bei der Lektion Serverentwicklung darauf zurück. Momentan sind sie noch nicht relevant.
+
+### Was ist eine .gitignore
+
+In dieser Datei stehen konkrete Dateien, Dateitypen oder Ordner nicht auf GitHub hochgeladen werden sollen. Sie werden von GIT ignoriert. 
+
+### Ist Praktikumanwesenheit Pflicht?
+
+Nein.
+
+### Was ist Pflicht? 
+
+Die wöchentlichen Abgaben & die Klausur am Ende des Semester. 
