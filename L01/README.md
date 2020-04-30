@@ -9,6 +9,8 @@
     <a href="https://scheuerle.net/lehre/gis/videos/01_GIS-EIA1-HTML-Basics.mp4">Zum Video</a>
 </video>
 
+[Skript](https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-1-HTML-Basics.pdf)
+
 ---
 
 ### HTML Syntax und erste Elemente
@@ -17,14 +19,16 @@
     <a href="https://scheuerle.net/lehre/gis/videos/01_GIS-EIA1-HTML-Syntax.mp4">Zum Video</a>
 </video>
 
+[Skript](https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-2-HTML-Syntax.pdf)
+
 ---
 
 ### HTML Bilder und Verweise
 
 _Hier gibt es kein Video, stattdessen den ausführlichen Foliensatz zum selbst erarbeiten._
-<embed src="https://scheuerle.net/lehre/gis/videos/01_GIS-EIA1-HTML-Bilder-Verweise.pdf" type="application/pdf" width="100%" height = "400px"/>
+<embed src="https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf" type="application/pdf" width="100%" height = "400px"/>
 
-Den Foliensatz zu **HTML Bilder und Verweise** können Sie auch [hier](https://scheuerle.net/lehre/gis/videos/01_GIS-EIA1-HTML-Bilder-Verweise.pdf) als PDF herunterladen.
+[Skript](https://scheuerle.net/lehre/gis/scripts/01_GIS-EIA1-3-HTML-Bilder-Verweise.pdf)
 
 ---
 

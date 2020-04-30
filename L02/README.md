@@ -5,12 +5,37 @@
 
 
 ### HTML Audio und Video
+<video controls width="100%"> 
+    <source src="https://scheuerle.net/lehre/gis/videos/02_GIS-EIA1-HTML-AV.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/02_GIS-EIA1-HTML-AV.mp4">Zum Video</a>
+</video>
+
+[Skript](https://scheuerle.net/lehre/gis/scripts/02_GIS-EIA1-HTML-AV.pdf)
+
+---
 
 ### HTML Weiterführend
+<video controls width="100%"> 
+    <source src="https://scheuerle.net/lehre/gis/videos/02_HTML_Weiterführend.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/02_HTML_Weiterführend.mp4">Zum Video</a>
+</video>
 
-### HTML DOM Klassendiagramm
+- [Elemente Übersicht](https://wiki.selfhtml.org/extensions/Selfhtml/example.php/Beispiel:HTML-Kategorien.html)
+- [W3C Validierer](http://validator.w3.org/)
+- [Elemente Liste](https://developer.mozilla.org/de/docs/Web/HTML/HTML5/HTML5_element_list)
 
-(wird noch vervollständigt)
+
+---
+
+### Inspektor und Browserunterschiede
+<video controls width="100%"> 
+    <source src="https://scheuerle.net/lehre/gis/videos/02_Inspektor_Browserunterschiede.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/02_Inspektor_Browserunterschiede.mp4">Zum Video</a>
+</video>
+
+- [caniuse](https://caniuse.com)
+
+---
 
 ### Sie haben in dieser Lektion folgendes gelernt:
 - Sie haben verstanden wie Sie den Inspektor ihres Webbrowsers verwenden können (Rechtsklick + Element untersuchen)
@@ -19,19 +44,14 @@
   - Head/Body/Header/Main/Footer/Nav
   - Logische Verschachtelung (Inline / Block)
   - W3 Validierer
-- Sie verstehen das DOM Klassendiagramm
 - Sie haben sich mit den folgenden HTML5 Elementen vertraut gemacht
-  - section
-  - aside
-  - article
-  - blockquote
-  - iframe
-  - embed
+  - header, main, footer
+  - section, aside, article
   - table
   - list
   - form
   - div
-  - Attribute / Eigenschaften: alt, disabled, id, style, title, etc…
+  - Attribute / Eigenschaften: id, class, style, title, etc…
 - Sie kennen sich mit HTML Audio und Video aus
   - gängige Audio- und Videoformate
   - Internet Media Types (MIME)

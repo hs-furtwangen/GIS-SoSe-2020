@@ -9,6 +9,8 @@
     <a href="https://scheuerle.net/lehre/gis/videos/00_Einfuehrung.mp4">Zum Video</a>
 </video>
 
+[Skript](https://scheuerle.net/lehre/gis/scripts/00_GIS-EIA1-Einführung.pdf)
+
 ---
 
 ### Vorbereitung / Tools
