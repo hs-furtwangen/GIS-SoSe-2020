@@ -134,14 +134,35 @@ Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter d
 
 ## **?! _<small>Q&A</small>_** Fragen und Antworten
 
-(die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+### Gehören Footer zur HTML Dokument Grundstruktur?
+Head und Body sind Grundstruktur, alles darin sind Strukturierende Elemente, aber in einem anderen Sinn. 
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### Welche Einheiten soll man für die Attribute Height und Width benutzen?
+Das Attribut Width und Height sind automatisch Pixel. Grundsätzlich (sobald erlaubt) solltest du alles in CSS machen, d.h. du kannst alles verwenden. Relative Werte sind im allgemeinen besser als feste, um die Seite responsive zu halten.
 
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+### Breaktags. Wie bekomm ich gute Anker hin?
+Einfach nicht so viele Gedanken über gutes runterspringen machen. In der letzten Aufgabe gab es nur durch füllende Elemente eine schöne Lösung für das Problem. 
+Breaktags braucht man im Normalfall nicht mehr. Wir verwenden später das CSS Box-Modell um die Abstände so hinzubekommen wie wir das wollen.
 
-## ...
+### Wie werden Sternchen verteilt und was bringen Sie?
+Sterne gibt es für besondere Leistungen. Es gibt dadurch keine Vorteile außer Prestige. Drei Sterne pro Person sind maximum. Sterne bleiben nicht für andere Fächer bestehen.
+
+### Dürfen wir veraltete HTML Tags verwenden?
+Nicht HTML5 konforme Tags wie <font> oder ähnliche sollen und können in manchen Fällen nicht mehr verwendet werden.
+
+### Ist das name-Attribute obsolet / wird es noch verwendet?
+Das name-Attribut wird vor allem in Forms verwendet, um bei einer Submission eines Elementes einen Identifier zu diesem Element zu haben. In der Aufgabe sollte stattdessen das ID-Tag verwendet werden, da dieses später die eindeutige Zuweisung zu CSS-Code ermöglicht.
+
+### Darf man für ein IFrame JavaScript und CSS verwenden?
+Sie müssen bei einem IFrame nicht mit CSS und JavaScript arbeiten. Wenn das IFrame CSS und JavaScipt enthält, ist das halt so.
+
+### Warum sollen die Aufgaben kopiert und nicht weiterbearbeitet werden?
+Alte Aufgaben sollen nicht überschrieben werden, damit man auf den alten Inhalt noch zugreifen kann (Bitte kopieren und nicht alte Dateien in den neuen Ordner verschieben). 
+
+### Warum ist alles gleich wie bei EIA1?
+Sobald es richtig an die Programmierung geht, werden wir uns splitten. Da wir die rudimentären Grundlagen der Programmierung im Gegensatz zu den EIA1-Studierenden schon können, wird es hier zu unterschieden innerhalb der Lernmaterialien kommen.
+
+### Kann man Dateien, die man nicht commiten möchte in Visual-Studio Code ignorieren?
+Mit der .gitignore-Datei lassen sich Dateien und Ordner ignorieren. Ganze Ordner listet man in der .gitignore im Normalfall ohne Dateiendung einfach untereinander.
