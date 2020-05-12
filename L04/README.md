@@ -96,6 +96,10 @@ Eigene Bezierkurve zeichnen:
 
 ---
 
+#### CSS Inspiration
+
+[CSS Zen Garden](http://csszengarden.com/), eine Seite welche über 200 verschiedene CSS Styles für den gleichen HTML Inhalt gesammelt hat. Zeigt die Power von CSS sehr schön und ist gegebenenfalls auch inspirierend.
+
 ## **A _---_** Praktikumsaufgabe
 
 (wird noch vervollständigt)
