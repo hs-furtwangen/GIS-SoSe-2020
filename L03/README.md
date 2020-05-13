@@ -103,12 +103,37 @@ Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter d
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### Können wir ein eigenes Design verwenden, auch wenn in der Kundenanmerkung steht, dass man nach der Designvorgabe arbeiten soll?
+Ja dürft ihr! Haltet euch bei der Gestaltung einfach an die Kundenanmerkungen. Das Vorgegebene Design muss nicht zwingend verwendet werden.
 
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+### Welche Anforderungen an ein eigenes Design gibt es?
+Ein eigenes Design sollte mindestens dem Niveau des Designs der Vorlage ähnlich sein. Halten Sie sich an die Kundenbedingungen und geben Sie sich etwas Mühe um das Design.
 
-## ...
+### Was ist eine sekundäre Navigation?
+Man kann interpretieren, dass es unter der Hauptnavigation eine Unternavigation geben soll. An sich ist es uns aber egal, wo die sekundäre Navigation aufzufinden ist. Die sek. Nav. soll Icons zu Social Links enthalten.
+
+### Darf die Sekundäre Navigation in den Footer?
+In der Aufgabe ist nichts definiert. Wo ihr eure sekundäre Navigation anlegen wollt, dürft ihr somit selbst entscheiden.
+
+### Sollte das Design auf allen Bildschirmgrößen gut aussehen?
+Ihr habt noch nichts über Responsive Design gelernt, deswegen erwarten wir es auch nicht. Schreibt wenn ihr wollt dazu, auf welchem Bildschirm es gut aussieht, das ist aber kein muss. Es geht nur um grobe Designelemente, wie das Box-Modell oder Schriftfarbe usw.
+
+### Muss alles im 800px-Bereich sein? Also darf der Footer auch nicht die 800px überschreiten?
+Da alle Inhalte 800px breit sein soll, darf auch der Footer nicht die 800px überschreiten, solang man ihn zum Inhalt zählt.
+
+### Dürfen wir mehr als ein Stylesheet benutzen?
+Ja dürft ihr. Eure Seiten sollten jedoch ein einheitliches Design aufweisen, somit könntet ihr auch viele Elemente öfter aufgreifen. Mehr als 4 Stylesheets sollten es jedoch nicht sein.
+
+### Wie verlinkt man normalerweise gut einen Button?
+Man verwendet eigentlich Button nicht zur Verlinkung auf andere Seiten. Über ein Script ist dies möglich, dann benutzt man einen Event-Listener „click“, der einen an die Seite weiterleitet.
+
+### Warum werfen andere externe Seiten auch Fehler auf dem W3-Validierer?
+Gerade bei CMS-Seiten, entstehen immer W3-Error. Aber nur weil andere Fehler machen, müssen wir ja nicht auch damit anfangen.
+
+### Was ist mit Git LFS?
+Das ist ein komplexes Thema. Große Dateien werden für unsere Aufgaben nicht benötigt. Ladet bitte einfach kleine Dateien hoch, sonst kann es zu Problemen beim Pushen kommen.
+
+### Markdown verwenden für CSS-Theme?
+Markdown soll nicht verwendet werden, da ihr eure HTML und CSS-Seiten selbst schreiben sollt.
