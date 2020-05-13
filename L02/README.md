@@ -129,6 +129,8 @@ Folgende mögliche Werkzeuge können Sie bei der Erstellung der visuellen Kompon
 
 Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_2).
 
+### **Aufgrund der unklaren Aufgabenstellung wird der Verteidigungszeitraum dieser Aufgabe bis zum 17. Mai um 18:00 verlängert**
+
 
 ---
 
