@@ -75,6 +75,8 @@ Der Browser arbeitet mit verschiedenen Maßeinheiten, für den Anfang genügt da
 * Eigenschaften werden von Eltern- an Kinderelemente vererbt, können aber auch überschrieben werden.
 * Das CSS-Box-Model beschreibt verschiedene Abstandsmaße für Elemente.
 
+[CSS Cheatsheet](https://gabriel-rausch.github.io/EIA1-SoSe20/L03/Cheatsheet_CSS.pdf)
+
 ---
 
 ## **A _---_** Praktikumsaufgabe
