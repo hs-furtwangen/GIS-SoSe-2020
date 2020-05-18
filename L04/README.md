@@ -105,7 +105,7 @@ Eigene Bezierkurve zeichnen:
 Erstellen Sie eine Shopseite für Produkte ihrer Wahl. Versuchen Sie, etwas anderes zu verkaufen als Ihre Kommilitonen. Die Seite soll 
 - visuell ansprechend sein. Achten Sie auf sinnvolle Verteilung der Artikel. (Holen Sie sich Inspiration zur Gestaltung gerne bei existierenden Shops)
 - sich responsiv an die Bildschirmgröße anpassen (s.u.)
-- mindestens 10 Artikel in mindestens 2 verschiedenen Kategorien auflisten
+- mindestens 2 verschiedenen Kategorien auflisten, in denen insgesamt mindestens 12 Artikel sind.
 - einen Headerbereich mit Namen, Logo, Icon für Einkaufswagen und Hauptmenü haben. Im Hauptmenü befinden sich die Namen der Kategorien mit Sprungmarken. Der Einkaufswagen darf auch im Hauptmenü sein, sollte sich aber visuell davon abheben (z.B. andere Farbe, gegenüberliegende Seite, etc). BONUS: Das Hauptmenü und der Einkaufswagen sind immer sichtbar.
 - mindestens 6 komplexe Selektoren verwenden
 
