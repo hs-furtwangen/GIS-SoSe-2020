@@ -3,7 +3,7 @@
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
-### Einrichtung Typescript 
+### Einrichtung Typescript in VSCode
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_Typescript.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/05_Einrichtung_Typescript.mp4">Zum Video</a>
@@ -30,16 +30,33 @@ _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit 
   - falls es dabei in Powershell Probleme gibt, Powershell als Administrator ausführen, den folgenden Befehl ausführen und mit J/Y bestätigen.  
   `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine`
 
+### Vorwort JavaScript / Typescript
+<video controls width="100%"> 
+    <source src="https://scheuerle.net/lehre/gis/videos/05_JSTS_Vorwort.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/05_JSTS_Vorwort.mp4">Zum Video</a>
+</video>
 
-(wird noch vervollständigt)
+### JavaScript / Typescript Einführung
+<video controls width="100%"> 
+    <source src="https://scheuerle.net/lehre/gis/videos/05_JSTS_Einfuehrung.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/05_JSTS_Einfuehrung.mp4">Zum Video</a>
+</video>
+
+### Typescript Kontrollstrukturen
+<video controls width="100%"> 
+    <source src="https://scheuerle.net/lehre/gis/videos/05_TS_Kontrollstrukturen.mp4" type="video/mp4"> 
+    <a href="https://scheuerle.net/lehre/gis/videos/05_TS_Kontrollstrukturen.mp4">Zum Video</a>
+</video>
+
+### Typescript Dokumentation
+
+https://www.typescriptlang.org/
 
 ## **A _---_** Praktikumsaufgabe
 
-(wird noch vervollständigt)
+tba
 
 ### **Abgabetermin: 31.05.2020 um 18:00!**
-
-tba
 
 Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_4).
 
