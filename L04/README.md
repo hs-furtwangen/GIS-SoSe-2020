@@ -135,12 +135,34 @@ Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter d
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### W3-Error wegen Id-Tag duplicate?
+Jede Id sollte nur einem Objekt zugeordnet werden. Das Class-Attribut ist perfekt für mehrfache Verwendung, da man hier mehrere Objekte zuweisen kann.
 
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+### Was ist mit 6 verschiedenen komplexen Selektoren gemeint?
+Eine Kombination aus verschiedenen einfachen Selektoren (Child-Selektoren, Sibling-Selektoren, Zähl-Selektoren etc.).
 
-## ...
+### Wie stellt ihr euch die Kategorisierung vor?
+Die Aufgabenstellung ist mit Absicht offen gestellt. Es ist eure Styling-Entscheidung wie ihr die Kategorien aufteilt. In späteren Aufgaben werden wir den Seiteninhalt dynamisch durch JavaScript aufbauen.
+
+### Welche Kategorien sind erlaubt?
+Welche Art von Kategorie ist völlig egal. Ihr habt hier Freiheiten, damit nicht alle das gleiche machen. Es wäre natürlich schön, wenn nicht alle einen Klamottenshop machen.
+
+### Was bedeutet „Verwenden Sie min. 2 Media-Queries?“
+Es sind drei verschiedene Größen gemeint! Ein Default und zwei andere Größen. Z.B. Desktop, Tablet und Mobile, wobei Mobile eine andere Darstellung als die Desktopvariante hat. Hier können durch Media-Queries CSS-Eigenschaften überschrieben werden.
+
+### Kann man JavaScript, wenn man TypeScript kann?
+An sich ist es einfach JavaScript zu lernen, wenn man TypeScript schon kann. TypeScript wird im Endeffekt auch nur zu JavaScript-Code umgeschrieben. 
+
+### Was haltet ihr von Bootstrap und Co.?
+An sich können wir alle Aufgaben ohne Drittsoftware bearbeiten. Wahrscheinlich spart ihr dadurch auch keine Zeit. Wenn ihr Bootstrap verwenden wollt könnt ihr das gerne, sofern ihr trotzdem alle Bedingungen der Aufgabe erfüllt.
+
+### Machen wir was mit Content-Management-Systemen?
+Ihr könnt gerne Fragen dazu stellen, aber CMS werden wir nicht explicit lernen. Wir lernen hier die Grundlagen, damit ihr auch die Grundlagen, auf denen CMS aufbaut, versteht. Damit habt ihr große Vorteile um sich schnell in Programme wie Wordpress einzuarbeiten.
+
+### PHP wird im Praktikum verlangt, was soll ich tun?
+PHP ist wie Java eine Objektorientierte Sprache. Da ihr Java schon könnt sollte es relativ leicht für euch sein, PHP zu lernen.
+
+### Wie ist PHP einzuordnen zwischen HTML, CSS und JavaScript?
+Da beides Logikprogrammierung ist, kommt es am ähnlichsten an JavaScript heran. Ein Beispiel ist ein Warenkorb, welcher gefüllt wird.
