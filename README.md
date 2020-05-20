@@ -85,3 +85,12 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - Positionierung, Flussverhalten und Layout
 - Responsive Design
 - Transition und Animation
+---
+
+## [**27 _Mai_** Einstieg JavaScript und TypeScript](L05)
+
+- Arbeitsabläufe
+- Variablen
+- Typen
+- Kontrollstrukturen
+- DOM Manipulation
