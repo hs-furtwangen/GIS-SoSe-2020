@@ -57,7 +57,8 @@ Code ist sinnvoll Formatiert mit Einschüben etc. Im Regelfall unterstützt VSCo
 
 ## 7. `let` statt `var`
 
-Vermeiden Sie die Verwendung von `var` und nutzen Sie stattdessen `let` (oder `const`).
+Die Verwendung von `var` ist nicht erlaubt. Nutzen Sie stattdessen `let` (oder `const`).  
+Wenn Sie die besonderen Eigenschaften von `var` nutzen wollen, müssen Sie dies gut begründen.
 
 ## 8. "Magische" Zahlen
 
