@@ -41,7 +41,8 @@ Formale Parameter folgen dem Variablen-Benennungs-Schema, mit dem Zusatz eines U
 
 ### 4.3 PascalCase für Interfaces, Klassen und Namensbereiche/Module
 
-Die Namen von Klassen, Interfaces und Namensbereichen/Modulen beginnen mit einem Großbuchstaben und folgen sonst der Kamelnotation (also PascalCase).
+Die Namen von Klassen, Interfaces und Namensbereichen/Modulen beginnen mit einem Großbuchstaben und folgen sonst der Kamelnotation (also PascalCase).  
+Klassen und Interfaces beschreiben im Normalfall ein bestimmtes Objekt, nicht eine Gruppe von Objekten. Dies sollte sich im Namen wiederspiegeln (`Produkt` statt `Produkte`).
 
 ### 4.4 Großschreibung für Enumeratoren
 
