@@ -36,17 +36,24 @@ _Laden Sie die .js.map Dateien und selbstverständlich auch die .ts Dateien mit 
     <a href="https://scheuerle.net/lehre/gis/videos/05_JSTS_Vorwort.mp4">Zum Video</a>
 </video>
 
+[Skript (PDF)](https://scheuerle.net/lehre/gis/scripts/05_JSTS_Vorwort.pdf)
+
 ### JavaScript / Typescript Einführung
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_JSTS_Einfuehrung.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/05_JSTS_Einfuehrung.mp4">Zum Video</a>
 </video>
 
+
+[Skript (PDF)](https://scheuerle.net/lehre/gis/scripts/05_JS_Einfuehrung.pdf)
+
 ### Typescript Kontrollstrukturen
 <video controls width="100%"> 
     <source src="https://scheuerle.net/lehre/gis/videos/05_TS_Kontrollstrukturen.mp4" type="video/mp4"> 
     <a href="https://scheuerle.net/lehre/gis/videos/05_TS_Kontrollstrukturen.mp4">Zum Video</a>
 </video>
+
+[Skript (PDF)](https://scheuerle.net/lehre/gis/scripts/05_TS_Kontrollstrukturen.pdf)
 
 ### DOM Manipulation
 <video controls width="100%"> 

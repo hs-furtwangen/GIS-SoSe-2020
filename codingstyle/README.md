@@ -54,7 +54,7 @@ Literale Zeichenketten werden in doppelte Anführungszeichen geschrieben. Dies g
 
 ## 6. Formatierung
 
-Code ist sinnvoll Formatiert mit Einschüben etc. Im Regelfall unterstützt VSCode dies Automatisch. Machen Sie Gebrauch von der automatischen Formatierungsfunktion (Strg+Alt+F).
+Code ist sinnvoll Formatiert mit Einschüben etc. Im Regelfall unterstützt VSCode dies Automatisch. Machen Sie Gebrauch von der automatischen Formatierungsfunktion (Shift+Alt+F).
 
 ## 7. `let` statt `var`
 
