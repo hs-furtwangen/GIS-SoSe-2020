@@ -95,3 +95,9 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - Typen
 - Kontrollstrukturen
 - DOM Manipulation
+
+## [**3 _Juni_** Event Handling mit TypeScript](L06)
+
+- Event Handling
+- Event Listner
+- DOM Klassenhierarchie
