@@ -26,6 +26,22 @@ Das DOM lässt sich, wie auch z.B. die Aktivitätsdiagramme, als Graph mit Knote
 Diese Knoten enthalten die Kernfunktionalität zur Bildung des Graphen und damit des DOMs. Jeder Knoten kann auf einen anderen Knoten als `parentNode` verweisen und auf eine Liste von `childNodes`. Im DOM ist `document` der Wurzelknoten, der lediglich eine Referenz auf `html` in seiner Kinderliste hat. `html` referenziert über die Eigenschaft `parentNode` das `document` und hat in seiner Kinderliste Referenzen auf `head` und `body`. `body` wiederum referenziert `html` als Mutter bzw Vater und hat wieder verschiedene Kindreferenzen, je nach Inhalt der darzustellenden Seite. Damit ergibt sich eine Baumstruktur, die sich in der Tiefe immer weiter verästeln kann und mit Hilfe der Entwicklertools, wie oben bereits getan, leicht einsehen lässt.
 - [x] Wählen Sie sich für ein besseres Verständnis des DOM aus Ihren eigenen vorangegangenen Arbeiten eine Seite aus und stellen Sie deren DOM grafisch dar.
 
+## Dom Untersuchen:
+
+Sie können das DOM untersuchen & sich dessen Eigenschaften ausgeben lassen: 
+
+### Dom in Chrome untersuchen: 
+
+![Dom in Chrome untersuchen](Chrome_DOM_Properties.png)
+
+### Dom in Firefox untersuchen: 
+
+![Dom in Firefox untersuchen](Firefox_DOM_Properties_1.png)
+![Dom in Firefox untersuchen](Firefox_DOM_Properties_2.png)
+![Dom in Firefox untersuchen](Firefox_DOM_Properties_3.png)
+![Dom in Firefox untersuchen](Firefox_DOM_Properties_4.png)
+
+
 ## Ereignisse
 Das DOM bietet zudem ein System für die Interaktion mit dem Nutzer: das Eventsystem. Es stellt äußerst bequem Informationen zu Ereignissen innerhalb der Anwendung zur Verfügung, ohne dass Kenntnisse der Hardware erforderlich sind. Das Betriebssystem und der Browser werten diese Ereignisse bereits aus und bringen die Informationen darüber in eine allgemeine Form.
 
@@ -126,17 +142,26 @@ https://www.typescriptlang.org/
 
 ## **A _---_** Praktikumsaufgabe
 
+>**Bei Problemen/Unklarheiten:** können Sie ins Praktikum kommen oder per Discord/Mail fragen stellen.
+
 Erstellen Sie ein neues Verzeichnis und kopieren Sie die Files der Letzten Aufgabe hinein. 
 
 Die Aufgabe baut auf der Shop Aufgabe der letzten 2 Wochen auf. 
 
->**Empfehlung:** Sorgen Sie dafür, dass es nur 1 Shopseite mit allen Artikeln gibt, da Sie andernfalls auf allen Seiten die Kriterien der Aufgabe 1 & Aufgabe 2 erfüllen müssen. 
+>**Empfehlung:** Sorgen Sie dafür, dass es nur 1 Shopseite mit allen Artikeln gibt, da Sie andernfalls auf allen Seiten auf denen Produkte angezeigt werden die Kriterien der Aufgabe 1 & Aufgabe 2 erfüllen müssen. 
 
-Ziel der Praktikumsaufgabe ist es mithilfe von Events es dem User des Shops eine bessere Interaktion mit der Website zu ermöglichen.
+Ziel der Praktikumsaufgabe ist es mithilfe von Events den Usern Ihres Shops eine bessere Interaktion mit der Website zu ermöglichen.
 
 ## Teilaufgabe 1:
 
-Registrieren Sie einen Klick-Event-Listener der die Maus-/Toucheingabe des Users auf einen der Kaufen-Buttons detektiert. Beim Klick auf einen der Kaufen-Buttons soll über dem Warenkorb (Der Warenkorb **muss sichtbar bleiben**) in einem Kreis die anzahl der geklickten Artikel angezeigt werden. 
+Registrieren Sie einen Klick-Event-Listener der die Maus-/Toucheingabe eines Users auf einen der Kaufen-Buttons detektiert. Beim Klick auf einen der Kaufen-Buttons soll über/neben dem Warenkorb (Der Warenkorb **muss sichtbar bleiben**) z.B. in einem Kreis die anzahl der geklickten Artikel angezeigt werden. Bei 0 Artikeln ist nichts sichtbar.
+
+### Beispiele aus echten Shops:
+
+![Bsp. 1](buy_ex_2.png)
+![Bsp. 1](buy_ex_1.png)
+![Bsp. 1](buy_ex_4.png)
+![Bsp. 1](buy_ex_3.png)
 
 Berechnen Sie die Summe aller angeklickten Artikel und geben sie diese in der Konsole aus. 
 
@@ -144,20 +169,22 @@ Berechnen Sie die Summe aller angeklickten Artikel und geben sie diese in der Ko
 
 ## Teilaufgabe 2:
 
-Anstelle von Sprungmarken die Nutzer zu einer jeweiligen Kategorie bringen, sollen in der Navigationsleiste per Klick-Event-Listener alle Arikel der "falschen" Kategorie ausgeblendet werden, sodass ausschließlich alle Artikel der geklickten Kategorie übrig bleiben.
+Anstelle von Sprungmarken die Nutzer zu einer jeweiligen Kategorie bringen, sollen in der Navigationsleiste/Headdermenü/Hauptmenü per Klick-Event-Listener alle Arikel der "falschen" Kategorie ausgeblendet werden, sodass ausschließlich alle Artikel der geklickten Kategorie übrig bleiben. Des weiteren soll eine Option in der Navigationsleiste/Headdermenü/Hauptmenü ebenfalls per Klick-Event-Listener alle Artikel wieder einblenden.
 
->**Achtung!:** Beachten Sie die [Coding Style Guidelines](https://hs-furtwangen.github.io/GIS-SoSe-2020/codingstyle/). Code der diesen Guidelines nicht entpricht wird nicht akzeptiert! Code der W3 Errors oder JS-Errors aufweist wird ebenfalls nicht akzeptiert! Verstöße fürhen zu einer Ampelstufe 🚦
+>### **Achtung!:** Beachten Sie die [Coding Style Guidelines](https://hs-furtwangen.github.io/GIS-SoSe-2020/codingstyle/). Code der diesen Guidelines nicht entpricht wird nicht akzeptiert! Code der W3 Errors oder JS-Errors aufweist wird ebenfalls nicht akzeptiert! Verstöße fürhen zu einer Ampelstufe 🚦
 
 ## Bonusaufgabe (nicht pflicht):
 
-Informieren Sie sich über RegEx & implementieren Sie in der Navigation eine Suchleiste. Blenden Sie alle Items aus in der weder in der Beschreibung/Titel eines Artikels ein Match gefunden wurde.
+Informieren Sie sich über RegEx & implementieren Sie in der Navigation eine Suchleiste die mithilfe von RegEx nach matches sucht. Blenden Sie alle Items aus in der weder in der Beschreibung/Titel eines Artikels ein Match gefunden wurde.
 
 ### Sowie Freiwillige TypeScript Übungsaufgaben
 [Übungsaufgaben mit Fokus auf Konsolenausgaben zum Selbststudium](https://github.com/Plagiatus/EIA/blob/master/Aufgaben.md) mit Lösungen. (Diese Aufgaben wurden ursprünglich für das Ende von EIA1 konzipiert um sich auf EIA2 vorzubereiten, stellen aber allgemein eine gute Ressource zum Selbststudium dar, inklusive einfacher Aufgaben zur Wiederholung als auch sehr komplizierte Aufgaben. _Keine offizielle Aufgabe, lediglich als Bonusmaterial wenn Sie Zeit und Lust haben noch etwas mehr zu üben!_)
 
-### **Abgabetermin: 07.06.2020 um 18:00!**
+### **Abgabetermin: 07.06.2020 um 18:00 auf der Kursseite!**
 
 Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_6).
+
+>**Achtung!:** Eine falsche Abgabe fürt zu einer 🚦 Keine Abgabe zu 2 🚦 von denen nur 1e 🚦 verteidigt werden kann.
 
 ---
 
