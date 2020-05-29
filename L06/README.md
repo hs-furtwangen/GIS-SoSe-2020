@@ -184,7 +184,7 @@ Informieren Sie sich über RegEx & implementieren Sie in der Navigation eine Suc
 
 Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_6).
 
->**Achtung!:** Eine falsche Abgabe fürt zu einer 🚦 Keine Abgabe zu 2 🚦 von denen nur 1e 🚦 verteidigt werden kann.
+>### **Achtung!:** Eine fehlerhafte Abgabe fürt zu einer 🚦 die **im Praktikum** verteidigt werden muss. Keine Abgabe zu 2 🚦 von denen nur 1e 🚦 verteidigt werden kann.
 
 ---
 
