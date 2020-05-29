@@ -1,4 +1,4 @@
-## **10 _Juni_** Typescript und Javascript
+## **1 _JuLi_** Typescript und Javascript
 
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
@@ -17,7 +17,7 @@ tba
 
 >### **Achtung!:** Beachten Sie die [<ins>Coding Style Guidelines</ins>](https://hs-furtwangen.github.io/GIS-SoSe-2020/codingstyle/). Code der diesen Guidelines nicht entpricht wird nicht akzeptiert! Code der W3 Errors oder JS-Errors aufweist wird ebenfalls nicht akzeptiert! Verstöße fürhen zu einer Ampelstufe 🚦
 
-### **Abgabetermin: 14.06.2020 um 18:00!**
+### **Abgabetermin: 05.07.2020 um 18:00!**
 
 Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_6).
 
