@@ -32,14 +32,14 @@ Sie können das DOM untersuchen & sich dessen Eigenschaften ausgeben lassen:
 
 ### Dom in Chrome untersuchen: 
 
-![Dom in Chrome untersuchen](Chrome_DOM_Properties.png)
+![Dom in Chrome untersuchen](Chrome_DOM_Properties.PNG)
 
 ### Dom in Firefox untersuchen: 
 
-![Dom in Firefox untersuchen](Firefox_DOM_Properties_1.png)
+![Dom in Firefox untersuchen](Firefox_DOM_Properties_1.PNG)
 ![Dom in Firefox untersuchen](Firefox_DOM_Properties_2.png)
-![Dom in Firefox untersuchen](Firefox_DOM_Properties_3.png)
-![Dom in Firefox untersuchen](Firefox_DOM_Properties_4.png)
+![Dom in Firefox untersuchen](Firefox_DOM_Properties_3.PNG)
+![Dom in Firefox untersuchen](Firefox_DOM_Properties_4.PNG)
 
 
 ## Ereignisse
@@ -158,10 +158,10 @@ Registrieren Sie einen Klick-Event-Listener der die Maus-/Toucheingabe eines Use
 
 ### Beispiele aus echten Shops:
 
-![Bsp. 1](buy_ex_2.png)
-![Bsp. 1](buy_ex_1.png)
-![Bsp. 1](buy_ex_4.png)
-![Bsp. 1](buy_ex_3.png)
+![Bsp. 1](buy_ex_2.PNG)
+![Bsp. 1](buy_ex_1.PNG)
+![Bsp. 1](buy_ex_4.PNG)
+![Bsp. 1](buy_ex_3.PNG)
 
 Berechnen Sie die Summe aller angeklickten Artikel und geben sie diese in der Konsole aus. 
 
