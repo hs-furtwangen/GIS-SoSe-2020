@@ -3,7 +3,7 @@
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
-
+Lektion 07 - to be done
 
 ### Typescript Dokumentation
 
@@ -15,7 +15,42 @@ https://www.typescriptlang.org/
 
 tba
 
+Erstellen Sie ein neues Verzeichnis und kopieren Sie die Dateien der letzten Aufgabe hinein. 
+
+Die Aufgabe baut auf der Shop Aufgabe der letzten 3 Wochen auf. 
+
+Ziel der Praktikumsaufgabe ist es Daten über mehrere HTML Seiten hinweg speichern zu können. In dieser Aufgabe geht es darum zu speichern welche Artikel von einem Kunden in den Warenkorb gelegt wurden. Außerdem sollen die auf der Website angezeigten Artikel per JSON geladen werden. 
+
 >### **Achtung!:** Beachten Sie die [<ins>Coding Style Guidelines</ins>](https://hs-furtwangen.github.io/GIS-SoSe-2020/codingstyle/). Code der diesen Guidelines nicht entpricht wird nicht akzeptiert! Code der W3 Errors oder JS-Errors aufweist wird ebenfalls nicht akzeptiert! Verstöße fürhen zu einer Ampelstufe 🚦
+
+## Teilaufgabe 1:
+
+Bisher werden Ihre Artikel über ein sog. "hardcoded" Array eingelesen. Änderungen sind nur dann möglich wenn Sie das Array bearbeiten. Ein besserer Weg ist es deshalb die Daten und den Code voneinander zu trennen. Auf diese Art und Weise können jederzeit Artikel hinzugefügt oder aus dem Shop genommen werden.
+
+Erstellen Sie ein JSON File mit allen Ihren Artikeln. Sie können dies von Hand oder mithilfe von online JSON Generatoren durchführen oder indem Sie folgenden Hinweis beachten.
+
+>**Hinweis:** Damit Sie die JSON nicht von hand befüllen müssen, können Sie mithilfe von `JSON.stringify(obj)` aus Ihren Daten ein JSON Dokument erzeugen. Da Sie ein Array benutzen, müssen Sie vermutlich die Daten in Ihrem Array zunächst in ein Objekt umwandeln.
+
+Lesen Sie nun die einzelnen Artikel, welche vorher in einem Array gespeichert waren aus der neun JSON Datei aus. 
+
+Erzeugen Sie anhand der eingelesenen Daten die Artikel auf Ihrer Webseite.
+
+>**Hinweis:** Es gibt mehrere Wege wie sie die Kategorie eines Artikels in einer JSON Datei speichern können. Sie können z. B. alle Artikel einer Kategorie in eine Liste legen & mehrere dieser Listen in der JSON ablegen. Sie können auch jeden Artikel mit einer "Kategorie-ID" versehen und die Artikel beim einlesen der JSON sortieren. Dieser Weg ist allerdings nicht optimal.
+
+## Teilaufgabe 2:
+
+Verwenden Sie hierfür den [localStorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp). Wenn ein User der Website einen Artikel über einen der "Kaufen" Buttons in den Warenkorb legt, soll der jeweilige Artikel im local Storage gespeichert werden. 
+
+Legen Sie eine Warenkorb Seite an (falls Sie noch keine haben). Auf der Warenkorb Seite werden alle Artikel die  ein User per Button in den Warenkorb gelegt hat dynamisch per Code generiert und angezeigt. Auf der Warenkorb Seite wird außerdem der Gesamtpreis der Bestellung angezeigt. 
+
+User haben die Mögkichkeit einzelne Artikel zu entfernen. Jeder dynamisch generierte Artikel hat einen "Entfernen/Löschen" Button/Text.
+
+User können ihren gesamten Warenkorb löschen. Hierfür gibt es ebenfalls einen Button, der den localStorage leert & die Artikel aus dem Warenkorb entfernt. 
+
+## Bonusaufgabe (keine Pflicht):
+
+User können einen Artikel mehrmals in den Warenkorb legen (z. B. 5 Äpfel). Im Warenkorb kann die Anzahl der Artikel eines Typs geändert werden.
+
 
 ### **Abgabetermin: 14.06.2020 um 18:00!**
 
