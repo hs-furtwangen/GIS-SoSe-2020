@@ -29,13 +29,15 @@ Bisher werden Ihre Artikel über ein sog. "hardcoded" Array eingelesen. Änderun
 
 Erstellen Sie ein JSON File mit allen Ihren Artikeln. Sie können dies von Hand oder mithilfe von online JSON Generatoren durchführen oder indem Sie folgenden Hinweis beachten.
 
->**Hinweis:** Damit Sie die JSON nicht von hand befüllen müssen, können Sie mithilfe von `JSON.stringify(obj)` aus Ihren Daten ein JSON Dokument erzeugen. Da Sie ein Array benutzen, müssen Sie vermutlich die Daten in Ihrem Array zunächst in ein Objekt umwandeln.
+>**Hinweis:** Damit Sie die JSON nicht von Hand befüllen müssen, können Sie mithilfe von `JSON.stringify(data_array)` aus Ihrem Daten-Array ein JSON Dokument erzeugen.
 
 Lesen Sie nun die einzelnen Artikel, welche vorher in einem Array gespeichert waren aus der neun JSON Datei aus. 
 
+>**Hinweis:** Die `fetch()` Methode funktioniert nur auf Servern. Wenn Sie also wie gewohnt die HTML Datei nur lokal auf Ihrer Maschine in den Bwoser ziehen, fnuktioniert `fetch()` nicht. Laden Sie Ihre Aufgabe für diesen Teil hoch & testen Sie dann.
+
 Erzeugen Sie anhand der eingelesenen Daten die Artikel auf Ihrer Webseite.
 
->**Hinweis:** Es gibt mehrere Wege wie sie die Kategorie eines Artikels in einer JSON Datei speichern können. Sie können z. B. alle Artikel einer Kategorie in eine Liste legen & mehrere dieser Listen in der JSON ablegen. Sie können auch jeden Artikel mit einer "Kategorie-ID" versehen und die Artikel beim einlesen der JSON sortieren. Dieser Weg ist allerdings nicht optimal.
+>**Hinweis:** Es gibt mehrere Wege wie sie die Kategorie eines Artikels in einer JSON Datei speichern können. Sie können z. B. jeden Artikel mit einer "Kategorie-ID" versehen und die Artikel beim einlesen der JSON sortieren.
 
 ## Teilaufgabe 2:
 
