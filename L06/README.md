@@ -224,6 +224,10 @@ Eine Möglichkeit ist es, die Zahl aus dem HTML-String zu extrahieren und dann w
 
 ### Wie kann ich vermeiden, den Preis direkt aus meiner Preis innerHtml zu lesen?
 setAttribute/getAttribute anstatt es aus dem Preis-String im HTML direkt zu lesen! Das Attribut kann auch dem ParentNode zugewiesen werden, damit spart man sich die Suche nach dem Unterelement Preis. An sich ist es meistens besser, nicht direkt aus Html-Code zu lesen, sondern auf Variablen aus der „Datenbank“, in unserem Fall dem DatenArray, zuzugreifen, da die Übergabe von Daten sonst sehr manipulierbar ist.
+Verbesserung: Man kann auch classList anstatt setAttribut/getAttribut zu verwenden.
 
 ### Wo kommen die Klammern der Typzuweisung genau hin?
 Die eckigen Klammern der Typzuweisung müssen um den Typ herum und diese Typzuweisung muss vor das Element.
+
+### Was heißt, der Warenkorb soll immer sichtbar sein?
+Bitte den Warenkorb nicht durch die Anzahl der Elemente darin ersetzen. Der Warenkorb soll neben der Zahl immer noch sichtbar bleiben.
