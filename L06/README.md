@@ -217,12 +217,13 @@ Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter d
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### Wie kann ich gut den Float-Wert aus meinem Preis auslesen?
+Eine Möglichkeit ist es, die Zahl aus dem HTML-String zu extrahieren und dann wieder zu einem Float zu formatieren. Besser wäre es, den Float-Wert direkt aus dem Daten des Arrays zu lesen. Hierzu braucht man aber eine gute Möglichkeit, seinen Artikel im Array zu finden.
 
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+### Wie kann ich vermeiden, den Preis direkt aus meiner Preis innerHtml zu lesen?
+setAttribute/getAttribute anstatt es aus dem Preis-String im HTML direkt zu lesen! Das Attribut kann auch dem ParentNode zugewiesen werden, damit spart man sich die Suche nach dem Unterelement Preis. An sich ist es meistens besser, nicht direkt aus Html-Code zu lesen, sondern auf Variablen aus der „Datenbank“, in unserem Fall dem DatenArray, zuzugreifen, da die Übergabe von Daten sonst sehr manipulierbar ist.
 
-## ...
+### Wo kommen die Klammern der Typzuweisung genau hin?
+Die eckigen Klammern der Typzuweisung müssen um den Typ herum und diese Typzuweisung muss vor das Element.
