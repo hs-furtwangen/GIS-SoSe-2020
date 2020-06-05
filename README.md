@@ -96,9 +96,21 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - Kontrollstrukturen
 - DOM Manipulation
 
+---
+
 ## [**3 _Juni_** Event Handling](L06)
 
 - Events
 - Event Handling
 - Event Listener
 - DOM Klassenhierarchie
+
+---
+
+## [**10 _Juni_** JSON & Local Storage](L07)
+
+- JSON -> Daten Laden
+- JSON -> Daten Speichern
+- Local Storage -> Daten Laden
+- Local Storage -> Daten Speichern
+- Kommunikation (async, fetch, await)
