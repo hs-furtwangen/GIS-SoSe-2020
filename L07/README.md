@@ -20,7 +20,7 @@ Auf diese Weise können wir komfotabel mit den Daten als TS/JavaScript-Objekte a
 ### Daten speichern
 Wenn Sie Daten in einem TS/JavaScript-Objekt gespeichert haben, können Sie das Objekt in JSON konvertieren und an einen Server senden:
 
-```TypeScript
+```typescript
 let myObj: Person = {name: "John", age: 31, city: "New York"};
 let myJSON: string = JSON.stringify(myObj);
 ```
@@ -28,7 +28,7 @@ let myJSON: string = JSON.stringify(myObj);
 ### Einlesen von Daten
 Wenn Sie Daten im JSON-Format erhalten, können Sie diese in ein TS/JavaScript-Objekt konvertieren:
 
-```TypeScript
+```typescript
 let myJSON: string = '{"name":"John", "age":31, "city":"New York"}';
 let myObj: Person = JSON.parse(myJSON);
 document.getElementById("demo").innerHTML = myObj.name;
@@ -64,20 +64,20 @@ Bei der asynchronen Kommunikation lässt sich wieder sehr gut die Ereignissteuer
 
 Im einfachsten Fall sieht das ganze Konstrukt dann so aus:
 ```typescript
-    function communicate(_url: RequestInfo): void {
-        // try to communicate
-        let promise: Promise<Response> = fetch(_url);
-        // establish the functions to call when communications 1. succeeds, 2. fails
-        promise.then(handleSuccess, handleFailure);
-    }
+function communicate(_url: RequestInfo): void {
+  // try to communicate
+  let promise: Promise<Response> = fetch(_url);
+  // establish the functions to call when communications 1. succeeds, 2. fails
+  promise.then(handleSuccess, handleFailure);
+}
 
-    function handleFailure(_response: Response): void {
-        console.log("Failure", _response);
-    }
+function handleFailure(_response: Response): void {
+  console.log("Failure", _response);
+}
 
-    function handleSuccess(_response: Response): void {
-        console.log("Success", _response);
-    }
+function handleSuccess(_response: Response): void {
+  console.log("Success", _response);
+}
 ```
 Auch hier ist die Funktionalität über mehrere Funktionen verteilt und daher insgesamt etwas unübersichtlich. Das wird noch verstärkt dadurch, dass die Response, die den Handlern von der Promise als Parameter übergeben wird, noch nicht die Rohdaten der Antwort des Kommunikationspartners darstellt. Um die Response zu verarbeiten sind weitere Funktionen erforderlich, die wiederum Promises erzeugen, die weitere Handler aufrufen und so weiter. 
 > **FunFact:** Dadurch entsteht ein Gewirr an Funktionen, das von Entwicklern als "Callback Hell" bezeichnet wird.
@@ -86,16 +86,16 @@ Auch hier ist die Funktionalität über mehrere Funktionen verteilt und daher in
 Deswegen wurden 2017 auch die neuen Schlüsselworte `async` und `await` in Javascript implementiert. Damit wird nun etwas ganz Erstaunliches möglich: Anstatt mit der synchronen Programmierweise (eine Anweisung im Code erfolgt strikt nach Beendigung der vorangegangenen) und Events asynchrone Prozesse abzubilden und damit "Callback Hell" zu erzeugen, wird mit Hilfe der beiden Schlüsselworte die Programmierung selbst asynchron. Damit wird das fetch-Beispiel plötzlich extrem übersichtlich:
 
 ```typescript
-    async function communicate(_url: RequestInfo): Promise<void> {
-        let response: Response = await fetch(_url);
-        console.log("Response", response);
-    }
+async function communicate(_url: RequestInfo): Promise<void> {
+  let response: Response = await fetch(_url);
+  console.log("Response", response);
+}
 ```
 Mit dem Schlüsselwort `async` wird eine Funktion als asynchron deklariert, das bedeutet, dass ihre Ausführung unterbrochen und zu einem späteren Zeitpunkt fortgesetzt werden kann. Genau dies bewirkt das Schlüsselwort `await`, welches daher nur innerhalb von asynchronen Funktionen Sinn ergibt. Sobald `fetch` gestartet wird, wird die Funktion `communicate` zunächst beendet und die Ausführung des Programms bei der nächsten Anweisung nach deren Aufruf fortgesetzt. Sobald aber `fetch` beendet wurde, wird die Funktion `communicate` bei der Anweisung nach dem fetch fortgesetzt. Das heißt also, dass das Hauptprogramm, sofern es noch nicht komplett abgelaufen ist, unterbrochen wird um die Ausgabe der Response in der Konsole zu bewerkstelligen. Danach ist `communicate` tatsächlich am Ende und das Hauptprogramm wird fortgesetzt. Es könnten aber in der Funktion noch weitere `await`s folgen, die wieder entsprechendes Verhalten bewirken. So bläht die weitere Verarbeitung der Response den Code nicht noch wieder durch Callbacks auf.  
-> - Kopiere obenstehenden asynchronen Code und bette ihn in ein neues Programm ein. Lasse vom Hauptprogramm aus die Funktion `communicate` mit dem Parameter `"https://hs-furtwangen.github.io/GIS-SoSe-2020/L06/test.txt"` aufrufen. Lasse vor und nach dem Aufruf von `communicate` in der Konsole die Zeichenketten "Start" und "End" ausgeben.
+> - Kopiere obenstehenden asynchronen Code und bette ihn in ein neues Programm ein. Lasse vom Hauptprogramm aus die Funktion `communicate` mit dem Parameter `"https://hs-furtwangen.github.io/GIS-SoSe-2020/L07/test.txt"` aufrufen. Lasse vor und nach dem Aufruf von `communicate` in der Konsole die Zeichenketten "Start" und "End" ausgeben.
 > - Starte nun das Programm, nachdem Du es lauffähig implementiert hast. Beschreibe deine Beobachtung. In welcher Reihenfolge kommen die Ausgabe in der Konsole?
 > - Das ausgegebene Response-Objekt ist komplex und der eigentliche Inhalt der Serverantwort ist noch nicht zu sehen. Erweitere die Funktion `communicate` um eine Zeile, in der Du die Methode `text()` des Response-Objektes aufrufst. Achtung: text() gibt wieder eine Promise zurück. Nutzt Du aber auch hier `await` erhältst Du als Ergebnis des Ganzen eine Zeichenkette, die Du einer Variablen vom Typ string zuweist. Lasse so den Inhalt der Serverantwort ausgeben. 
-> - Versuche das gleiche nochmal mit dem Parameter `"https://hs-furtwangen.github.io/GIS-SoSe-2020/L06/testjson.json"` und der Funktion `json()` statt `text()`.
+> - Versuche das gleiche nochmal mit dem Parameter `"https://hs-furtwangen.github.io/GIS-SoSe-2020/L07/testjson.json"` und der Funktion `json()` statt `text()`.
 
 > **Hinweis**: fetch erwartet immer eine `http(s)://` Anfrage, wenn ihr es also lokal testen wollt, solltet ihr einen Live-Server verwenden, da sonst die Anfrage mit `file://` beginnt.
 
@@ -107,7 +107,7 @@ Local Storage ermöglicht es Ihnen, Key-Value (Schlüssel-Werte) Paare lokal im 
 
 ### Beispiel für LocalStorage:
 
-```TypeScript
+```typescript
 // Item Speichern
 localStorage.setItem("lastname", "Smith");
 // Item Laden
@@ -116,7 +116,7 @@ document.getElementById("test").innerHTML = localStorage.getItem("lastname");
 
 ### Daten wieder aus den LocalStorage löschen:
 
-```TypeScript
+```typescript
 localStorage.removeItem("lastname");
 ```
 
@@ -124,7 +124,7 @@ localStorage.removeItem("lastname");
 
 HTML Teil:
 
-```HTML
+```html
 <p><button onclick="clickCounter()" type="button">Klick mich!</button></p>
 <div id="result"></div>
 <p>Klick auf den Button und der Zähler wird erhöht.</p>
@@ -133,7 +133,7 @@ HTML Teil:
 
 TypeScript Teil:
 
-```TypeScript
+```typescript
 function clickCounter() {
   if (localStorage.clickcount) {
     localStorage.clickcount = Number(localStorage.clickcount)+1;
@@ -162,7 +162,7 @@ Ziel der Praktikumsaufgabe ist es Daten über mehrere HTML Seiten hinweg speiche
 
 >### **Achtung!:** Beachten Sie die [<ins>Coding Style Guidelines</ins>](https://hs-furtwangen.github.io/GIS-SoSe-2020/codingstyle/). Code der diesen Guidelines nicht entpricht wird nicht akzeptiert! Code der W3 Errors oder JS-Errors aufweist wird ebenfalls nicht akzeptiert! Verstöße führen zu einer Ampelstufe 🚦
 
-## Teilaufgabe 1:
+## Teilaufgabe 1
 
 Bisher werden Ihre Artikel über ein Array, welches direkt im Code liegt, eingelesen. Änderungen sind nur dann möglich wenn Sie das Array direkt bearbeiten. Ein besserer Weg ist es deshalb, die Daten und den Code voneinander zu trennen. Auf diese Art und Weise können jederzeit Artikel hinzugefügt oder aus dem Shop genommen werden, ohne dass der Code verändert werden muss.
 
@@ -178,7 +178,7 @@ Erzeugen Sie anhand der eingelesenen Daten die Artikel auf Ihrer Webseite.
 
 >**Hinweis:** Es gibt mehrere Wege wie Sie die Kategorie eines Artikels in einer JSON Datei speichern können. Sie können z.B. jeden Artikel mit einer "Kategorie-ID" versehen und die Artikel beim Einlesen der JSON sortieren, falls Sie das noch nicht getan haben.
 
-## Teilaufgabe 2:
+## Teilaufgabe 2
 
 Verwenden Sie hierfür den [localStorage](https://www.w3schools.com/jsref/prop_win_localstorage.asp) (oder die Cookies). Wenn ein User der Website einen Artikel über einen der "Kaufen" Buttons in den Warenkorb legt, soll der jeweilige Artikel im local Storage gespeichert werden. 
 
