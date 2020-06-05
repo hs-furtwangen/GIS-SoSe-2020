@@ -5,6 +5,39 @@
 
 Lektion 07 - to be done
 
+
+## Json (Java Script Object Notation)
+
+JSON ist eine Syntax um Daten speichern und austauschen zu können und wurde ursprrünglich für JavaScript entwickelt, aber wird von vielen anderen Sprachen ebenfalls benutzt. JSON ist ein mit JavaScript-Objektnotation geschrieber Text. JSON ist ein Datenformat in dem Daten für Menschen les-/veränderbar abgespeichert weden.
+
+- JSON steht für JavaScript-Objektnotation
+- JSON ist ein lightweight Datenaustauschformat
+- JSON ist leicht zu lesen/verstehen
+- JSON ist sprachunabhängig
+
+### Daten austauschen: 
+Die Daten in JSON liegen in Textform vor, und wir können jedes TS/JavaScript-Objekt in JSON konvertieren und aus JSON einladen. JSON kann auch an und von einem Server gesendet werden. Wir können jedes beliebige vom Server empfangene JSON in TS/JavaScript-Objekte umwandeln.
+
+Auf diese Weise können wir komfotabel mit den Daten als TS/JavaScript-Objekte arbeiten.
+
+### Daten speichern
+Wenn Sie Daten in einem TS/JavaScript-Objekt gespeichert haben, können Sie das Objekt in JSON konvertieren und an einen Server senden:
+
+```TypeScript
+let myObj: Person = {name: "John", age: 31, city: "New York"};
+let myJSON: String = JSON.stringify(myObj);
+```
+
+### Einlesen von Daten
+Wenn Sie Daten im JSON-Format erhalten, können Sie diese in ein TS/JavaScript-Objekt konvertieren:
+
+```TypeScript
+let myJSON: String = '{"name":"John", "age":31, "city":"New York"}';
+let myObj: Person = JSON.parse(myJSON);
+document.getElementById("demo").innerHTML = myObj.name;
+```
+
+
 ### Typescript Dokumentation
 
 https://www.typescriptlang.org/
