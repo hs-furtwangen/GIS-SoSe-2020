@@ -2,6 +2,7 @@
 
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
+*[direkt zur Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe05/)*
 
 ### Einrichtung Typescript in VSCode
 <video controls width="100%"> 

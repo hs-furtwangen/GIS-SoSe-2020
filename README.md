@@ -96,6 +96,8 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - Kontrollstrukturen
 - DOM Manipulation
 
+[Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe05/)
+
 ---
 
 ## [**3 _Juni_** Event Handling](L06)
