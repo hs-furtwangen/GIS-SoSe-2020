@@ -61,7 +61,7 @@ localStorage.removeItem("lastname");
 HTML Teil:
 
 ```HTML
-<p><button onclick="clickCounter()" type="button">Klick Mich!</button></p>
+<p><button onclick="clickCounter()" type="button">Klick mich!</button></p>
 <div id="result"></div>
 <p>Klick auf den Button und der Zähler wird erhöht.</p>
 <p>Wenn du die Seite schließt & wieder öffnest ist der Counter nicht zurückgesetzt</p>
@@ -77,9 +77,9 @@ function clickCounter() {
     } else {
       localStorage.clickcount = 1;
     }
-    document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+    document.getElementById("result").innerHTML = "Du hast den Button " + localStorage.clickcount + " mal geklickt.";
   } else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    document.getElementById("result").innerHTML = "Sorry, dein Browser unterstützt keinen Local Storage...";
   }
 }
 ```
