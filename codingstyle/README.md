@@ -69,3 +69,8 @@ Der Gebrauch von "magischen" Zahlen sollte vermieden werden. Solange es nicht ex
 
 Dateinamen dürfen keine Leerzeichen oder Umlaute enthalten, sind sonst aber frei wählbar (s.u. für Einschränkungen). Es wird empfohlen, die Zeichenwahl auf a-z, A-Z, 0-9 und _ zu beschränken.  
 Code kann auf mehrere Dateien aufgeteilt werden, sofern dies sinnvoll erscheint (z.B. um eine Trennung von Funktion und Daten zu erreichen). Wenn Klassen verwendet werden, sollte jede ihre eigene Datei bekommen. Sofern eine Datei eine bestimmte Klasse enthält, soll die Datei mit dem Namen der Klasse benannt sein.
+
+## 10. Wiederholungen sind schlecht
+
+Code der sich ohne oder nur mit minimalen Änderungen wiederholt, kann in den allermeisten Fällen besser geschrieben werden, z.B. über eine Funktion mit Übergabeparametern, oder indem man nur den geänderten Teil implementiert oder überschreibt, während der Rest für alles gleich generiert wird.  
+Dies hat viele Vorteile: Es macht den Code generell übersichtlicher (und damit besser verständlich), kürzer, und wartungsfreundlicher.

@@ -107,10 +107,8 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
 ---
 
-## [**10 _Juni_** JSON & Local Storage](L07)
+## [**10 _Juni_** JSON, Local Storage & Kommunikation](L07)
 
-- JSON -> Daten Laden
-- JSON -> Daten Speichern
-- Local Storage -> Daten Laden
-- Local Storage -> Daten Speichern
-- Kommunikation (async, fetch, await)
+- JSON -> Daten laden und speichern
+- Local Storage -> Daten laden und speichern
+- Kommunikation -> Anfragen, fetch, async/await
