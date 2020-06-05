@@ -37,6 +37,52 @@ let myObj: Person = JSON.parse(myJSON);
 document.getElementById("demo").innerHTML = myObj.name;
 ```
 
+## Local Storage:
+
+Local Storage ermöglicht es Ihnen Key-Value paare lokal im Cashe (Zwischenspeicher) Ihres Browsers zu speichern. So können Daten über meherere Seiten einer Website hinweg einfach zwischengespeichert und wieder eingeladen werden. Die Verwendung von Local Storage ist einfacher als die Verwendung von [Cookies](https://www.w3schools.com/js/js_cookies.asp). Local Storage ist allerdings nicht ganz so mächtig we [Cookies](https://www.w3schools.com/js/js_cookies.asp) (da Cookies nach Ablauf einer gewissen Zeit automatisch gelöscht werden). Wenn Sie möchten können Sie sich auch gerne über Cookies informieren & diese für die Prakitumsaufgabe nutzen. 
+
+### Beispiel für LocalStorage:
+
+```TypeScript
+// Item Speichern
+localStorage.setItem("lastname", "Smith");
+// Item Laden
+document.getElementById("test").innerHTML = localStorage.getItem("lastname");
+```
+
+### Daten wieder aus den LocalStorage löschen:
+
+```TypeScript
+localStorage.removeItem("lastname");
+```
+
+### Weiteres Beispiel:
+
+HTML Teil:
+
+```HTML
+<p><button onclick="clickCounter()" type="button">Klick Mich!</button></p>
+<div id="result"></div>
+<p>Klick auf den Button und der Zähler wird erhöht.</p>
+<p>Wenn du die Seite schließt & wieder öffnest ist der Counter nicht zurückgesetzt</p>
+```
+
+TypeScript Teil:
+
+```TypeScript
+function clickCounter() {
+  if(typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+```
 
 ### Typescript Dokumentation
 
