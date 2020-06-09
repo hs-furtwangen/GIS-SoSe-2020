@@ -106,6 +106,7 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - Event Handling
 - Event Listener
 - DOM Klassenhierarchie
+[Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe06/)
 
 ---
 
