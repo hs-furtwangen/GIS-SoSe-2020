@@ -111,7 +111,7 @@ Local Storage ermöglicht es Ihnen, Key-Value (Schlüssel-Werte) Paare lokal im 
 // Item Speichern
 localStorage.setItem("lastname", "Smith");
 // Item Laden
-document.getElementById("test").innerHTML = localStorage.getItem("lastname");
+(<HTMLElement>document.getElementById("test")).innerHTML = localStorage.getItem("lastname")!;
 ```
 
 ### Daten wieder aus den LocalStorage löschen:
@@ -140,7 +140,7 @@ function clickCounter() {
   } else {
     localStorage.clickcount = 1;
   }
-  document.getElementById("result").innerHTML = "Du hast den Button " + localStorage.clickcount + " mal geklickt.";
+  (<HTMLElement>document.getElementById("result")).innerHTML = "Du hast den Button " + localStorage.clickcount + " mal geklickt.";
 }
 ```
 
