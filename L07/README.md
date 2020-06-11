@@ -195,7 +195,7 @@ User können einen Artikel mehrmals in den Warenkorb legen (z. B. 5 Äpfel). Im 
 
 ### **Abgabetermin: 14.06.2020 um 18:00!**
 
-Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_6).
+Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_7).
 
 >### **Achtung!:** Eine fehlerhafte Abgabe fürt zu einer 🚦 die **im Praktikum** verteidigt werden muss. Keine Abgabe zu 2 🚦 von denen nur 1e 🚦 verteidigt werden kann.
 
@@ -205,12 +205,43 @@ Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter d
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### Was muss ich in die Klammer nach dem json.parse rein machen?
+Hier kommen eure Produktdaten als string rein. Diese werden dadurch wieder zu einem benutzbaren Array.
 
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+### Unterschied zwischen JSON und JavaScript?
+Unterschied von JSON zu JavaScript ist Effektiv nur, dass JSON alles zu Strings und Zahlen macht.
 
-## ...
+### Was macht Stringify?
+Stringify spuckt einen String aus! Den kannst du auf der Console ausgeben und dann rüber kopieren. Hier könnt ihr euch einfach Zeit sparen, weil ihr nicht alles von Hand kopieren müsst.
+
+### Wie erstelle ich die json Datei? Muss das in mein Script oder wo hin?
+Du musst Zugriff auf dein Produkt-Array haben um es einmal in der Console auszugeben und dann wieder auszulesen. In dem .json-File muss  /‘‘  durch ‘‘  ersetzt werden. Entweder durch Code oder von Hand.
+
+### Stringify benutzt und jetzt habe ich 5 Attribute, aber sollte nicht noch Produkt vor allem stehen?
+Es muss nur eine eckige Klammer auf und am Ende wieder zu machen. JavaScript ist der Typ egal.
+
+### Braucht man die daten.ts-Datei noch?
+Wenn ihr eure .json-Datei habt, braucht ihr eure Daten.ts-Datei eigentlich nicht mehr.
+
+### Was heißt betagt bei XML?
+XML ist betagt, weil es alt ist. XML wird immer weniger und JSON immer mehr verwendet. JSON ist direkt mit JavaScript verwandt. JSON ist ein flexibles Dateiformat und XML nicht.
+
+### Die URL die wir fetchen ist unsere GIT Url?
+Das geht, relativ fetchen ist aber sinnvoller, da sich dann die Url verändern kann.
+
+### Da wo ich den parse mache, muss da mein Interface sein?
+Da das Interface eurer Produkte benutzt wird, muss es immer noch beschrieben sein. Die Definition des Interfaces in einer dritten Datei ist hier aber sinnvoll.
+
+### Ich habe ein Array von Arrays durch meine Klassenstruktur?
+JSON kann nur Attribute und keine Methoden speichern. Du musst die Instanz der Klasse neu anlegen, um auf die Methoden zugreifen zu können.
+
+### Der Unterschied zwischen Synchron und Asynchron?
+Synchron ist Standard, eine Zeile nach der anderen. Sobald wir Asynchron arbeiten, sagen wir im Vorbeilaufen „lauf los“ und wir laufen bei uns weiter. Somit laufen Prozesse gleichzeitig. Wenn wir die JSON-Anfrage machen, müssen wir Awaiten, damit unser Code nicht schon weiterläuft und ihm somit die Antwort von JSON fehlt. Sonst versucht man mit einem leeren Objekt die Seite zu laden. Asynchronität ist wichtig, damit die Seite nicht einfriert, wenn wir auf den Server warten.
+
+### Was muss in mein fetch?
+Die Url deiner .json-Datei. Dies darf keine lokale Datei sein, sondern muss ein Live-Server per relativen oder einen absoluten Websitepfad aufrufen. Fetch will einen String haben, also müssen in die Klammern Anführungszeichen: fetch(„dieneDatei.json“);
+
+### Auf was muss bei der Communicate-Funktion awaited werden?
+Man muss bei fetch() awaiten und bei der Response noch einmal awaiten. Das Parsen muss nicht awaited werden.
