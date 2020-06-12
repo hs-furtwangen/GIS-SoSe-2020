@@ -115,3 +115,12 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - JSON -> Daten laden und speichern
 - Local Storage -> Daten laden und speichern
 - Kommunikation -> Anfragen, fetch, async/await
+
+---
+
+## [**17 _Juni_** Serveranbindung](L08)
+
+- Formulare
+- FormData
+- URL
+- NodeJS
