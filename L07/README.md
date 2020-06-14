@@ -193,7 +193,7 @@ User können ihren gesamten Warenkorb löschen. Hierfür gibt es ebenfalls einen
 User können einen Artikel mehrmals in den Warenkorb legen (z. B. 5 Äpfel). Im Warenkorb kann die Anzahl der Artikel eines Typs geändert werden.
 
 
-### **Abgabetermin: 14.06.2020 um 18:00!**
+### **Abgabetermin: Bis auf weiteres ausgesetzt. Bitte kommen Sie am Mittwoch in das Q&A.**
 
 Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_7).
 
