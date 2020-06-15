@@ -123,6 +123,8 @@ node NameDesSkripts.js
 ```
 eingeben, wobei NameDesSkripts natürlich mit dem Namen der Skript-Datei zu ersetzen ist, die Sie tatsächlich laufen lassen möchten.
 
+In unserem Fall ist der Server dann unter `localhost:8100` im Browser zu erreichen.
+
 ### Debug
 In VSCode kann das Skript, in welchem sich gerade der Cursor befindet, auch ganz einfach mit Ctrl+F5 gestartet werden. Dann nämlich läuft der VSCode-Debugger an und verarbeitet das Skript, greift aber nicht ein. Die Skriptausgaben sind in der DEBUG CONSOLE zu finden.  
 
