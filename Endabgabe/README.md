@@ -33,15 +33,15 @@ https://www.typescriptlang.org/
 
 ### Weitere Hinweise
 
-Haben Sie keine Angst vor nicht komplett funktionierenden Abgaben. Sofern Sie im mündlichen Teil erklären können was nicht funktioniert und warum, und was Sie versucht haben um das Problem zu lösen, können Sie immernoch eine sehr gute Note erreichen.
+Haben Sie keine Angst vor nicht komplett funktionierenden Abgaben. Sofern kleinere Teile nicht funktionieren aber Sie im mündlichen Teil erklären können was nicht funktioniert und warum, und was Sie versucht haben um das Problem zu lösen, können Sie immernoch eine sehr gute Note erreichen.
 
 Es wird dringend empfohlen...
-- ...nicht einfach Ihren alten Code zu kopieren. Nehmen Sie was sie bereits haben als Grundlage, aber nicht als Kopierresource. Einzelne Zeilen oder Konzepte können Sie ggf. übernehmen, aber bedenken Sie die aktuellen Anforderungen (und erinnern Sie sich an die Steine die Sie sich selbst in den Weg gelegt haben).
+- ...nicht einfach Ihren alten Code zu kopieren. Nehmen Sie was sie bereits haben als Grundlage, aber nicht als Kopierresource. Einzelne Zeilen oder Konzepte können Sie ggf. übernehmen, aber bedenken Sie die aktuellen Anforderungen (und erinnern Sie sich an die Steine die Sie sich während dem Praktikum selbst in den Weg gelegt haben und vermeiden Sie diese).
 - ...nicht einfach drauf los zu Coden. Nehmen Sie sich die Zeit, und machen Sie sich zumindest ein bisschen einen Plan und halten Sie diesen Plan in geeigneter Form fest. Optimalerweise fallen Ihnen an diesem Punkt schon mögliche Schwierigkeiten (und Lösungen) ein, wodurch Sie dann nicht nachdem Sie schon die Hälfte gecodet haben nochmal alles wegschmeißen müssen. Dies hilft Ihnen auch selbst dabei, Ihre Gedanken zu sortieren und zu organisieren. Dazu gehören solche Überlegungen wie
-  - Wie sollte das Frontend aussehen und funktionieren?
+  - Wie sollte das Frontend aussehen und funktionieren? Welche Seiten brauche ich?
   - Wie sollen meine Datenstrukturen aussehen? Was für Interfaces brauche ich?
   - Welcher Player (Client/Server/Datenbank) übernimmt welche Funktionalität?
-  - Wie kann ich diese Funktionalität so implementieren, dass ich damit möglichst wenig arbeit habe, sowohl beim Entwickeln als auch bei potentiellen (sicheren) Änderungen? 
+  - Wie kann ich diese Funktionalität so implementieren, dass ich damit möglichst wenig Arbeit habe, sowohl beim Entwickeln als auch bei ~~potentiellen~~ _wahrscheinlichen_ Änderungen? 
   - Wie sollte die Datenbank strukturiert sein?  
   - Wie arbeitet was miteinander zusammen?
   - (Diese Überlegungen dürfen Sie gerne mit abgeben, damit wir sehen was Sie sich dabei gedacht haben. Besonders im Fall dass irgendetwas nicht so ganz funktioniert ist das hilfreich!)
@@ -62,7 +62,7 @@ _Erinnerung: Sie müssen nur **EINE** dieser drei Aufgaben entwickeln._
 
 ## Kursseite
 
-Entwickeln Sie eine neue Kursseite für GiS. Diese sollte es den Studierenden erlauben, sich über einen Link zu registrieren, welcher daraufhin auf der Kursseite zusammen mit einem Profilbild eingeblendet wird (Email oder sonstige Validierung ist nicht notwendig). Außerdem müssen von einer Professor-Ansicht (welche z.B. durch ein Passwort oder eine seperate Seite umgesetzt werden kann) aus...
+Entwickeln Sie eine neue Kursseite für GiS. Diese sollte es den Studierenden erlauben, sich über einen Link zu registrieren, welcher daraufhin auf der Kursseite auf einen (selbstverwalteten) Steckbrief zusammen mit einem Profilbild verweist, welche angezeigt werden (Email oder sonstige Validierung ist nicht notwendig). Außerdem müssen von einer Professor-Ansicht (welche z.B. durch ein Passwort oder eine seperate Seite umgesetzt werden kann) aus...
 - ... Feedback gegeben werden können.
 - ... Ampeln gegeben und wieder entfernt werden können.
 - ... Gruppen gewechselt werden können.
@@ -71,7 +71,7 @@ Entwickeln Sie eine neue Kursseite für GiS. Diese sollte es den Studierenden er
 
 Ermöglichen Sie den Seitenbesuchern, nach Gruppe zu sortieren.
 
-Bauen Sie außerdem gerne weitere Features ein, die Sie für sinnvoll halten. Und orientieren Sie sich nicht allzu stark an der exitierenden Seite ;)
+Bauen Sie außerdem gerne weitere Features ein, die Sie für sinnvoll halten (z.B. Timestamps, anderes Layout, etc etc), sowohl für die Professoren als auch die Studierenden. Orientieren Sie sich nicht allzu stark an der exitierenden Seite, sondern höchstens um zu wissen, was man alles verbessern könnte 😉
 
 ## Eisdiele(r)
 
