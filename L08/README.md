@@ -14,9 +14,12 @@ Bei `method="get"` werden die Daten als Zeichenketten einfach im Klartext an den
 ```html
 <button type="submit">Abschicken</button>
 ```
+
 einen Submit-Button im Formular ein. Untersuchen Sie was geschieht, wenn Sie nun die Seite aufrufen und den Button betätigen.
 
 > - Nutzen Sie nun als Wert für Action die Addresse `https://gis-example.herokuapp.com/`. Dies ist ein Beispiel für den einfachen Server den wir diese Woche entwickeln werden.
+
+> **Hinweis** Verwenden Sie unbedingt das Attribut `name="fname"` in ihrem `<input>` Tag, da sonst `method="GET"` nicht funktioniert
 
 > Der typ `"submit"` ist die Voreinstellung für Buttons und muss nicht explizit angegeben werden. Jeder Button innerhalb eines Formulars, bei dem nicht explizit ein anderer Typ angegeben ist, führt also automatisch zum Datenversand. Und häufig zu Verwirrung bei den Entwicklern...
 
