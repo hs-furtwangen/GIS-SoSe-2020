@@ -23,6 +23,8 @@ Ihre Aufgabe muss selbstverständlich online einsehbar, über den Steckbrief err
     - Datenbanken und deren Inhalte sind nicht abzugeben. Stattdessen ist eine einfache Beschreibung / Darstellung ihrer Datenbankstruktur beizufügen.
     - Es sollte auch eine kurze(!) Anleitung beigefügt sein, wie man die Anwedung zum laufen bringt (z.B. welche Datei muss als Node Server ausgeführt werden? welche html Datei im Browser geöffnet? Muss ein LiveServer verwendet werden?)
     - Achten Sie auf eine sinnvolle Ordner-/Dateistruktur.
+    - Archivname sollte sein `Nachname_Vorname_Matrikelnummer.zip`
+    - Außerdem ist eine (unterschriebene) **Eidesstattliche Erklärung**, welche die eigenständige Lösungserarbeitung bestätigt, z.B. als PDF beigefügt sein. [Vorlage](ee_vorlage.pdf)
 
 - Die Aufgaben lassen nicht zufällig einiges an Interpretationsspielraum. Toben Sie sich aus, machen Sie sich Gedanken, werden Sie kreativ, haben Sie Spaß.
 - **Bei der Endabgabe muss jeder seine komplett eigene Lösung erarbeiten.** Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. Die Aufgaben sind eigentlich weit genug gestellt, dass es keine zwei gleichen (oder verdächtig ähnliche) Abgaben geben sollte.
