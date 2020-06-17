@@ -87,7 +87,7 @@ Um also Daten per Get mit Fetch zu senden, muss lediglich der URL um den Query-S
 ```typescript
 let url: string = "https://whatever.server/path/file";
 let query: URLSearchParams = new URLSearchParams(<any>formData);
-url += url + "?" + query.toString();
+url = url + "?" + query.toString();
 await fetch(url);
 ```
 > Zurzeit (2020) wird leider noch ein kleiner Hack verwendet, da TypeScript noch nicht ein Objekt vom Typ FormData als Parameter akzeptiert und daher mit `<any>` ausgetrickst werden muss.
