@@ -6,11 +6,13 @@ Entwickeln Sie **EINE** von diesen drei Anwendungen. Sie haben komplett freie Au
 
 Ihre Aufgabe muss selbstverständlich online einsehbar, über den Steckbrief erreichbar und benutzbar sein.
 
-## Deadline: Sonntag, 26.07.2020, 23:59
+>## Deadline: Sonntag, 26.07.2020, 23:59
 
 ## Hinweise zur Abschlussarbeit
 
 - In der Woche vom 27.6. bis zum 02.06. werden Ihre Arbeiten von den Dozenten korrigiert. In der Woche darauf (03.-07.08.) werden Sie ihre Arbeit mündlich "verteidigen", bzw eine mündlichen Prüfung absolvieren. In dieser mündlichen Prüfung geht es im Allgemeinen um die Lehrinhalte des Semesters und im Besonderen um ihre Endabgabe. Dort bekommen Sie dann auch direkt ihre Note für das Modul mitgeteilt. Nährere Infos zum Ablauf und Zeitplan der mündlichen Prüfungen werden später nachgereicht.
+
+- Die Endabgabe ist **NICHT** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden. Die Endabgabe ist, gemeinsam mit der mündlichen Prüfung, die Prüfungsleistung für das Fach GIS. Sie ersetzen eine schriftliche Klausur, die dieses Semester aufgrund der gesundheitlichen Lage nicht wie in den vergangenen Semestern durchgeführt werden kann.
 
 - Der Kriterienkatalog für die Bewertung kann [hier](Kriterienkatalog) eingesehen werden.
 
@@ -33,10 +35,10 @@ https://www.typescriptlang.org/
 
 ### Weitere Hinweise
 
-Haben Sie keine Angst vor nicht komplett funktionierenden Abgaben. Sofern kleinere Teile nicht funktionieren aber Sie im mündlichen Teil erklären können was nicht funktioniert und warum, und was Sie versucht haben um das Problem zu lösen, können Sie immernoch eine sehr gute Note erreichen.
+Haben Sie keine Angst vor nicht komplett funktionierenden Abgaben. Sofern kleinere Teile nicht funktionieren aber Sie im mündlichen Teil erklären können was nicht funktioniert und warum, und was Sie versucht haben um das Problem zu lösen, können Sie immer noch eine sehr gute Note erreichen.
 
 Es wird dringend empfohlen...
-- ...nicht einfach Ihren alten Code zu kopieren. Nehmen Sie was sie bereits haben als Grundlage, aber nicht als Kopierresource. Einzelne Zeilen oder Konzepte können Sie ggf. übernehmen, aber bedenken Sie die aktuellen Anforderungen (und erinnern Sie sich an die Steine die Sie sich während dem Praktikum selbst in den Weg gelegt haben und vermeiden Sie diese).
+- ...nicht einfach Ihren alten Code zu kopieren. Nehmen Sie was Sie bereits haben als Grundlage, aber nicht als Kopierresource. Einzelne Zeilen oder Konzepte können Sie ggf. übernehmen, aber bedenken Sie die aktuellen Anforderungen (und erinnern Sie sich an die Steine die Sie sich während dem Praktikum selbst in den Weg gelegt haben und vermeiden Sie diese).
 - ...nicht einfach drauf los zu Coden. Nehmen Sie sich die Zeit, und machen Sie sich zumindest ein bisschen einen Plan und halten Sie diesen Plan in geeigneter Form fest. Optimalerweise fallen Ihnen an diesem Punkt schon mögliche Schwierigkeiten (und Lösungen) ein, wodurch Sie dann nicht nachdem Sie schon die Hälfte gecodet haben nochmal alles wegschmeißen müssen. Dies hilft Ihnen auch selbst dabei, Ihre Gedanken zu sortieren und zu organisieren. Dazu gehören solche Überlegungen wie
   - Wie sollte das Frontend aussehen und funktionieren? Welche Seiten brauche ich?
   - Wie sollen meine Datenstrukturen aussehen? Was für Interfaces brauche ich?
@@ -82,7 +84,7 @@ Entwickeln Sie eine Online-Eisdiele, bei der es zwei Ansichten gibt:
 ## HFUChat
 
 Entwickeln sie einen Online-Chatraum mit persistenten Chatverläufen. Das heißt, dass vorherige Nachrichten auch noch vorhanden sind, wenn man sich nach einigen Tagen erneut einloggt. Erlauben Sie mindestens zwei verschiedene (globale) Chaträume, welche von der gleichen Seite aus auswähl- und nutzbar sind. Erlauben Sie Nutzern, sich mit Nutzername und Passwort zu registrieren und dann anzumelden. Machen Sie sich keine Sorgen über Datensicherheit, sondern teilen Sie Ihren Nutzern einfach freundlich mit, [dass es dafür kein Budget mehr gab](https://pics.me.me/pick-a-password-dont-reuse-your-bank-password-we-didnt-45247832.png).
-Lediglich eingeloggt Nutzer sollen in der Lage sein, Chatnachrichten zu sehen und zu schreiben.
+Lediglich eingeloggte Nutzer sollen in der Lage sein, Chatnachrichten zu sehen und zu schreiben.
 
 
 ---
