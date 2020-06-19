@@ -124,3 +124,11 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - FormData
 - URL
 - NodeJS
+
+---
+
+## [**24 _Juni_** Server Request Verarbeitung](L09)
+
+- URL Modul
+- Request Handling
+- (POST Request)

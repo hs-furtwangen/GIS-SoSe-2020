@@ -7,13 +7,13 @@
 
 Für diese Aufgabe benötigen Sie das [<ins>URL Modul</ins>](https://www.w3schools.com/nodejs/nodejs_url.asp) von Node.js. 
 
-Die Aufgabe des URL Moduls ist es eine URL (Adresse einer Website oder Unterseite + zusätzliche Attribute) in einzelne, les- und verwerbare Teile aufzusplitten. So können Anfragen von Nutzern die per GET über eine URL an einen Server verschickt werden besser weiterverarbeitet werden. 
+Die Aufgabe des URL Moduls ist es, einen URL (Adresse einer Website oder Unterseite + zusätzliche Attribute) in einzelne, les- und verwendbare Teile aufzusplitten. So können u.a. Anfragen von Nutzern die per GET über eine URL an einen Server verschickt werden besser/einfacher weiterverarbeitet werden. 
 
 Diese Methode wird oft verwendet, um zum Beispiel eine Suchanfrage in einer Datenbank durchzuführen, oder Inforamtionen an ein Skript zu senden. 
 
 >**Hinweis** Node.js Module funktionieren ausschließlich serverseitig. Wenn Sie versuchen Node.js Module in Ihrem Client zu verwenden wird das nicht funktionieren.
 
-Um einen Server zu bauen der Anfragen von Clients verarbeiten kann, brauchen Sie zunächst immer (wie in Aufgabe 8) das Modul `http`, danit Ihr Serber über das HTTP protokoll erreicht werden kann. Das Modul `url` hilft Ihnen den query-String zu extrahieren und zu interpretieren. Beide Module können mit dem Schlüsselwort `import` geladen und einer Variablen zugewiesen werden, über welche auf die Funktionen und Objekte der jeweiligen Module zugegriffen werden kann. Das Symbol `*` gibt dabei an, dass sämtliche Funktionalität der Module importiert werden soll, hier könnte auch eine einschränkendere Auswahl getroffen werden, was die allgemeine Performance steigert (Da nicht alle Teilmodule eines Moduls geladen werden).
+Um einen Server zu entwickeln, der Anfragen von Clients verarbeiten kann, brauchen Sie zunächst immer (wie in Aufgabe 8) das Modul `http`, damit Ihr Server über das HTTP Protokoll erreicht werden kann. Das Modul `url` hilft Ihnen, den query-String zu extrahieren und zu interpretieren. Beide Module können mit dem Schlüsselwort `import` geladen und einer Variablen zugewiesen werden, über welche auf die Funktionen und Objekte der jeweiligen Module zugegriffen werden kann. Das Symbol `*` gibt dabei an, dass sämtliche Funktionalität der Module importiert werden soll, hier könnte auch eine einschränkendere Auswahl getroffen werden, was die allgemeine Performance steigert (da dann nicht alle Teilmodule eines Moduls geladen werden).
 
 Sie benötigen also in Ihrer Serverklasse `http` und `url`:
 
@@ -25,13 +25,13 @@ export namespace ... {
     Http.createServer(...);
 }
 ```
-**Achtung:** Wird `import` verwendet, geht TypeScript davon aus, dass ein eigenes, neues Modul erzeugt werden soll und fordert das Schlüsselwort `export` vor `namespace`, auch wenn es hier eigentlich bedeutungslos ist.
+**Achtung:** Wird `import` verwendet, geht TypeScript davon aus, dass ein eigenes, neues Modul erzeugt werden soll und fordert ggf. das Schlüsselwort `export` vor `namespace`, auch wenn es hier eigentlich bedeutungslos ist. Ein Fall ist bekannt bei dem dieses `export` eine Fehlerhafte js Datei erzeugt hat. Wenn das bei Ihnen auch der Fall ist, melden Sie sich bitte.
 
-Viele der Standardmodule, wie `http` und `url`, sind in der [<ins>Node-Dokumentation</ins>](https://nodejs.org/de/docs/) beschrieben.
+Viele der Standardmodule, wie `http` und `url`, sind in der [Node-Dokumentation](https://nodejs.org/de/docs/) beschrieben.
 
-- Testen Sie nun folgenden Beispielcode auf Ihrem Node.js Server und stellen Sie sicher, dass Sie die Aktuelle Version von Node typings installiert haben. Zum Aktualisieren führen Sie einfach `npm install --save-dev @types/node` im Terminal Ihres Servers aus.
+> - Testen Sie nun folgenden Beispielcode auf Ihrem Node.js Server und stellen Sie sicher, dass Sie die aktuelle Version von Node typings installiert haben. Zum Aktualisieren führen Sie einfach `npm install --save-dev @types/node` im Terminal Ihres Servers aus.
 
->**Wo soll ich den code Testen?** Auf Ihrem Heroku Server . Hier finden Sie noch einmal den [<ins>Node-Server-Beispielcode</ins>](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe08/Server/server.ts) aus der letzten Aufgabe der größtenteils Ihrem Heroku Server entsprechen sollte.
+>**Wo soll ich den Code testen?** Zunächst einmal lokal über einen im Terminal gestarteten node server. Fertige Anwendungen dann nochmal auf Ihrem Heroku Server. Hier finden Sie noch einmal den [Node-Server-Beispielcode](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe08/Server/server.ts) aus der letzten Aufgabe der größtenteils Ihrem Heroku Server entsprechen sollte. Für Beispielcode wie den folgenden, bietet es sich auch immer an, eine eigene Datei anzulegen und so ohne die Umstände des eigentlichen Codes ein wenig herumprobieren zu können.
 
 ### Import des URL Moduls:
 
@@ -59,14 +59,17 @@ var qdata = q.query;
 console.log(qdata.monat);
 ```
 
-### Eigenschaften des URL Objekes:
+### Eigenschaften des URL Objektes:
+
+> Siehe auch nochmal [das Diagramm zum URL aus A08](../L08/#uniform-resource-locator-url)
 
 ![properties of URL](Properties_URL_Module.png)
 
-- Untersuchen Sie folgende Tabelle und vergleichen Sie mit dem Beispiel. Wie können Sie auf den Port der URL im Beispiel oben zugreifen? Wie auf das mitgelieferte Custom-Attribut `jahr`?
-- Fangen Sie die URL eines Klienten ab und testen Sie, ob Sie eine über ein per HTML Formular & `GET` gesendete URL in die Einzelteile zerlegen können.
+> - Untersuchen Sie folgende Tabelle und vergleichen Sie mit dem Beispiel. Wie können Sie auf den Port des URL im Beispiel oben zugreifen? Wie auf das mitgelieferte Custom-Attribut `jahr`?
+> - Fangen Sie die URL eines Klienten ab und testen Sie, ob Sie einen über ein per HTML Formular & `GET` gesendeten URL in die Einzelteile zerlegen können.
 
->**Hinweis** Es ist hilfreich auch den folgenden Absatz zu lesen bevor Sie mit dem Testen auf Ihrem Server anfagnen.
+
+>**Hinweis** Es ist hilfreich auch den folgenden Absatz zu lesen bevor Sie mit dem Testen auf Ihrem Server anfangen.
 
 ## Handle Request
 
@@ -87,7 +90,7 @@ console.log(qdata.monat);
 
 - Video 1: Einfachen Server (Ähnlich wie der Beispiel-Server aus A8) aufsetzen, einfaches Request Handling
 - Video 2: Komplexeres Request Handling & Antwort an Client zurückschicken
-- Video 3: Antwort des Servers auf dem Klienten verarbeiten
+- Video 3: Antwort des Servers auf dem Client verarbeiten
 
 Um Anfragen von Nutzern auf einem Server verarbeiten zu können, wurde auf dem [<ins>Beispiel-Node-Server</ins>](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe08/Server/server.ts) der letzten Aufgabe folgender Event-Listener installiert:
 
@@ -101,7 +104,7 @@ Die Events die auf einem Node Server ankommen und verarbeitet werden sind jedoch
 
 Der Handler zum Request-Event der Funktion `handleRequest` erwartet zwei Parameter: 
 - Den ersten vom Typ `IncomingMessage`
-- Den zweitem vom Typ `ServerResponse` aus dem `http`-Modul.  
+- Den zweiten vom Typ `ServerResponse`, beide aus dem `http`-Modul.  
 
 `IncomingMessage` liefert Informationen zum eingegangenen Request Objekt, zum Beispiel die URL als String. Um daraus bequem den Query-Teil zu extrahieren, bietet das `url`-Modul hilfreiche Methoden. `parse` interpretiert die URL und erzeugt daraus ein neues Objekt, dessen Eigenschaft `query` nun wieder ein assoziatives Array darstellt.
 
@@ -123,7 +126,7 @@ In diesem Beispiel verschickt der Server lediglich die Antwort mit dem Inhalt `"
 
 ## Post Anfrage Serverseitig auslesen (für Bonusaufgabe relevant)
 
-Dieser Abschnitt ist weder Prüfungsrelevant, noch für die normalen Aufgaben -> Er soll für ein verbessertes Verständnis zu serverseitiger POST-Verarbeitung für alle an der Bonusaufgabe interessierten geben.
+Dieser Abschnitt ist weder Prüfungsrelevant, noch für die normalen Aufgaben -> Er soll für ein verbessertes Verständnis zu serverseitiger POST-Verarbeitung für alle an der Bonusaufgabe Interessierten geben.
 
 Die Methode `POST` in serverseitigen Anfragen zu verwenden bietet einige Vorteile (es kann trotzdem sinnvoll sein in manchen Fällen `GET` zu verwenden):
 
@@ -132,17 +135,12 @@ Die Methode `POST` in serverseitigen Anfragen zu verwenden bietet einige Vorteil
 - Mit POST können beliebig viele Daten verschickt werden. GET ist auf 2048 Zeichen beschränkt
 
 
-Die Verarbeitung von POST anfragen in Node.js ist jedoch nicht ganz einfach. Hier sind zwei hilfreiche Ressourcen, um POST-Anfragen serverseitig verabeiten zu können.
+Die Verarbeitung von POST Anfragen in Node.js ist jedoch nicht ganz einfach. Hier sind zwei hilfreiche Ressourcen, um POST-Anfragen serverseitig verabeiten zu können, ansonsten können Sie sich auch direkt den weiter unten stehenden Beispielcode ansehen.
 
 - [POST Daten ohne extentions auslesen](https://itnext.io/how-to-handle-the-post-request-body-in-node-js-without-using-a-framework-cd2038b93190)
 - [POST Daten mithilfe von Express auslesen](https://stackoverflow.com/questions/4295782/how-to-process-post-data-in-node-js)
 
-Inhalte: 
-- Node.js URL Modul
-- handleRequest aus EIA2-Inverted L06
-- s. auch Implementation 2 Video(s)
-
-- POST Anfrage über fetch und Auslesen auf Serverseite (vllt nur in die Bonusaufgabe rein? Oder ein Vermerk dass "nicht Prüfungsrelevant"?)
+> **Hinweis** Der Vollständigkeit halber soll an dieser Stelle nicht unerwähnt bleiben, dass es neben GET und POST noch weitere, teilweise ähnlich funktionierende Serveranfragen gibt, welche für spezielle Anfragen genutzt werden können: HEAD, PUT, PATCH, DELETE, OPTIONS, etc. Will man z.B. wie oben erwähnt eine Löschanweisung an den Server senden, so könnte man dies über POST machen, noch besser wäre es aber, eine DELETE Anfrage zu verwenden. Diese verschiedenen Arten von Anfragen sind auch als das **REST Modell** (Representational State Transfer) bekannt.
 
 Beispielcode Clientseite
 ```typescript
@@ -177,6 +175,8 @@ if (_request.method == "POST") {
   - aufbereiten
   - umwandeln
 
+Diese Tools sind bereits sehr mächtig und die Grundlage fast jeder App, Webseite u.ä.  
+Mit diesem Wissen könnten Sie jetzt beginnen, ihre eigenen Webapps zu schreiben.
 
 ### Typescript Dokumentation
 
@@ -184,14 +184,16 @@ https://www.typescriptlang.org/
 
 ## **A _---_** Praktikumsaufgabe
 
->**Bei Problemen/Unklarheiten:** können Sie ins Praktikum kommen oder per Discord/Mail fragen stellen.
+>**Bei Problemen/Unklarheiten:** können Sie ins Praktikum kommen oder per Discord/Mail Fragen stellen.
 
-### Aufgabe 1
+### Aufgabe
 
 Ändern Sie den Servercode dahingehend, dass er statt einfach nur einem URL Bounce die in der URL (im query Teil / über eine GET Anfrage) übergebenen Variablen und Werte zunächst in ein Javascript Objekt / Assoziatives Array umwandelt, bzw diese aus der URL ausließt (s. `Url.parse()`). Geben Sie nun unter verschiedenen Pfaden die Informationen auf verschidene Weisen zurück:
 
 - unter `/html` formatieren Sie die übergebenen Daten gut lesbar als HTML Text/Code. Dieser zurückgegebene HTML Code soll nun auf der Formularseite einfach als Antwort des Servers in die Seite ohne weitere Formatierungen eingebunden werden.
 - unter `/json` formatieren Sie die übergebenen Daten als JSON Objekt und geben das zurück. Auf der Formularseite parsen Sie dieses in ein JS Objekt und geben dieses auf der Konsole aus. Vergleichen Sie (mit bloßem Auge) das Objekt welches Sie zurück bekommen haben mit dem Objekt das sie los geschickt haben. Wenn die Objekte gleich sind, haben Sie alles richtig gemacht.
+
+Verlinken Sie beide Anfragen in einer HTML Seite, entweder über unterschiedliche Buttons bei gleichem Formular oder nutzen Sie zwei Formulare. Nutzen Sie weiterhin `fetch()` um Ihre Anfragen zu versenden und die Antworten zu empfangen, sonst können Sie die Antworten nicht auf ihrer eigenen Seite darstellen.
 
 ### Bonusaufgabe
 
@@ -201,7 +203,7 @@ Versuchen Sie, statt über GET über POST eine Anfrage zu verschicken und auszul
 
 ### **Abgabetermin: 28.06.2020 um 18:00!**
 
-Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_6).
+Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_9).
 
 >### **Achtung!:** Eine fehlerhafte Abgabe fürt zu einer 🚦 die **im Praktikum** verteidigt werden muss. Keine Abgabe zu 2 🚦 von denen nur 1e 🚦 verteidigt werden kann.
 
