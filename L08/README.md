@@ -2,6 +2,7 @@
 
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
+*[direkt zur Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe08/)*
 
 In [Aufgabe 7 - Kommunikation](../L07) haben wir die grundsätzlichen Formen der Kommunikation zwischen Asynchron & Synchron angeschaut. Bitte lesen Sie sich den Abschnitt `Kommunikation` erneut durch, um folgenden Abschnitt besser verstehen zu können.
 

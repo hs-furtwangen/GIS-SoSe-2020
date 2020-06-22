@@ -115,6 +115,7 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - JSON -> Daten laden und speichern
 - Local Storage -> Daten laden und speichern
 - Kommunikation -> Anfragen, fetch, async/await
+[Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe07/)
 
 ---
 
@@ -124,6 +125,7 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - FormData
 - URL
 - NodeJS
+[Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe08/)
 
 ---
 
