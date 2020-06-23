@@ -1,93 +1,118 @@
-# **E _---_** Endabgabe
+## **E _---_** Endabgabe
 
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
-Entwickeln Sie **EINE** von diesen drei Anwendungen. Sie haben komplett freie Auswahl.
+Die Endabgabe ist, gemeinsam mit der mündlichen Prüfung, die Prüfungsleistung für das Modul GIS. Die Endabgabe und die mündliche Prüfung ersetzen zusammen die schriftliche Klausur, die dieses Semester nicht durchgeführt werden kann.
 
-Ihre Aufgabe muss selbstverständlich online einsehbar, über den Steckbrief erreichbar und benutzbar sein.
+Ihnen stehen drei Aufgabenstellungen zur Wahl (siehe unten), die Sie selbstständig bearbeiten solllen. Die Lösung der Aufgabe ist im besten Fall eine laufähige Anwendung, die der jeweiligen Beschreibung genügt und in Ihrem Steckbrief (auf der Praktikumsseite) veröffentlicht ist.
 
->## Deadline: Sonntag, 26.07.2020, 23:59
+### Letztmöglicher Abgabetermin ist Sonntag, 26. Juli 2020, 23:59.
 
-## Hinweise zur Abschlussarbeit
+Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Endabgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls. Nährere Informationen zum Ablauf und Zeitplan der mündlichen Prüfungen werden rechtzeitig veröffentlicht.
 
-- In der Woche vom 27.6. bis zum 02.06. werden Ihre Arbeiten von den Dozenten korrigiert. In der Woche darauf (03.-07.08.) werden Sie ihre Arbeit mündlich "verteidigen", bzw eine mündlichen Prüfung absolvieren. In dieser mündlichen Prüfung geht es im Allgemeinen um die Lehrinhalte des Semesters und im Besonderen um ihre Endabgabe. Dort bekommen Sie dann auch direkt ihre Note für das Modul mitgeteilt. Nährere Infos zum Ablauf und Zeitplan der mündlichen Prüfungen werden später nachgereicht.
+#### Allgemeine Hinweise
 
-- Die Endabgabe ist **NICHT** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden. Die Endabgabe ist, gemeinsam mit der mündlichen Prüfung, die Prüfungsleistung für das Fach GIS. Sie ersetzen eine schriftliche Klausur, die dieses Semester aufgrund der gesundheitlichen Lage nicht wie in den vergangenen Semestern durchgeführt werden kann.
+- Der Kriterienkatalog für die Bewertung der Aufgabenlösungen kann [hier](Kriterienkatalogxxx) eingesehen werden.
 
-- Der Kriterienkatalog für die Bewertung kann [hier](Kriterienkatalog) eingesehen werden.
+- **Alle müssen eine eigene Lösung erarbeiten.** Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
-- Implementieren Sie Ihre Abschlussarbeit syntaktisch korrekt gemäß Ihrer technischen Analyse und nach den festgelegten Stil-Regeln mit Hilfe von Typescript, NodeJS, MongoDB, HTML, und CSS.
+- Implementieren Sie Ihre Lösung der gewählten Endaufgabe syntaktisch korrekt gemäß Ihrer technischen Analyse und nach den festgelegten Stil-Regeln mit Hilfe von Typescript, NodeJS, MongoDB, HTML, und CSS.
+
 - Testen Sie die Applikation regelmäßig, ausgiebig und frühzeitig. Lassen Sie auch andere Personen testen um festzustellen, ob die Anwendung bedienbar und fehlertolerant ist. 
-- Beachten Sie die [Coding Style Guidelines](https://hs-furtwangen.github.io/GIS-SoSe-2020/codingstyle/). Code der diesen Guidelines nicht entspricht führt zu Abzug! Code der W3 Errors oder JS-Errors aufweist führt ebenfalls zu Abzügen!
-- **Abgabe**
-  - Platzieren Sie wie üblich einen Link auf die fertige und lauffähige Anwendung im Steckbrief
-  - Stellen Sie zudem auf diese Art auch ein gepacktes Archiv (z.B. .zip) zur Verfügung, welches die Projektordner inklusive aller erforderlichen Dateien, also TS, JS (sowohl server als auch client seitig), HTML, CSS, aber auch Bild- und Audiodaten, enthält. 
-    - Datenbanken und deren Inhalte sind nicht abzugeben. Stattdessen ist eine einfache Beschreibung / Darstellung ihrer Datenbankstruktur beizufügen.
-    - Es sollte auch eine kurze(!) Anleitung beigefügt sein, wie man die Anwedung zum laufen bringt (z.B. welche Datei muss als Node Server ausgeführt werden? welche html Datei im Browser geöffnet? Muss ein LiveServer verwendet werden?)
-    - Achten Sie auf eine sinnvolle Ordner-/Dateistruktur.
-    - Archivname sollte sein `Nachname_Vorname_Matrikelnummer.zip`
-    - Außerdem ist eine (unterschriebene) **Eidesstattliche Erklärung**, welche die eigenständige Lösungserarbeitung bestätigt, z.B. als PDF beigefügt sein. [Vorlage](ee_vorlage.pdf)
 
-- Die Aufgaben lassen nicht zufällig einiges an Interpretationsspielraum. Toben Sie sich aus, machen Sie sich Gedanken, werden Sie kreativ, haben Sie Spaß.
-- **Bei der Endabgabe muss jeder seine komplett eigene Lösung erarbeiten.** Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. Die Aufgaben sind eigentlich weit genug gestellt, dass es keine zwei gleichen (oder verdächtig ähnliche) Abgaben geben sollte.
+- Die Aufgaben lassen nicht zufällig einiges an Interpretationsspielraum. Toben Sie sich aus, machen Sie sich Gedanken, seien Sie kreativ, haben Sie Spaß.
 
-### Typescript Dokumentation
+- Die Endabgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
+
+#### Hinweise zur Abgabe
+- Fügen Sie – wie bei den Praktikumsaufgaben – in den Steckbrief einen Link auf die fertige und lauffähige Anwendung ein.
+- Fügen außerdem im Steckbrief einen Link auf eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt ein:
+  1. alle Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
+  2. eine kurze(!) Anleitung, wie man die Anwedung zum laufen bringt (z.B. Welche Datei muss als Node Server ausgeführt werden? Welche html Datei im Browser geöffnet? Muss ein *LiveServer* verwendet werden?)
+  3. eine einfache Beschreibung / Darstellung ihrer Datenbankstruktur [//]: # NoS: In welcher Form???
+  4. eine (unterschriebene) *Eidesstattliche Erklärung*, welche die eigenständige Lösungserarbeitung bestätigt (z.B. als PDF nach [dieser](ee_vorlage.pdf) Vorlage)
+
+- Achten Sie auf eine sinnvolle Ordner-/Dateistruktur.
+
+- Benennen Sie das Datenarchiv nach folgendem Schema: `<Nachname>_<Vorname>_<Matrikelnummer>.zip`
+
+- Der Inhalt der Datenbaken ist nicht abzugeben.
+
+#### Typescript Dokumentation
 
 https://www.typescriptlang.org/
 
-### Weitere Hinweise
+#### Empfehlungen und Tipps
 
 Haben Sie keine Angst vor nicht komplett funktionierenden Abgaben. Sofern kleinere Teile nicht funktionieren aber Sie im mündlichen Teil erklären können was nicht funktioniert und warum, und was Sie versucht haben um das Problem zu lösen, können Sie immer noch eine sehr gute Note erreichen.
 
-Es wird dringend empfohlen...
-- ...nicht einfach Ihren alten Code zu kopieren. Nehmen Sie was Sie bereits haben als Grundlage, aber nicht als Kopierresource. Einzelne Zeilen oder Konzepte können Sie ggf. übernehmen, aber bedenken Sie die aktuellen Anforderungen (und erinnern Sie sich an die Steine die Sie sich während dem Praktikum selbst in den Weg gelegt haben und vermeiden Sie diese).
-- ...nicht einfach drauf los zu Coden. Nehmen Sie sich die Zeit, und machen Sie sich zumindest ein bisschen einen Plan und halten Sie diesen Plan in geeigneter Form fest. Optimalerweise fallen Ihnen an diesem Punkt schon mögliche Schwierigkeiten (und Lösungen) ein, wodurch Sie dann nicht nachdem Sie schon die Hälfte gecodet haben nochmal alles wegschmeißen müssen. Dies hilft Ihnen auch selbst dabei, Ihre Gedanken zu sortieren und zu organisieren. Dazu gehören solche Überlegungen wie
+Es wird dringend empfohlen ...
+- ... nicht einfach Ihren alten Code zu kopieren. Nehmen Sie was Sie bereits haben als Grundlage, aber nicht als Kopiervorlage. Einzelne Zeilen oder Konzepte können Sie ggf. übernehmen, aber bedenken Sie die aktuellen Anforderungen (und erinnern Sie sich an die Steine, die Sie sich während dem Praktikum selbst in den Weg gelegt haben und vermeiden Sie diese).
+
+- ... nicht einfach drauf los zu Coden. Nehmen Sie sich die Zeit, machen Sie sich einen Plan und halten Sie diesen Plan in geeigneter Form fest. Optimalerweise fallen Ihnen an diesem Punkt schon mögliche Schwierigkeiten (und Lösungen) ein, wodurch Sie dann nicht nachdem Sie schon die Hälfte gecodet haben nochmal alles wegschmeißen müssen. Dies hilft Ihnen auch selbst dabei, Ihre Gedanken zu sortieren und zu organisieren. Dazu können z.B. folgende Überlegungen gehören:
   - Wie sollte das Frontend aussehen und funktionieren? Welche Seiten brauche ich?
   - Wie sollen meine Datenstrukturen aussehen? Was für Interfaces brauche ich?
-  - Welcher Player (Client/Server/Datenbank) übernimmt welche Funktionalität?
-  - Wie kann ich diese Funktionalität so implementieren, dass ich damit möglichst wenig Arbeit habe, sowohl beim Entwickeln als auch bei ~~potentiellen~~ _wahrscheinlichen_ Änderungen? 
+  - Welche Komponente (Client/Server/Datenbank) übernimmt welche Funktionalität?
+  - Wie kann ich diese Funktionalität so implementieren, dass ich damit möglichst wenig Arbeit habe, sowohl beim Entwickeln als auch bei potentiellen (wahrscheinlichen!) Änderungen? 
   - Wie sollte die Datenbank strukturiert sein?  
   - Wie arbeitet was miteinander zusammen?
-  - (Diese Überlegungen dürfen Sie gerne mit abgeben, damit wir sehen was Sie sich dabei gedacht haben. Besonders im Fall dass irgendetwas nicht so ganz funktioniert ist das hilfreich!)
 
-Sollten Sie damit Probleme haben wie sie Anfangen können, hier ein paar Tips:
+- ... Ihre Notizen mit abzugeben, damit ersichtlich wird, was Sie sich dabei gedacht haben. Besonders für den Fall dass irgendetwas nicht so ganz funktioniert wie geplant, ist das hilfreich.
+
+Sollten Sie damit Probleme haben wie sie Anfangen können, beachten Sie folgende Tipps:
 
 - Überlegen Sie sich, wie Ihre Anwendung umgesetzt werden könnte. Höchstwahrscheinlich werden Sie dies nicht sofort von Anfang bis Ende durchdenken und niederschreiben können.
+
 - Meist empfiehlt es sich, zuerst einen groben Ablauf darzustellen, um Teilaspekte zu identifizieren. Erstellen Sie dann für die Teilprobleme wieder Darstellungen. So wandert ihr Fokus von „wie setzte ich die Anwendung um?“ zu „wie setze ich diesen Teil oder diesen Aspekt der Anwendung um?“. 
+
 - Im Idealfall lassen sich Probleme auf diese Art so weit aufgliedern, bis sich für alle Unterprobleme einfache Lösungen finden, und damit das Gesamtproblem gelöst ist. In allen anderen Fällen hilft Ihnen diese Vorgehensweise zumindest, nicht über alles gleichzeitig nachdenken zu müssen und sich nicht schon am Anfang in Details zu verlieren.
 
->**Bei Problemen/Unklarheiten:** können Sie ins Praktikum kommen oder per Discord/Mail fragen stellen.
+>**Bei Problemen/Unklarheiten:** sollten Sie zum Praktikum kommen oder per Discord/Mail fragen stellen.
 
-**Wir freuen uns auf spannende Abgaben von Ihnen!**
+## Aufgaben zur Wahl
 
-# Aufgaben
+Zur Erinnerung: _Sie müssen nur **EINE** dieser drei Aufgaben bearbeiten._
 
-_Erinnerung: Sie müssen nur **EINE** dieser drei Aufgaben entwickeln._
-
-## Kursseite
-
-Entwickeln Sie eine neue Kursseite für GiS. Diese sollte es den Studierenden erlauben, sich über einen Link zu registrieren, welcher daraufhin auf der Kursseite auf einen (selbstverwalteten) Steckbrief zusammen mit einem Profilbild verweist, welche angezeigt werden (Email oder sonstige Validierung ist nicht notwendig). Außerdem müssen von einer Professor-Ansicht (welche z.B. durch ein Passwort oder eine seperate Seite umgesetzt werden kann) aus...
-- ... Feedback gegeben werden können.
-- ... Ampeln gegeben und wieder entfernt werden können.
-- ... Gruppen gewechselt werden können.
-- ... Sternchen (oder andere Boni) verteilt werden können.
-- ... Der registrierte Link angepasst werden können
-
-Ermöglichen Sie den Seitenbesuchern, nach Gruppe zu sortieren.
-
-Bauen Sie außerdem gerne weitere Features ein, die Sie für sinnvoll halten (z.B. Timestamps, anderes Layout, etc etc), sowohl für die Professoren als auch die Studierenden. Orientieren Sie sich nicht allzu stark an der exitierenden Seite, sondern höchstens um zu wissen, was man alles verbessern könnte 😉
-
-## Eisdiele(r)
+### Aufgabe A: Eisdiele
 
 Entwickeln Sie eine Online-Eisdiele, bei der es zwei Ansichten gibt:
-- Eine für die Kunden, in der diese über verschiedene Auswahlmöglichkeiten (Eissorte, Menge, div. Toppings, Becher oder Waffel, etc.) sich das Eis ihrer Träume zusammenstellen können und direkt live eine visuelle Darstellung davon angezeigt bekommen. Nachdem Lieferdaten (Name, Adresse) eingegeben wurden, soll die Bestellung in einer Datenbank abgelegt werden.
-- Eine für den Eisdielenbetreiber um die eingegangenen Bestellungen zu verwalten (einsehen, bearbeiten, löschen, etc). Machen Sie sich keine Sorgen um das "schützen" der Besitzer-Seite sondern machen Sie diese einfach frei zugänglich.
 
-## HFUChat
+- eine Ansicht für die Kunden, in der diese sich über verschiedene Auswahlmöglichkeiten (Eissorte, Menge, diverse Toppings, Becher oder Waffel, etc.) ihr Eis zusammenstellen können und davon laufend eine visuelle Darstellung angezeigt bekommen. Nachdem die Auswahl abgeschlossen ist und Lieferdaten (Name, Adresse) eingegeben wurden, soll die Bestellung in einer Datenbank abgelegt werden
 
-Entwickeln sie einen Online-Chatraum mit persistenten Chatverläufen. Das heißt, dass vorherige Nachrichten auch noch vorhanden sind, wenn man sich nach einigen Tagen erneut einloggt. Erlauben Sie mindestens zwei verschiedene (globale) Chaträume, welche von der gleichen Seite aus auswähl- und nutzbar sind. Erlauben Sie Nutzern, sich mit Nutzername und Passwort zu registrieren und dann anzumelden. Machen Sie sich keine Sorgen über Datensicherheit, sondern teilen Sie Ihren Nutzern einfach freundlich mit, [dass es dafür kein Budget mehr gab](https://pics.me.me/pick-a-password-dont-reuse-your-bank-password-we-didnt-45247832.png).
-Lediglich eingeloggte Nutzer sollen in der Lage sein, Chatnachrichten zu sehen und zu schreiben.
+- eine Ansicht für die Eisdielenbetreiber um die eingegangenen Bestellungen einzusehen, zu bearbeiten, und zu löschen (die Betreiber-Seite braucht nicht durch ein Passwort geschütz werden und kann frei zugänglich bleiben)
 
+### Aufgabe B: HFU Chat
+
+Entwickeln sie einen Online-Chat mit persistenten Chatverläufen (d.h. Chatverläufe werden auch noch angezeigt, wenn man sich nach beliebiger Zeit erneut einloggt) und folgenden Eigenschaften:
+
+- es gibt mindestens zwei verschiedene (globale) Chaträume, welche von der gleichen Seite aus auswähl- und nutzbar sind
+
+- die Nutzer können sich mit Nutzername und Passwort registrieren und dann anmelden (*einloggen*) um an den Chats teilzunehmen (sorgen Sie sich hierbei nicht um die Datensicherheit)
+
+- lediglich angemeldete Nutzer sollen in der Lage sein, Chatnachrichten zu sehen und zu schreiben
+
+### Aufgabe C: Neue Praktikumsseite
+
+Entwickeln Sie eine neue GIS-Kursseite mit folgenden Eigenschaften:
+
+- die Studierenden können sich mit einen Link registrieren, der auf einen selbstverwalteten Steckbrief mit einem Profilbild verweist, indem sie folgene Informationen eingeben:
+  - Vorname
+  - Name
+  - Matrikelnummer
+  - URL des Links (im Allgemeinen auf ein GitHub Repository)
+
+- die Steckbriefe aller registrierten Studierenden werden auf einer frei zugänglichen Seite zusammen mit folgenden Informationen in einer Liste angezeigt:
+  - Feedback zu den Lösungen der Praktikumsaufgaben
+  - fünfstufige Praktikumsbewertung ("Ampeln")
+  - Sternchen (oder ähnliche Boni)
+
+- eine über ein Passwort zugängliche Professoren-Ansicht erlaubt folgende Aktionen 
+  - Einfügen von Feedback zu den Aufgabenlösungen
+  - Setzen der aktuellen Praktikumsbewertung (fünfstufige "Ampeln")
+  - Verteilung von Sternchen (oder andere Boni)
+  - Anpassung des registrierten Steckbrief-Links
+
+Bauen Sie außerdem gerne weitere Features ein, die Sie für sinnvoll halten (z.B. Timestamps, Layout, etc.), sowohl für die Professoren als auch die Studierenden. Eine Validierung der Regsitrierung ist nich notwendig. Orientieren Sie sich nicht allzu stark an der exitierenden Seite (höchstens um zu wissen, was man alles verbessern könnte :-).
 
 ---
 
