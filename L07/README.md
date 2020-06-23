@@ -13,7 +13,7 @@ JSON ist eine Syntax um Daten speichern und austauschen zu können und wurde urs
 - JSON ist leicht zu lesen/verstehen
 - JSON ist sprachunabhängig
 
-### Daten austauschen: 
+### Daten austauschen
 Die Daten in JSON liegen in Textform vor, und wir können jedes TS/JavaScript-Objekt in JSON konvertieren und aus JSON einladen. JSON kann auch an und von einem Server gesendet werden. Wir können jedes beliebige vom Server empfangene JSON in TS/JavaScript-Objekte umwandeln.
 
 Auf diese Weise können wir komfotabel mit den Daten als TS/JavaScript-Objekte arbeiten.
@@ -36,6 +36,7 @@ document.getElementById("demo").innerHTML = myObj.name;
 ```
 ## Kommunikation
 Kommunikation ist der Prozess des Austauschs oder der Übertragung von Information. Dabei werden zwei grundsätzliche Formen derselben unterschieden. 
+
 ### Synchron
 ![](Synchron.svg)  
 
@@ -45,8 +46,8 @@ Synchron bedeutet "zeitlich gemeinsam". Bei der Kommunikation heißt das allerdi
 
 So klein diese Schleife auch erscheint, sie kann ein großes Problem darstellen. Die Systeme könnten die Wartezeiten sinnvoll nutzen, anstatt nur in Ihnen zu verharren. Besonders problematisch wird es, wenn ein System für die Antwort lange braucht. Wenn beispielsweise eine Webseite nicht mehr reagiert, weil der Browser auf eine Antwort des Servers wartet, wird der Nutzer den Prozess bald abbrechen. **Darum sollte synchrone Kommunikation in der Implementierung, besonders bei Systemen, welche ein bemerkbare Ladezeit haben, vermieden werden, um ein Blockieren des Systems zu verhindern.**
 
-
 ### Asynchron
+
 ![](Asynchron.svg)  
 Daher hat sich die asynchrone Kommunikation durchgesetzt. Die Kommunikationspartner setzen eine oder mehrere Anfragen ab, damit ist ihr Teil zunächst erledigt und sie können sich um andere Aufgaben kümmern. Irgendwann kommt ein Signal, dass eine Antwort auf eine der Anfragen vorliegt. Dieses dient als Startpunkt für einen neuen Prozess, bei dem zunächst die Antwort verarbeitet wird und gegebenenfalls weitere Anfragen verschickt werden.  
 
@@ -56,11 +57,13 @@ Daher hat sich die asynchrone Kommunikation durchgesetzt. Die Kommunikationspart
 Damit ist es Webseiten beispielsweise möglich, die Darstellung aufzubauen und Interaktion zur Verfügung zu stellen, während weitere Daten geladen werden. Oder während der Interaktion mit dem Nutzer Daten zu versenden.
 
 ## Implementation asynchroner Kommunikation
+
 ### XmlHttpRequest-Events
 Bei der asynchronen Kommunikation lässt sich wieder sehr gut die Ereignissteuerung einsetzen. Javascript bietet hierzu das Standardobjekt / die Standardklasse `XMLHttpRequest` an. Ein solches Objekt kann mit dem Schlüsselwort `new` erzeugt werden. Die Klasse bietet einige Kommandos, mit denen recht einfach eine Verbindung zu einem Server aufgebaut und eine Request verschickt werden kann. Während das Objekt die Verbindung verwaltet, erzeugt es bei Statusänderungen entsprechende Events, die wiederum mit dem üblichen Schema von Listeners abgefangen und an die zugehörigen Handlerfunktionen weitergeleitet werden. Auch die vollständige Übertragung der Serverantwort ist eine solche Statusänderung, womit dann die Clientseite einer Server-Client Kommunikation abgebildet werden kann.  
 > Das XML im Namen des Objektes verrät, dass es sich dabei um eine **etwas betagte Technologie** handelt, die 1999, während der Standardisierung von HTML4, von Microsoft veröffentlicht wurde. Sie ist aber weit verbreitet und kommt noch häufig zum Einsatz. [Mehr Infos gibt es hier.](https://wiki.selfhtml.org/wiki/JavaScript/XMLHttpRequest)
 
 ### Fetch & Promises
+
 2017 wurde die globale Javascript-Funktion `fetch` als Schnittstelle für asynchrone Kommunikation eingeführt. So kann mit einer einzigen Anweisung nach dem Muster `fetch(url [, data])` eine Request verschickt und eine Response erhalten werden. Aufgrund der Asynchronität liefert fetch aber nicht sofort die Antwort des Servers, sondern ein Objekt vom Typ `Promise`. Dies kann metaphorisch betrachtet werden: Das Versprechen, das fetch abgibt, verpflichtet dazu, die eigentliche Funktion auszuführen, in diesem Falle also zu kommunizieren, und im Erfolgsfall, sowie im Falle des Misserfolgs, bestimmte weitere Funktionen aufzurufen. Es handelt sich also wieder um eine Ereignissteuerung, die aber in einem etwas anderen Gewand daherkommt.  
 
 Im einfachsten Fall sieht das ganze Konstrukt dann so aus:
@@ -84,6 +87,7 @@ Auch hier ist die Funktionalität über mehrere Funktionen verteilt und daher in
 > **FunFact:** Dadurch entsteht ein Gewirr an Funktionen, das von Entwicklern als "Callback Hell" bezeichnet wird.
 
 ### Async/Await
+
 Deswegen wurden 2017 auch die neuen Schlüsselworte `async` und `await` in Javascript implementiert. Damit wird nun etwas ganz Erstaunliches möglich: Anstatt mit der synchronen Programmierweise (eine Anweisung im Code erfolgt strikt nach Beendigung der vorangegangenen) und Events asynchrone Prozesse abzubilden und damit "Callback Hell" zu erzeugen, wird mit Hilfe der beiden Schlüsselworte die Programmierung selbst asynchron. Damit wird das fetch-Beispiel plötzlich extrem übersichtlich:
 
 ```typescript
@@ -100,13 +104,13 @@ Mit dem Schlüsselwort `async` wird eine Funktion als asynchron deklariert, das 
 
 > **Hinweis**: fetch erwartet immer eine `http(s)://` Anfrage, wenn ihr es also lokal testen wollt, solltet ihr einen Live-Server verwenden, da sonst die Anfrage mit `file://` beginnt.
 
-## Local Storage:
+## Local Storage
 
 Local Storage ermöglicht es Ihnen, Key-Value (Schlüssel-Werte) Paare lokal im Cache (Zwischenspeicher) Ihres Browsers zu speichern (ist also effektiv ein Art assoziatives Array). So können Daten über meherere Seiten einer Website hinweg einfach zwischengespeichert und wieder eingeladen werden. Die Verwendung von Local Storage ist einfacher als die Verwendung von [Cookies](https://www.w3schools.com/js/js_cookies.asp). Local Storage ist allerdings nicht ganz so mächtig wie [Cookies](https://www.w3schools.com/js/js_cookies.asp) (da Cookies nach Ablauf einer gewissen Zeit automatisch gelöscht werden). Wenn Sie möchten können Sie sich auch gerne über Cookies informieren und stattdessen diese für die Praktikumsaufgabe nutzen. 
 
 > **Hinweis**: Wie fetch auch, muss localStorage über einen Liveserver getestet werden, da dieser sonst beim Seitenwechsel von einer lokalen Datei zu einer anderen sich selbst wieder löscht.
 
-### Beispiel für LocalStorage:
+### Beispiel für LocalStorage
 
 ```typescript
 // Item Speichern
@@ -115,13 +119,13 @@ localStorage.setItem("lastname", "Smith");
 (<HTMLElement>document.getElementById("test")).innerHTML = localStorage.getItem("lastname")!;
 ```
 
-### Daten wieder aus den LocalStorage löschen:
+### Daten wieder aus den LocalStorage löschen
 
 ```typescript
 localStorage.removeItem("lastname");
 ```
 
-### Weiteres Beispiel:
+### Weiteres Beispiel
 
 HTML Teil:
 
@@ -189,7 +193,7 @@ User haben die Mögkichkeit einzelne Artikel zu entfernen. Jeder dynamisch gener
 
 User können ihren gesamten Warenkorb löschen. Hierfür gibt es ebenfalls einen Button, der den localStorage leert & die Artikel aus dem Warenkorb entfernt. 
 
-## Bonusaufgabe (keine Pflicht):
+## Bonusaufgabe (keine Pflicht)
 
 User können einen Artikel mehrmals in den Warenkorb legen (z. B. 5 Äpfel). Im Warenkorb kann die Anzahl der Artikel eines Typs geändert werden.
 

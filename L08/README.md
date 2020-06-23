@@ -8,6 +8,7 @@ In [Aufgabe 7 - Kommunikation](../L07) haben wir die grundsätzlichen Formen der
 
 ## Formulare
 HTML-Formulare (Forms) bieten bereits gänzlich ohne zusätzliche Programmierung die Möglichkeit, Daten synchron zu verschicken. Hierzu ist es lediglich erforderlich, dem Form-Tag ein `action`- und ein `method`-Attribut anzufügen, sowie im Formular einen Submit-Button zu integrieren. Der `action`-Wert gibt die URL an, an welche die Daten gehen sollen. Die Daten selbst, also die Werte der Formularelemente, werden bei Betätigung des Submit-Buttons automatisch aufbereitet und verschickt. Wie sie verschickt werden, hängt von der gewählten `method` ab.
+
 ### Get
 Bei `method="get"` werden die Daten als Zeichenketten einfach im Klartext an den URL angehängt, mit einem `?` abgetrennt. Die Schlüssel- und Wertepaare sind mit `&` (Et, kaufmännisches Und, Ampersand) voneinander getrennt, die Schlüssel und Werte mit einem `=` verbunden. Der Browser ruft dann diese URL mitsamt Anhang auf, die komplette Zeichenkette erscheint in der Adresszeile.
 > - Surfen Sie im Netz und suchen Sie nach Beispielen für die Datenübertragung in dieser Form, indem Sie die Adressezeile beobachten.

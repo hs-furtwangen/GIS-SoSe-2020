@@ -29,20 +29,20 @@ Diese Knoten enthalten die Kernfunktionalität zur Bildung des Graphen und damit
 
 > - Wählen Sie sich für ein besseres Verständnis des DOM aus Ihren eigenen vorangegangenen Arbeiten eine Seite aus und stellen Sie deren DOM grafisch dar.
 
-## Dom Untersuchen:
+## DOM Untersuchen:
 
 Sie können das DOM untersuchen & sich dessen Eigenschaften ausgeben lassen: 
 
-### Dom in Chrome untersuchen: 
+### DOM in Chrome untersuchen: 
 
 ![Dom in Chrome untersuchen](Chrome_DOM_Properties.PNG)
 
-### Dom in Firefox untersuchen: 
+### DOM in Firefox untersuchen: 
 
-![Dom in Firefox untersuchen](Firefox_DOM_Properties_1.PNG)
-![Dom in Firefox untersuchen](Firefox_DOM_Properties_2.png)
-![Dom in Firefox untersuchen](Firefox_DOM_Properties_3.PNG)
-![Dom in Firefox untersuchen](Firefox_DOM_Properties_4.PNG)
+![DOM in Firefox untersuchen](Firefox_DOM_Properties_1.PNG)
+![DOM in Firefox untersuchen](Firefox_DOM_Properties_2.png)
+![DOM in Firefox untersuchen](Firefox_DOM_Properties_3.PNG)
+![DOM in Firefox untersuchen](Firefox_DOM_Properties_4.PNG)
 
 
 ## Ereignisse

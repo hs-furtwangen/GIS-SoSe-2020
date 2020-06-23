@@ -1,14 +1,14 @@
-## **E _---_** Endabgabe
+## **E _---_** Prüfungsaufgabe
 
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
-Die Endabgabe ist, gemeinsam mit der mündlichen Prüfung, die Prüfungsleistung für das Modul GIS. Die Endabgabe und die mündliche Prüfung ersetzen zusammen die schriftliche Klausur, die dieses Semester nicht durchgeführt werden kann.
+Die Prüfungsaufgabe ist, gemeinsam mit der mündlichen Prüfung, die Prüfungsleistung für das Modul GIS. Die Prüfungsaufgabe und die mündliche Prüfung ersetzen zusammen die schriftliche Klausur, die dieses Semester nicht durchgeführt werden kann.
 
 Ihnen stehen drei Aufgabenstellungen zur Wahl (siehe unten), die Sie selbstständig bearbeiten solllen. Die Lösung der Aufgabe ist im besten Fall eine laufähige Anwendung, die der jeweiligen Beschreibung genügt und in Ihrem Steckbrief (auf der Praktikumsseite) veröffentlicht ist.
 
 ### Letztmöglicher Abgabetermin ist Sonntag, 26. Juli 2020, 23:59.
 
-Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Endabgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls. Nährere Informationen zum Ablauf und Zeitplan der mündlichen Prüfungen werden rechtzeitig veröffentlicht.
+Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Lösung der gewählten Prüfungsaufgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls. Nährere Informationen zum Ablauf und Zeitplan der mündlichen Prüfungen werden rechtzeitig veröffentlicht.
 
 #### Allgemeine Hinweise
 
@@ -16,19 +16,19 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 - **Alle müssen eine eigene Lösung erarbeiten.** Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
-- Implementieren Sie Ihre Lösung der gewählten Endaufgabe syntaktisch korrekt gemäß Ihrer technischen Analyse und nach den festgelegten Stil-Regeln mit Hilfe von Typescript, NodeJS, MongoDB, HTML, und CSS.
+- Implementieren Sie Ihre Lösung der gewählten Endaufgabe syntaktisch korrekt mit Hilfe von Typescript, NodeJS, MongoDB, HTML, und CSS.
 
 - Testen Sie die Applikation regelmäßig, ausgiebig und frühzeitig. Lassen Sie auch andere Personen testen um festzustellen, ob die Anwendung bedienbar und fehlertolerant ist. 
 
 - Die Aufgaben lassen nicht zufällig einiges an Interpretationsspielraum. Toben Sie sich aus, machen Sie sich Gedanken, seien Sie kreativ, haben Sie Spaß.
 
-- Die Endabgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
+- Die Prüfungsaufgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
 
 #### Hinweise zur Abgabe
-- Fügen Sie – wie bei den Praktikumsaufgaben – in den Steckbrief einen Link auf die fertige und lauffähige Anwendung ein.
+- Fügen Sie – wie für die Praktikumsaufgaben – in den Steckbrief einen Link auf die fertige und lauffähige Anwendung ein.
 - Fügen außerdem im Steckbrief einen Link auf eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt ein:
   1. alle Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
-  2. eine kurze(!) Anleitung, wie man die Anwedung zum laufen bringt (z.B. Welche Datei muss als Node Server ausgeführt werden? Welche html Datei im Browser geöffnet? Muss ein *LiveServer* verwendet werden?)
+  2. eine kurze(!) Anleitung, wie man die Anwendung ausführt (z.B. Welche Datei muss als Node Server ausgeführt werden? – Welche html Datei im Browser geöffnet? – Muss ein *LiveServer* verwendet werden?)
   3. eine einfache Beschreibung / Darstellung ihrer Datenbankstruktur [//]: # NoS: In welcher Form???
   4. eine (unterschriebene) *Eidesstattliche Erklärung*, welche die eigenständige Lösungserarbeitung bestätigt (z.B. als PDF nach [dieser](ee_vorlage.pdf) Vorlage)
 
@@ -37,10 +37,6 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 - Benennen Sie das Datenarchiv nach folgendem Schema: `<Nachname>_<Vorname>_<Matrikelnummer>.zip`
 
 - Der Inhalt der Datenbaken ist nicht abzugeben.
-
-#### Typescript Dokumentation
-
-https://www.typescriptlang.org/
 
 #### Empfehlungen und Tipps
 
@@ -69,6 +65,9 @@ Sollten Sie damit Probleme haben wie sie Anfangen können, beachten Sie folgende
 
 >**Bei Problemen/Unklarheiten:** sollten Sie zum Praktikum kommen oder per Discord/Mail fragen stellen.
 
+#### Typescript Dokumentation
+
+https://www.typescriptlang.org/
 ## Aufgaben zur Wahl
 
 Zur Erinnerung: _Sie müssen nur **EINE** dieser drei Aufgaben bearbeiten._
@@ -93,7 +92,7 @@ Entwickeln sie einen Online-Chat mit persistenten Chatverläufen (d.h. Chatverl�
 
 ### Aufgabe C: Neue Praktikumsseite
 
-Entwickeln Sie eine neue GIS-Kursseite mit folgenden Eigenschaften:
+Entwickeln Sie eine neue GIS-Praktikumsseite mit folgenden Eigenschaften:
 
 - die Studierenden können sich mit einen Link registrieren, der auf einen selbstverwalteten Steckbrief mit einem Profilbild verweist, indem sie folgene Informationen eingeben:
   - Vorname
