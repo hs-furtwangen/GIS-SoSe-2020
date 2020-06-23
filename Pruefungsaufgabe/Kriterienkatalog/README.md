@@ -40,4 +40,4 @@ Die Bewertung erfolgt anhand des folgenden Kriterienkataloges:
 |<30| 5 / NB|
 
 
-\*Meme: Zeichnen Sie ein Meme mit Bezug zu GiS. Die Bewertung erfolgt rein subjektiv je nachdem wie witzig der Korrektor das Meme findet, ob es einen erkennbaren Bezug zu GiS hat und ob es einzigartig ist. Das grafische Können wird nicht bewertet. Bedienen Sie sich gerne an etablierten Meme Templates und adaptieren Sie diese für GiS. Verlinken Sie dieses Meme in angenemessener Weise.
+\*Meme: Zeichnen/erstellen Sie ein Meme mit Bezug zu GiS. Die Bewertung erfolgt rein subjektiv je nachdem wie witzig der Korrektor das Meme findet, ob es einen erkennbaren Bezug zu GiS hat und ob es einzigartig ist. Das grafische Können wird nicht bewertet. Bedienen Sie sich gerne an etablierten Meme Templates und adaptieren Sie diese für GiS. Verlinken Sie dieses Meme in angenemessener Weise.

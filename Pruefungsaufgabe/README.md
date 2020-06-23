@@ -68,6 +68,7 @@ Sollten Sie damit Probleme haben wie sie Anfangen können, beachten Sie folgende
 #### Typescript Dokumentation
 
 https://www.typescriptlang.org/
+
 ## Aufgaben zur Wahl
 
 Zur Erinnerung: _Sie müssen nur **EINE** dieser drei Aufgaben bearbeiten._
@@ -111,7 +112,25 @@ Entwickeln Sie eine neue GIS-Praktikumsseite mit folgenden Eigenschaften:
   - Verteilung von Sternchen (oder andere Boni)
   - Anpassung des registrierten Steckbrief-Links
 
-Bauen Sie außerdem gerne weitere Features ein, die Sie für sinnvoll halten (z.B. Timestamps, Layout, etc.), sowohl für die Professoren als auch die Studierenden. Eine Validierung der Regsitrierung ist nich notwendig. Orientieren Sie sich nicht allzu stark an der exitierenden Seite (höchstens um zu wissen, was man alles verbessern könnte :-).
+Bauen Sie außerdem gerne weitere Features ein, die Sie für sinnvoll halten (z.B. Timestamps, Layout, Gruppierungen, Filter etc.), sowohl für die Professoren als auch die Studierenden. Eine Validierung der Registrierung ist nicht notwendig. Orientieren Sie sich nicht allzu stark an der exitierenden Seite (höchstens um zu wissen, was man alles verbessern könnte :-) ). 
+
+---
+
+## Vorgehen
+
+Nur ein Vorschlag, damit es einen Anhaltspunkt gibt. Nichts muss sofort perfekt sein.
+
+1. Datenstrukturen planen, Interfaces anlegen
+2. Nutzerseiten Gestalten (Stift/Papier)
+3. einfache HTML Struktur aufbauen (mit Beispieldaten wie später aus DB geladen wird)
+4. grundsätzliches CSS
+5. TS: Seitenaufbau (mit Beispiedaten)
+6. TS: Seiteninteraktion
+7. Datenbank (strukturell)
+8. NodeJS Server mit DB verbinden
+9. Schnittstellen/Kommunikationsbedarf Client - Server definieren
+10. Serverkommunikation implementieren.
+
 
 ---
 
