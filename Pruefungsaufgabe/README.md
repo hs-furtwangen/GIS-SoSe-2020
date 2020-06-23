@@ -12,7 +12,7 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 #### Allgemeine Hinweise
 
-- Der Kriterienkatalog für die Bewertung der Aufgabenlösungen kann [hier](Kriterienkatalogxxx) eingesehen werden.
+- Der Kriterienkatalog für die Bewertung der Aufgabenlösungen kann [hier](Kriterienkatalogx) eingesehen werden.
 
 - **Alle müssen eine eigene Lösung erarbeiten.** Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
