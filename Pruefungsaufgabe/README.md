@@ -120,16 +120,21 @@ Bauen Sie außerdem gerne weitere Features ein, die Sie für sinnvoll halten (z.
 
 Nur ein Vorschlag, damit es einen Anhaltspunkt gibt. Nichts muss sofort perfekt sein.
 
-1. Datenstrukturen planen, Interfaces anlegen
-2. Nutzerseiten Gestalten (Stift/Papier)
-3. einfache HTML Struktur aufbauen (mit Beispieldaten wie später aus DB geladen wird)
-4. grundsätzliches CSS
-5. TS: Seitenaufbau (mit Beispiedaten)
-6. TS: Seiteninteraktion
-7. Datenbank (strukturell)
-8. NodeJS Server mit DB verbinden
-9. Schnittstellen/Kommunikationsbedarf Client - Server definieren
-10. Serverkommunikation implementieren.
+1. Gesamtes Dokument & Kriterienkatalog ausführlich lesen
+2. Aufgabe auswählen
+3. Kleine Aufgabenpakte anhand der folgenden Punkte planen
+4. Datenstrukturen planen, Interfaces anlegen
+5. Nutzerseiten Design gestalten & vorplanen (mit Stift & Papier)
+6. Benötigte Seiten anlegen
+7. einfache HTML Struktur aufbauen (mit Beispieldaten wie später aus DB geladen wird)
+8. grundsätzliches CSS
+9. Media Queries & responsive Design anlegen
+10. TS: Seitenaufbau der HTML Elemente (mit Beispiedaten)
+11. TS: Seiteninteraktion mit Event Listener
+12. Datenbank anlegen & strukturell aufbauen
+13. NodeJS Server anlegen & mit DB verbinden
+14. Schnittstellen/Kommunikationsbedarf Client - Server definieren
+15. Server-Client-Kommunikation implementieren
 
 
 ---
