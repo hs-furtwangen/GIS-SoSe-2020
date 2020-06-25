@@ -6,7 +6,7 @@ Die Prüfungsaufgabe ist, gemeinsam mit der mündlichen Prüfung, die Prüfungsl
 
 Ihnen stehen drei Aufgabenstellungen zur Wahl (siehe unten), die Sie selbstständig bearbeiten solllen. Die Lösung der Aufgabe ist im besten Fall eine laufähige Anwendung, die der jeweiligen Beschreibung genügt und in Ihrem Steckbrief (auf der Praktikumsseite) veröffentlicht ist.
 
-Die Bewertung der Aufgabenlösungen folgt einem einheitlichen [Kriterienkatalog](criteria). Sie werden in der mündlichen Prüfung aufgefordert die Details der Implementierung Ihrer Lösung zu erleutern.
+Die Bewertung der Aufgabenlösungen folgt einem einheitlichen [Kriterienkatalog](criteria). Sie werden in der mündlichen Prüfung aufgefordert die Details der Implementierung Ihrer Lösung zu erläutern.
 
 ### Letztmöglicher Abgabetermin ist Sonntag, 26. Juli 2020, 23:59.
 
