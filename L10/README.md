@@ -8,10 +8,10 @@
 
 # Datenbanken
 
-Ein Server hält seine Daten erstmal nur so lange vor, wie er läuft. Sobald er heruntergefahren wird (oder abstürzt), gehen die so angelegten Daten verloren. Nun könnte man natürlich für jeden zu speichernden Datensatz (wie z.B eine Bestellung in unserem onlineshop) eine Datei anlegen, oder alle Daten irgendwie in einer großen Datei sammeln, allerdings sollten diese Daten ja auch schnell manipulierbar, durchsuchbar, analysierbar und vieles mehr sein. Schließlich sollten auch alte Bestellungen gelöscht, alle Bestellungen eines bestimmten Kunden herausgesucht oder oder zur Optimierung des Angebots die Häufigkeit der Bestellung einer bestimmten Artikel-Kombination ermittelt werden können. Für all dies müssten wieder entsprechende Algorithmen und Datenstrukturen konzipiert und implementiert werden. Da solche Anforderungen bei der Entwicklung interaktiver Anwendungen aber sehr häufig auftreten und oft ähnlich sind, gibt es bereits Standardsoftware, welche Daten speichert, verwaltet und auswertet: Datenbanksysteme!  
+Ein Server hält seine Daten grundsätzlich nur so lange vor, wie er läuft. Sobald er heruntergefahren wird (oder abstürzt), gehen die im Arbeitsspeicher & Variablen gespeicherten Daten verloren. Nun könnte man natürlich für jeden zu speichernden Datensatz (wie z.B eine Bestellung in unserem onlineshop) eine Datei anlegen (z. B. JSON), oder alle Daten irgendwie in einer großen Datei sammeln, allerdings sollten diese Daten ja auch schnell manipulierbar, durchsuchbar, analysierbar und vieles mehr sein. Schließlich sollten auch alte Bestellungen irgendwann gelöscht, alle Bestellungen eines bestimmten Kunden herausgesucht oder oder zur Optimierung des Angebots die Häufigkeit der Bestellung einer bestimmten Artikel-Kombination ermittelt werden können. Für all dies müssten wieder entsprechende Algorithmen und Datenstrukturen konzipiert implementiert werden. Da solche Anforderungen bei der Entwicklung interaktiver Anwendungen aber sehr häufig auftreten und oft ähnlich sind, gibt es bereits Standardsoftware, welche Daten speichert, verwaltet und auswertet: Datenbanksysteme!  
 
 ## Relationale Datenbanken
-Seit den 1970er Jahren dominieren relationale Datenbanken, bei denen die Daten in Tabellenstrukturen untergebracht werden und durch Querverweise ein Netz von Tabellen aufgespannt wird. Mit der Structured-Query-Language (SQL) wurde eine Abfragesprache entwickelt, mit der komplexe Anweisungen formuliert werden können, welche die Datenbanksoftware dann selbständig ausführt um Daten aus dem Bestand zu liefern oder zu manipulieren. Heute ist insbesondere die Open-Source-Datenbanksoftware MySQL sehr weit im Internet verbreitet.
+Seit den 1970er Jahren dominieren relationale Datenbanken, bei denen die Daten in Tabellenstrukturen untergebracht werden und durch Querverweise ein Netz von Tabellen aufgespannt wird den IT Bereich. Mit der Structured-Query-Language (SQL) wurde eine Abfragesprache entwickelt, mit der komplexe Anweisungen formuliert werden können, welche eine jeweilige Datenbanksoftware dann selbständig ausführt um Daten aus dem Bestand zu liefern oder zu manipulieren. Heute ist insbesondere die Open-Source-Datenbanksoftware MySQL sehr weit im Internet verbreitet.
 > **FunFact:** Dem Namen MySQL wird meist intuitiv die Bedeutung "MeinSQL" zugesprochen. Tatsächlich aber hat der finnische Entwickler Michael Widenius sein 1994 gestartetes Open-Source-Projekt nach seiner Tochter My benannt.
 
 ## NoSQL-Datenbanken
@@ -20,12 +20,12 @@ NoSQL bzw. dokumentenorientierte Datenbanken adressieren dieses Problem. Die zu 
 Das No in NoSQL bedeutet "Not only", es gibt also auch Systeme, die mit SQL arbeiten können. Dokumentenorientierte Datenbanken sind eine Variante der NoSQL-Datenbanken, es gibt noch andere.
 
 ## MongoDB
-2009 wurde mit MongoDB eine NoSQL-Datenbanksoftware veröffentlicht, die Javascript als interne Verkehrssprache nutzt. Abfragen und Aggregationsfunktionen können direkt als Javascript-Anweisungen formuliert werden, außerdem können ganze Anweisungsfolgen zum Datenbanksystem geschickt und dort ausgeführt werden.  
+2009 wurde mit MongoDB eine NoSQL-Datenbanksoftware veröffentlicht, die Javascript als interne Sprache nutzt. Abfragen und Aggregationsfunktionen können direkt als Javascript-Anweisungen formuliert werden, außerdem können ganze Anweisungsfolgen zum Datenbanksystem geschickt und dort ausgeführt werden.  
 
 > **FunFact:** Der Name MongoDB leitet sich von *humongous* ab, womit die groteske Größe der Datenmengen gemeint ist, die mit dieser Software verwaltet werden können.
 
-Für Sie ist der riesige Vorteil der Nutzung dieser Datenbanksoftware, dass Sie keine weitere Abfrage- oder Programmiersprache lernen müssen. Die Anweisungen, die MongoDB für Node.js bereit stellt, sind auch in TypeScript definiert, so dass Sie sie mit der gewohnten Unterstützung einsetzen können, genauso wie die modernen Konzept der ansynchronen Kommunikation mit dem Datenbanksystem wie `Promise` und `async/await`.  
-Wenn auch die aktuellen Installationen im Internet noch von JavaScript, PHP und MySQL dominiert sind, sind Sie mit Node.js, TypeScript und MongoDB zudem sehr zukunftsträchtig aufgestellt.
+Für Sie ist der riesige Vorteil der Nutzung dieser Datenbanksoftware, dass Sie keine weitere Abfrage- oder Programmiersprache lernen müssen. Die Anweisungen, die MongoDB für Node.js bereit stellt, sind auch in TypeScript definiert, so dass Sie sie mit der gewohnten Unterstützung einsetzen können, genauso wie die modernen Konzepte der ansynchronen Kommunikation mit dem Datenbanksystem wie `Promise` und `async/await`.  
+Wenn auch viele aktuelle Anwendungen im Internet noch von JavaScript, PHP und MySQL dominiert sind, sind Sie mit Node.js, TypeScript und MongoDB sehr zukunftsträchtig aufgestellt.
 
 Durch den Einsatz einer Datenbanksoftware ist es nicht mehr erforderlich, eine Datenverwaltung selbst zu entwickeln. Komplexität entsteht nun aber durch die Kommunikation zwischen den Systemen Client, Server und Datenbanksystem.
 
@@ -127,7 +127,7 @@ Die eigentlichen Daten kann man so nicht einsehen, sie werden in einem effizient
 > - Tragen Sie noch weitere Datensätze mit Informationen zu Ihren Kommilitonen oder zu Fantasiestudis ein. Dabei sollte es Datensätze mit teilweise identischen Informationen geben, so wie man sie bei Geschwistern oder Studis mit gleichen Vornamen vorfindet. Sie können dabei weiter die Variable `doc` verwenden und vor jedem Eintrag die Information darin verändern, oder auch Datensätze direkt als Parameter der `insert`-Anweisung angeben, also `db.Students.insert({...})`
 > - Suchen Sie nun mit `db.Students.find({key:value})` nach allen Datensätzen bei denen ein bestimmter Schlüssel `key` einen bestimmten Wert `value` hat.
 
-Nachdem Sie diese Übungen erfolgreich abgeschlossen haben, können Sie nicht nur mit der MongoShell umgehen, sondern haben auch schon die grundlegendsten Anweisungen gelernt, die genauso auch im Code Verwendung finden. Sehr viel weitergehend ist die [Dokumentation](https://docs.mongodb.com/manual/reference/method/). Wenn es nicht richtig geklappt hat, kannst können Sie untenstehendes Video anschauen, indem diese Übungen demonstriert werden. _(Auch hier gilt wieder: Das Video kommt aus dem EIA2 Kurs, darum sind manche Ordnerstrukturen oder Verweise darauf für Sie nicht relevant.)_
+Nachdem Sie diese Übungen erfolgreich abgeschlossen haben, können Sie nicht nur mit der MongoShell umgehen, sondern haben auch schon die grundlegendsten Anweisungen gelernt, die genauso auch im Code Verwendung finden. Sehr viel weitergehend ist die [Dokumentation](https://docs.mongodb.com/manual/reference/method/). Wenn es nicht richtig geklappt hat, kannst können Sie untenstehendes Video anschauen, indem diese Übungen demonstriert werden. _(Auch hier gilt wieder: Das Video kommt aus dem EIA2 Kurs, darum sind manche Ordnerstrukturen oder Verweise für Sie nicht relevant.)_
 
 <div align="center"><video controls width="30%"> 
   <source src="http://games.hs-furtwangen.de/EIA2_Video/L07_V1_MongoShell.mp4" type="video/mp4"> 
@@ -135,30 +135,31 @@ Nachdem Sie diese Übungen erfolgreich abgeschlossen haben, können Sie nicht nu
 </video>  
 </div>
 
-## Online Service
-Die Datenbank auf dem Entwicklungsrechner ist natürlich nur zum Testen da, von Außen sollte niemand Zugriff darauf haben. Die Bestellungen sollen aber in einer Datenbank gespeichert werden, die ständig erreichbar ist. MongoDB bietet mit Atlas ein eigenes Serviceangebot hierfür.
+## Online Service - Eigenes Mongo DB Cluster anlegen
+Die Datenbank auf dem Entwicklungsrechner ist natürlich nur zum Testen da, von Außen hat niemand darauf Zugriff. Die Bestellungen sollen aber in einer Datenbank gespeichert werden, die ständig und von überall aus erreichbar ist. MongoDB bietet mit Atlas ein eigenes Serviceangebot hierfür.
 
-- [x] Betrachte die EIA2-Landschaft. Die letzte Wolke wird jetzt in Angriff genommen.
-  - [x] Rufe https://www.mongodb.com/ auf
-  - [x] Klicke auf "Start Free"
-  - [x] Melde dich mit Namen und Mailadresse an
-  - [x] Wähle "Create a cluster" unter Starter Clusters
-  - [x] Wähle AWS und einen Free Cluster in Europa
-  - [x] Wähle einen Clusternamen, vielleicht deinen eigenen oder "EIA2"?
-  - [x] Klicke auf "Create Cluster"
+- Neuen Account & Cluster anlegen
+  - Rufen Sie https://www.mongodb.com/ auf
+  - Klicken Sie auf `Start Free` (mitte des Screens)
+  - Melden Sie sich mit Namen und Mailadresse an
+  - Wählen Sie `Create a cluster` unter den free Starter Clusters
+  - Wählen Sie `AWS` und eine Free Cluster in `Europa` (Frankfurt sollte am schnellsten sein)
+  - Wählen Sie einen `Clusternamen`, vielleicht deinen eigenen Namen oder "GIS-IST-GEIL"?
+  - Klicken Sie auf `Create Cluster`
+  - Warten Sie, bis das Cluster erstellt wurde (ca. 1-3 Minuten)
 
-- [x] Folge jetzt dem "Get Started"-Guide! https://docs.atlas.mongodb.com/getting-started/
-  - [x] Erlaube deinem Testuser Read/Write-Zugriff
-  - [x] Erlaube in der Whitelist Zugriff von überall mit der IP-Adresse 0.0.0.0/0
-  - [x] Lege KEINE Beispieldaten an
-  - [x] Wähle "Connect Your Application" und kopiere den Connection-String, lege ihn zunächst als Kommentar in deinem Servercode ab.
-- [x] Wähle dann Collections->Add my own data
-  - [x] Lege eine Datenbank "Cocktailbar" und die Collection "Orders" an
-  - [x] Klicke auf "Insert Document" und füge in "Orders" ein Dokument ein
-  - [x] Experimentiere mit den Icons an dem Dokument
+- Folgen Sie jetzt dem `Get Started`-Guide! https://docs.atlas.mongodb.com/getting-started/
+  - Erlauben Sie ihrem Testuser den Read/Write-Zugriff
+  - Erlauben Sie in der Whitelist Zugriff von überall mit der IP-Adresse `0.0.0.0/0`
+  - Legen Sie **`KEINE`** Beispieldaten an
+  - Wählen Sie `Connect Your Application` und kopieren Sie den Connection-String -> legen Sie ihn zunächst als Kommentar in Ihrem Servercode ab.
+- Wählen Sie dann Collections-> Add my own data
+  - Legen Sie eine Datenbank `Test` und die Collection `Students` an
+  - Klicken Sie auf `Insert Document` und fügen Sie in `Students` ein Dokument ein
+  - Experimentieren Sie mit den Icons an dem Dokument
 
-- [x] Ersetze nun im Servercode den URL zum Datenbankserver mit dem kopierten Connection-String. Du kannst ihn dir auch unter Clusters->Connect noch einmal anzeigen lassen.
-- [x] Starte deinen lokalen Server neu. Setze mit dem Client weitere Bestellungen ab und prüfe in Atlas ob die Bestellungen in der Online-Datenbank ankommen.
+- Ersetzen Sie nun im Servercode die URL zum Datenbankserver mit dem kopierten Connection-String. Sie können ihn sich auch unter Clusters-> Connect noch einmal anzeigen lassen.
+- Starten Sie Ihren lokalen Server neu. Setzen Sie mit dem Client weitere Bestellungen ab und prüfen Sie in Atlas ob die Bestellungen in der Online-Datenbank ankommen.
 
 ### Typescript Dokumentation
 
