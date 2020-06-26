@@ -16,7 +16,7 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 - **Jeder muss eine eigene Lösung erarbeiten.** Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
-- Ihre Abgabe wird nur akzeptiert, wenn Sie die <a id="raw-url" href="https://github.com/hs-furtwangen/GIS-SoSe-2020/raw/master/final/Eidesstattliche_Erkl%C3%A4rung.pdf">Eidesstattliche Erklärung</a> unterschreiben und gemeinsam mit Ihrer Lösung abgeben.
+<!-- - Ihre Abgabe wird nur akzeptiert, wenn Sie die <a id="raw-url" href="https://github.com/hs-furtwangen/GIS-SoSe-2020/raw/master/final/Eidesstattliche_Erkl%C3%A4rung.pdf">Eidesstattliche Erklärung</a> unterschreiben und gemeinsam mit Ihrer Lösung abgeben. -->
 
 - Implementieren Sie Ihre Lösung der gewählten Endaufgabe syntaktisch korrekt mit Hilfe von *HTML*, *CSS*, *Typescript*, *NodeJS* und *MongoDB*.
 
@@ -32,7 +32,7 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
   1. alle Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
   2. eine kurze(!) Anleitung, wie man die Anwendung ausführt (z.B. Welche Datei muss als Node Server ausgeführt werden? – Welche html Datei im Browser geöffnet? – Muss ein *LiveServer* verwendet werden?)
   3. eine einfache Beschreibung/Darstellung ihrer Datenbankstruktur in JSON-ähnlicher Syntax oder als Graphen (Baumstruktur)
-  4. eine (unterschriebene) *Eidesstattliche Erklärung*, welche die eigenständige Lösungserarbeitung bestätigt (z.B. als PDF nach [dieser](ee_vorlage.pdf) Vorlage)
+  4. eine (unterschriebene) *Eidesstattliche Erklärung*, welche die eigenständige Lösungserarbeitung bestätigt (z.B. als PDF nach [dieser Vorlage](ee.pdf))
 
 - Achten Sie auf eine sinnvolle Ordner-/Dateistruktur.
 

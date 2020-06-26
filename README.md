@@ -129,11 +129,19 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
 ---
 
+## [**24 _Juni_** Server Request Verarbeitung](L09)
+
+- URL Modul
+- Request Handling
+- (POST Request)
+
+---
+
 ## [**1 _Juli_** Datenbanken Grundlagen](L10)
 
 - Datenbanken Einführung
-- Datenbanken lokal
-- Datenbanken online
+- Datenbank lokal
+- Datenbank online
 
 ---
 
