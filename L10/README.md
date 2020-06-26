@@ -158,9 +158,6 @@ Die Datenbank auf dem Entwicklungsrechner ist natürlich nur zum Testen da, von 
   - Klicken Sie auf `Insert Document` und fügen Sie in `Students` ein Dokument ein
   - Experimentieren Sie mit den Icons an dem Dokument
 
-- Ersetzen Sie nun im Servercode die URL zum Datenbankserver mit dem kopierten Connection-String. Sie können ihn sich auch unter Clusters-> Connect noch einmal anzeigen lassen.
-- Starten Sie Ihren lokalen Server neu. Setzen Sie mit dem Client weitere Bestellungen ab und prüfen Sie in Atlas ob die Bestellungen in der Online-Datenbank ankommen.
-
 ### Typescript Dokumentation
 
 https://www.typescriptlang.org/
@@ -170,7 +167,7 @@ https://www.typescriptlang.org/
 >**Bei Problemen/Unklarheiten:** können Sie ins Praktikum kommen oder per Discord/Mail fragen stellen.
 
 ### Aufgabenteil 1
-Gehen Sie die oben beschreibenen Schritte für eine lokale Mongo Installation durch.
+Gehen Sie die oben beschriebenen Schritte für eine lokale Mongo Installation durch.
 
 ### Aufgabenteil 2
 Gehen Sie die oben beschreibenen Schritte für den Online Service durch und legen Sie dort eine Datenbank an. Experimentieren Sie auch hier mit Collections und Dokumenten, erstellen, manipulieren und löschen Sie mehrere davon. Kreieren Sie außerdem einen User für diese Datenbank, um darauf zugreifen zu können.
