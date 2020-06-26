@@ -16,6 +16,8 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 - **Jeder muss eine eigene Lösung erarbeiten.** Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
+- Ihre Abgabe wird nur akzeptiert, wenn Sie die <a id="raw-url" href="https://raw.githubusercontent.com//hs-furtwangen/GIS-SoSe-2020/tree/master/final_Eidesstattliche_Erklärung.pdf">Eidesstattliche Erklärung</a> unterschreiben und gemeinsam mit Ihrer Lösung abgeben.
+
 - Implementieren Sie Ihre Lösung der gewählten Endaufgabe syntaktisch korrekt mit Hilfe von *HTML*, *CSS*, *Typescript*, *NodeJS* und *MongoDB*.
 
 - Testen Sie die Applikation regelmäßig, ausgiebig und frühzeitig. Lassen Sie auch andere Personen testen um festzustellen, ob die Anwendung bedienbar und fehlertolerant ist. 
