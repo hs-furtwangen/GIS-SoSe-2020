@@ -4,7 +4,7 @@
 
 Die Prüfungsaufgabe ist, gemeinsam mit der mündlichen Prüfung, die Prüfungsleistung für das Modul GIS. Die Prüfungsaufgabe und die mündliche Prüfung ersetzen zusammen die schriftliche Klausur, die dieses Semester nicht durchgeführt werden kann.
 
-Ihnen stehen drei Aufgabenstellungen zur Wahl (siehe unten), die Sie selbstständig bearbeiten solllen. Die Lösung der Aufgabe ist im besten Fall eine laufähige Anwendung, die der jeweiligen Beschreibung genügt und in Ihrem Steckbrief (auf der Praktikumsseite) veröffentlicht ist.
+Ihnen stehen drei Aufgabenstellungen zur Wahl (siehe unten), die Sie selbstständig bearbeiten sollen. Die Lösung der Aufgabe ist im besten Fall eine lauffähige Anwendung, die der jeweiligen Beschreibung genügt und in Ihrem Steckbrief (auf der Praktikumsseite) veröffentlicht ist.
 
 Die Bewertung der Aufgabenlösungen folgt einem einheitlichen [Kriterienkatalog](criteria). Sie werden in der mündlichen Prüfung aufgefordert die Details der Implementierung Ihrer Lösung zu erläutern.
 
@@ -26,7 +26,7 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 #### Hinweise zur Abgabe
 - Fügen Sie – wie für die Praktikumsaufgaben – in den Steckbrief einen Link auf die fertige und lauffähige Anwendung ein.
-- Fügen außerdem im Steckbrief einen Link auf eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt ein:
+- Fügen Sie außerdem im Steckbrief einen Link auf eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt ein:
   1. alle Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
   2. eine kurze(!) Anleitung, wie man die Anwendung ausführt (z.B. Welche Datei muss als Node Server ausgeführt werden? – Welche html Datei im Browser geöffnet? – Muss ein *LiveServer* verwendet werden?)
   3. eine einfache Beschreibung/Darstellung ihrer Datenbankstruktur in JSON-ähnlicher Syntax oder als Graphen (Baumstruktur)
@@ -48,7 +48,7 @@ Entwickeln Sie eine Online-Eisdiele, bei der es zwei Ansichten gibt:
 
 - eine Ansicht für die Kunden, in der diese sich über verschiedene Auswahlmöglichkeiten (Eissorte, Menge, diverse Toppings, Becher oder Waffel, etc.) ihr Eis zusammenstellen können und davon laufend eine visuelle Darstellung angezeigt bekommen. Nachdem die Auswahl abgeschlossen ist und Lieferdaten (Name, Adresse) eingegeben wurden, soll die Bestellung in einer Datenbank abgelegt werden
 
-- eine Ansicht für die Eisdielenbetreiber um die eingegangenen Bestellungen einzusehen, zu bearbeiten, und zu löschen (die Betreiber-Seite braucht nicht durch ein Passwort geschütz werden und kann frei zugänglich bleiben)
+- eine Ansicht für die Eisdielenbetreiber um die eingegangenen Bestellungen einzusehen, zu bearbeiten, und zu löschen (die Betreiber-Seite braucht nicht durch ein Passwort geschützt werden und kann frei zugänglich bleiben)
 
 ### Aufgabe B: HFU Chat
 
@@ -81,7 +81,7 @@ Entwickeln Sie eine neue GIS-Praktikumsseite mit folgenden Eigenschaften:
   - Verteilung von Sternchen (oder anderen Boni)
   - Anpassung des registrierten Steckbrief-Links
 
-Bauen Sie gerne weitere Features ein, die Sie für sinnvoll halten (z.B. Timestamps, Layout, etc.), sowohl für die Professoren als auch die Studierenden. Eine Validierung der Regsitrierung ist nich notwendig. Orientieren Sie sich nicht allzu stark an der exitierenden Seite (höchstens um zu wissen, was man alles verbessern könnte :-).
+Bauen Sie gerne weitere Features ein, die Sie für sinnvoll halten (z.B. Timestamps, Layout, Gruppen, etc.), sowohl für die Professoren als auch die Studierenden. Eine Validierung der Regsitrierung ist nicht notwendig. Orientieren Sie sich nicht allzu stark an der exitierenden Seite (höchstens um zu wissen, was man alles verbessern könnte :-) ).
 
 #### Empfehlungen und Tipps
 
@@ -98,28 +98,27 @@ Es wird dringend empfohlen ...
   - Wie sollte die Datenbank strukturiert sein?  
   - Wie arbeitet was miteinander zusammen?
 
-- ... Ihre Notizen mit abzugeben, damit ersichtlich wird, was Sie sich dabei gedacht haben. Besonders für den Fall dass irgendetwas nicht so ganz funktioniert wie geplant, ist das hilfreich.
+- ... Ihre Notizen mit abzugeben, damit ersichtlich wird, was Sie sich dabei gedacht haben. Besonders für den Fall dass irgendetwas nicht so ganz funktioniert wie geplant, ist das hilfreich für die Prüfer.
 
-Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeiten könnte z.B. folgende Schritten enthalten:
+Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeiten könnte z.B. folgende Schritte enthalten:
 1. Nutzerseiten strukturieren und skizzieren (z.B. mit Stift und Papier)
-2. Beispieldaten anlegen (werden später aus DB geladen)
-3. Datenstrukturen planen, Interfaces anlegen
+2. Datenstrukturen planen, Interfaces anlegen
+3. Beispieldaten anlegen (werden später aus DB geladen)
 4. benötigte HTML-Seiten anlegen (zunächst statisch mit Beispieldaten gefüllt)
 5. erste grundsätliche CSS-Stilvorlage anlegen
 6. Media Queries und responsive Design einfügen
 7. TS-Code für den dynamischen Seitenaufbau implementieren (mit Beispieldaten)
-8. TS-Code für Seiteninteraktion mit Event Listener implementieren
+8. TS-Code für Seiteninteraktion mit Event Listenern implementieren
 9. Datenbank anlegen und strukturell aufbauen
 10. NodeJS Server anlegen und mit DB verbinden
 11. Schnittstellen/Kommunikationsbedarf zwischen Client und Server definieren
 12. Server-Client Kommunikation implementieren
 
-**Bei Problemen/Unklarheiten:** sollten Sie zum Praktikum kommen oder per Discord/Mail fragen stellen.
+**Bei Problemen/Unklarheiten:** sollten Sie zum Praktikum kommen oder per Discord/Mail Fragen stellen.
 
 #### Typescript Dokumentation
 
-https://www.typescriptlang.org/
-
+[https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 ---
 
 ## **?! _<small>Q&A</small>_** Fragen und Antworten

@@ -1,6 +1,6 @@
 ### Bewertung der Prüfungsaufgabe
 
-Die Bewertung der Lösungen der Prüfungsaufgabe erfolgt anhand des untenstehenden Kriterienkataloges und Notenschlüssel. Der Katalog listet die verschiedenen Komponenten einer perfekten Lösung auf und gibt mit den aufgelisteten Eigenschafen jeweils verbundene maximale Punktzahl an. 
+Die Bewertung der Lösungen der Prüfungsaufgabe erfolgt anhand des untenstehenden Kriterienkataloges und Notenschlüssels. Der Katalog listet die verschiedenen Komponenten einer perfekten Lösung auf und gibt mit den aufgelisteten Eigenschafen jeweils verbundene maximale Punktzahl an. 
 
 Die jeweils maximale Punktzahl einer Komponente kann erreicht weren, wenn die Komponente in der Lösung vorhanden ist und der/die Kandidat/in die eigene Implementierung in der mündlichen Prüfung glaubhaft erläutern kann.
 
@@ -11,7 +11,7 @@ Die jeweils maximale Punktzahl einer Komponente kann erreicht weren, wenn die Ko
 | Aufgabenstellung       | die Lösung implementiert die in der gewählten Aufgabenstellung (A, B, C) erwähnten Eigenschaften |30|
 | Trennung HTML/CSS/Script/Data | die verschiedenen Aspekte der Lösung sind in verschiedenen Dateien implementiert – Inhalt (HTML), Logik (TS/JS), grafische Gestaltung (CSS), Daten (JSON/DB). |2|
 | HTML Standards         | syntaktisch und semantisch korrektes sowie angemessen gegliedertes HTML |2|
-| kein W3 oder JS Error  | ein [W3 Validierer](https://validator.w3.org/) gibt keine Fehlermeldungen für die Lösung aus|2|
+| kein W3 oder JS Error  | der [W3 Validierer](https://validator.w3.org/) gibt keine Fehlermeldungen für die Lösung aus, außerdem gibt es keine Fehlermeldungen in der Konsole|2|
 | grafische Gestaltung   | die grafische Gestaltung der Anwendung ist gepflegt |2|
 | responsive Design      | die Lösung verwendet *Media Queries* und ist *responsive* (unter Berücksichtigung 3 sinnvoller Bildschirmgößen – Smartphone, Tablet, Desktop) |2|
 | CSS Stilvorlage        | die CSS Stilvorlage verwendet mindestens 10 einfache und 6 komplexe CSS-Selektoren |2|
@@ -26,7 +26,7 @@ Die jeweils maximale Punktzahl einer Komponente kann erreicht weren, wenn die Ko
 
 #### Bonuspunkte
 
-Für herausragende Leistungen die z.B. das Umsetzungsonzept, die Implementierung, die grafische Gestaltung, oder andere Besonderheiten einer Lösung betreffen, können bis zu 4 Bonuspunkte vergeben werden.
+Für herausragende Leistungen die z.B. das Umsetzungskonzept, die Implementierung, die grafische Gestaltung, oder andere Besonderheiten einer Lösung betreffen, können bis zu 4 Bonuspunkte vergeben werden.
 
 #### Notenverteilung
 
