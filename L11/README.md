@@ -51,14 +51,14 @@ orders.insert({...});
 </div>
 
 ### Ausbau 
-> - Erweiteren Sie ihren Server derart, dass beim Start ein Argument entgegen genommen (z.B. eine der beiden Zeichenketten "local" und "remote") und anhand dessen entschieden wird, ob die lokale oder die Online-Datenbank genutzt wird.
-> - Lassen Sie nun Heroku Ihren Server bauen. Passen Sie dazu die Steuerdatei `package.json` so an, dass der Pfad zum neuen Server eingetragen ist und bei der Startanweisung das Argument mitgegeben wird z.B. 
+> - Um es einfacher zu machen, zwischen lokaler und remote DB zu wechseln, können Sie folgendes tun: Erweiteren Sie ihren Server derart, dass beim Start ein Argument entgegen genommen (z.B. eine der beiden Zeichenketten "local" und "remote") und anhand dessen entschieden wird, ob die lokale oder die Online-Datenbank genutzt wird. ([Info Commandline Argumente Auslesen](https://nodejs.org/en/knowledge/command-line/how-to-parse-command-line-arguments/): Sie brauchen nur die ganz einfachen Basics, und können darum nach dem zweiten Beispiel aufhören zu lesen)
+>   - Lassen Sie nun Heroku Ihren Server bauen. Passen Sie dazu die Steuerdatei `package.json` so an, dass der Pfad zum neuen Server eingetragen ist und bei der Startanweisung das Argument mitgegeben wird z.B. 
   ```typescript
   "scripts": {
     "start": "node PfadZumServer/Server.js remote"
   },
   ```
-> - Implementieren Sie eine Funktion retrieveOrders, welche mit `orders.find()` alle Bestellungen ausliest und ein Array von `Orders` zurückliefert. Nutzen Sie dazu die asynchrone Funktion `toArray()` des Cursor-Objektes.
+> - Implementieren Sie eine Funktion retrieveOrders, welche mit `orders.find()` alle Bestellungen ausliest und ein Array von `Orders` zurückliefert. Nutzen Sie dazu die asynchrone Funktion `toArray()` des von `find()` zurückgegebenen Cursor-Objektes.
 > - Implementieren Sie eine Erweiterung der Funktion `handleRequest`, so dass retrieveOrders aufgerufen und das Ergebnis als (JSON-)Zeichenkette in die Serverantwort eingefügt wird, wenn der Server dazu aufgefordert wird, z.B. mit dem Query-String `command=retrieve`, oder unter einem eigenen Pfad `/retrieve`. Eine Clientsoftware könnte damit die Datensätze abrufen.
 
 ### Typescript Dokumentation
