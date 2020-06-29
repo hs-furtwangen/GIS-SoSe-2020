@@ -5,7 +5,7 @@
 
 
 ## MongoDB in Node
-Bisher wurde die Datenbank noch direkt über die MongoShell angesprochen. Damit wir aber die Datenbank ohne manuelles Zutun verwenden können, müssen wir diese mit unserem Node.JS Server verbinden. Was eben von Hand mit der MongoShell erledigt wurde, soll also das Node.js-Programm bewerkstelligen. Hierzu muss Node zunächst um die entsprechenden Module für die Arbeit mit MongoDB erweitert werden. Führen Sie also die Kommandos `npm install @types/mongodb` sowie `npm install mongodb` auf der obersten Ebene ihres GIS-Projektes / Repositories aus. 
+Bisher wurde die Datenbank noch direkt über die MongoShell angesprochen. Damit wir aber die Datenbank ohne manuelles Zutun verwenden können, müssen wir diese mit unserem Node.JS Server verbinden. Was bisher von Hand mit der MongoShell erledigt wurde, soll also das Node.js-Programm bewerkstelligen. Hierzu muss Node zunächst um die entsprechenden Module für die Arbeit mit MongoDB erweitert werden. Führen Sie also die Kommandos `npm install @types/mongodb` sowie `npm install mongodb` auf der obersten Ebene ihres GIS-Projektes / Repositories aus. 
 
 Die Datei `package.json` sollte nun neue Einträge unter `dependencies` aufweisen, welche auf die Module und Versionen von MongoDB verweisen. Damit weiß dann auch z.B. Heroku, mit welchen Modulen das Projekt arbeitet, ohne dass diese Module im Github-Repository mitgeliefert werden. Überprüfen Sie zudem noch einmal die Datei `.gitignore`, damit nicht versehentlich diese Module in Ihre Versionskontrolle geraten.
 
@@ -15,7 +15,8 @@ import * as Mongo from "mongodb";
 ```
 
 ### MongoClient
-Stellt, wie zuvor die MongoShell, innerhalb der Node-Umgebung eine Verbindung mit dem Datenbanksystem her. Ein neues MongoClient-Objekt erwartet für seine Erzeugung als Parameter einen URL und gegebenenfalls noch Zusatzoptionen. Seine Methode `connect` liefert eine Promise, auf deren Erfüllung gewartet werden kann.
+Stellt, wie zuvor die MongoShell, innerhalb der Node-Umgebung eine Verbindung mit dem Datenbanksystem her. Ein neues MongoClient-Objekt erwartet für seine Erzeugung als Parameter eine URL und gegebenenfalls noch Zusatzoptionen. Die Methode `connect` des Mongo Clients liefert eine Promise, auf deren Erfüllung gewartet werden kann.
+
 ```typescript
 let mongoClient: Mongo.MongoClient = new Mongo.MongoClient(_url, options);
 await mongoClient.connect();
@@ -24,11 +25,13 @@ await mongoClient.connect();
 ### Collection
 Eine Variable von diesem Typ referenziert direkt eine Collection der Datenbank. Darauf können dann die aus der MongoShell bekannten Operationen ausgeführt werden. 
 ```typescript
-let orders: Mongo.Collection = mongoClient.db("Cocktailbar").collection("Orders");
+let orders: Mongo.Collection = mongoClient.db("Test").collection("Students");
 orders.insert({...});
 ```
 
 ## Implementation
+
+>**Hinweis zu den Videos:** Auch dieses mal gilt wieder: Die Videos kommen aus dem EIA2 Kurs, darum sind evtl. manche Dinge für Sie nicht 1 zu 1 übernehmbar. Die darin vorgestellten Konzepte sind jedoch wichtig und hilfreich für diese Woche. 
 
 <div align="center"><video controls width="30%"> 
   <source src="http://games.hs-furtwangen.de/EIA2_Video/L07_V3_Implementation.mp4" type="video/mp4"> 

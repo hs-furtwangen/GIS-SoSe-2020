@@ -145,4 +145,11 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
 ---
 
+## [**8 _Juli_** Datenbankzugriff über den Server](L11)
+
+- Datenbank & Node.js Kommunikation
+- Pipeline: HTML -> Server -> Datenbank
+
+---
+
 ## [**Ω _---_** Prüfungsaufgabe](final)
