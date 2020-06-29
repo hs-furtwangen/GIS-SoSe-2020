@@ -128,7 +128,7 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - URL
 - NodeJS  
 
-[Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe08/)
+[Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe08/Client), [Servercode](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe08/Server/server.ts)
 
 ---
 
@@ -138,7 +138,7 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - Request Handling
 - (POST Request)  
 
-[Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe09/)
+[Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe09/Client), [Servercode](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe09/Server/server.ts)
 
 ---
 

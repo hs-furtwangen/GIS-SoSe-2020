@@ -2,7 +2,7 @@
 
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
-*[direkt zur Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe09/)*
+*[direkt zur Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe09/Client)* *[direkt zum Beispiel-Servercode](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe09/Server/server.ts)*
 
 ## URL Modul
 
