@@ -105,7 +105,8 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - Events
 - Event Handling
 - Event Listener
-- DOM Klassenhierarchie
+- DOM Klassenhierarchie  
+
 [Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe06/)
 
 ---
@@ -114,7 +115,8 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
 - JSON -> Daten laden und speichern
 - Local Storage -> Daten laden und speichern
-- Kommunikation -> Anfragen, fetch, async/await
+- Kommunikation -> Anfragen, fetch, async/await  
+
 [Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe07/)
 
 ---
@@ -124,7 +126,8 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - Formulare
 - FormData
 - URL
-- NodeJS
+- NodeJS  
+
 [Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe08/)
 
 ---
@@ -133,7 +136,9 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
 - URL Modul
 - Request Handling
-- (POST Request)
+- (POST Request)  
+
+[Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe09/)
 
 ---
 
