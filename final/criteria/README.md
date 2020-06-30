@@ -28,7 +28,7 @@ Die jeweils maximale Punktzahl einer Komponente kann erreicht weren, wenn die Ko
 
 Für herausragende Leistungen die z.B. das Umsetzungskonzept, die Implementierung, die grafische Gestaltung, oder andere Besonderheiten einer Lösung betreffen, können bis zu 4 Bonuspunkte vergeben werden.
 
-Ein weiterer Bonuspunkt kann vergeben werden, wenn der Abgabe in angemessener Weise ein Meme mit GiS-Bezug beigefügt wird. Kriterien hier sind der Bezug zu GiS, Einzigartigkeit und subjektive Witzigkeit aus Sicht des Prüfers. Das grafische Können fließt nicht in die Vergabe dieses Punktes mit ein. Bedienen Sie sich gerne an etablierten Meme Templates und adaptieren Sie diese für GiS.
+Ein weiterer Bonuspunkt kann vergeben werden, wenn der Abgabe in angemessener Weise ein selbst erstelltes Meme mit GiS-Bezug beigefügt wird. Kriterien hier sind der Bezug zu GiS, Einzigartigkeit und subjektive Witzigkeit aus Sicht des Prüfers. Das grafische Können fließt nicht in die Vergabe dieses Punktes mit ein. Bedienen Sie sich gerne an etablierten Meme Templates und adaptieren Sie diese für GiS.
 
 #### Notenverteilung
 
