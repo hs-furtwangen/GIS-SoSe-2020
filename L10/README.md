@@ -189,12 +189,22 @@ Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter d
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### Es wurden oft Header vergessen, was machen die?
+Wir setzen zwei Header: Content-Type bestimmt dabei die Art der Antwort, welche z.B. „text/html“ oder auch „application/json“ sein kann. Access-Control-Allow-Origin legt fest, von welchen Punkten die Antwort gelesen werden darf. Dabei steht das * für alle.
 
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+### Was ist Heroku?
+Heroku stellt euch einen Server zur Verfügung. Da dies Freeware ist, gibt es Beschränkungen. Er muss z.B. min 18 Stunden am Tag offline sein. Der auf dem Server laufenden Code kommt von ihrem Github Repository. Um bei Heroku die neue Server Datei auf GitHub zu nutzen, muss man auf Heroku neu Deployen.
 
-## ...
+### Ersetzen wir jetzt Heroku durch MongoDB?
+Nein. Der Server hört auf den User und schickt dann Anfragen an MongoDB. Auf MongoDB sind dann die Daten gespeichert.
+
+### Lokal testen?
+Ihr sollt auch den Server lokal testen. Genau dafür ist der Live-Server da. Ihr müsst npm start oder node „Pfad“ in die Console schreiben und ggf. noch den Pfad anpassen.
+
+### Double-Dash in der Abfrage auf dem Server?
+Der Double-Dash ist nicht erforderlich und kann geändert werden. Wahrscheinlich habt ihr einfach bei eurem Link einen Dash am Ende und dazu einen Dash beim Anhang von „html“ bzw „json“ an den Pfad angefügt.
+
+### Code Guidelines sind wichtig!
+Haltet die Guidelines ein. In der Endabgabe sind das ganze zwei Punkte für die simple Einhaltung der Guidelines. Auch für später hilft das saubere strukturierte Arbeiten weiter. (Auch nicht nur in der Programmierung!)
