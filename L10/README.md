@@ -148,11 +148,11 @@ Die Datenbank auf dem Entwicklungsrechner ist natürlich nur zum Testen da, von 
   - Klicken Sie auf `Create Cluster`
   - Warten Sie, bis das Cluster erstellt wurde (ca. 1-3 Minuten)
 
-- Folgen Sie jetzt dem `Get Started`-Guide! https://docs.atlas.mongodb.com/getting-started/
+- Folgen Sie jetzt dem `Get Started`-Guide zum Anlegen ihrer Datenbank. Sie müssen sich noch NICHT über einen eigenen Server darauf verbinden! Das machen wir nächste Woche. [https://docs.atlas.mongodb.com/getting-started/](https://docs.atlas.mongodb.com/getting-started/) 
   - Erlauben Sie ihrem Testuser den Read/Write-Zugriff
   - Erlauben Sie in der Whitelist Zugriff von überall mit der IP-Adresse `0.0.0.0/0`
   - Legen Sie **`KEINE`** Beispieldaten an
-  - Wählen Sie `Connect Your Application` und kopieren Sie den Connection-String -> legen Sie ihn zunächst als Kommentar in Ihrem Servercode ab.
+  - Wählen Sie `Connect Your Application` und kopieren Sie den Connection-String -> legen sie diesen irgendwo ab damit Sie ihn später zur Verfügung haben.
 - Wählen Sie dann Collections-> Add my own data
   - Legen Sie eine Datenbank `Test` und die Collection `Students` an
   - Klicken Sie auf `Insert Document` und fügen Sie in `Students` ein Dokument ein
