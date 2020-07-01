@@ -22,7 +22,7 @@ Die jeweils maximale Punktzahl einer Komponente kann erreicht weren, wenn die Ko
 | Datenstrukturen        | die Lösung verwendet angemessene Datentrukturen (Interfaces/Klassen, JSON) |4|
 | Formular               | die Lösung verwendet Formulare |2|
 | REST                   | die Lösung verwendet REST-Schnittstellen |4|
-||**Gesamt**|**64**|
+| | **Gesamt** | **64** |
 
 #### Bonuspunkte
 
@@ -33,15 +33,15 @@ Ein weiterer Bonuspunkt kann vergeben werden, wenn der Abgabe in angemessener We
 #### Notenverteilung
 
 | Punkte | Note |
-|-|-|
-|61| 1 |
-|58| 1,3 |
-|55| 1,7 |
-|52|2|
-|49|2,3|
-|46|2,7|
-|43|3|
-|39|3,3|
-|35|3,7|
-|30|4|
-|< 30| 5 / NB|
+| -  | - |
+| 61 | 1,0 |
+| 58 | 1,3 |
+| 55 | 1,7 |
+| 52 | 2,0 |
+| 49 | 2,3 |
+| 46 | 2,7 |
+| 43 | 3,0 |
+| 39 | 3,3 |
+| 35 | 3,7 |
+| 30 | 4,0 |
+| < 30 | 5 / NB|
