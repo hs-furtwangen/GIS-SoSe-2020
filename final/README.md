@@ -121,6 +121,7 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 #### Typescript Dokumentation
 
 [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+
 ---
 
 ## **?! _<small>Q&A</small>_** Fragen und Antworten
