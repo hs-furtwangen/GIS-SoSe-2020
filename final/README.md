@@ -128,12 +128,28 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### Mathe-Prüfung gleichzeitig mit GIS-Prüfung, was tun?
+Ihr habt die Möglichkeit euch den Termin für die Prüfung selbst auszusuchen. Am Mittwoch den 08.07.2020 um 9:30 wird die Anmeldung freigeschaltet (wahrscheinlich ein Issue auf GitHub). Bitte schaut selbst, dass ihr keinen überschneidenden Termin wählt. Wenn dies trotzdem passiert, meldet euch bitte zeitnah!
 
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+### Aufgaben richtig lesen!
+Auch die geforderten Abgabeanforderungen müssen eingehalten werden. Formvorgaben zählen auch zur Prüfungsleistung und können im Notfall bei nicht-Einhaltung zum nicht Bestehen der Prüfung führen.
 
-## ...
+### Darf man mySQL statt MongoDB nutzen?
+Nein, die Vorgaben sind fest.
+
+### Dürfte ich auch einen Jogurt Shop anstatt einer Eisdiele machen?
+Solange ihr alle geforderten Features erfüllen könnt, ist das eigentlich kein Problem. Fragt uns einfach per Mail oder Discord ob das was ihr machen wollt auch funktioniert und akzeptiert wird.
+
+### Erfährt man gleich im Anschluss an die mündliche Prüfung seine Note?
+Ja.
+
+### Müssen wir lizenzfreie Bilder/Videos benutzen?
+Nein, die verwendeten Bilder liegen in eurer Verantwortung. Wir übernehmen aber keine Haftung.
+
+### Dürfen wir einen Canvas o.ä. verwenden?
+Wer kann und möchte, darf dies gerne tun.
+
+### Wie wird die Effizienz von CSS bewertet?
+Effizienz ist kein Kriterium. Ineffizienz ist euer Problem und kostet euch mehr Zeit, gibt aber keinen Abzug an Punkten. Nutzt die Kaskadierung von CSS.
