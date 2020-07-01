@@ -12,7 +12,7 @@ Die Bewertung der Aufgabenlösungen folgt einem einheitlichen [Kriterienkatalog]
 
 Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Lösung der gewählten Prüfungsaufgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls. Nährere Informationen zum Ablauf und Zeitplan der mündlichen Prüfungen werden rechtzeitig veröffentlicht.
 
-#### Allgemeine Hinweise
+### Allgemeine Hinweise
 
 - **Jeder muss eine eigene Lösung erarbeiten.** Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
@@ -26,7 +26,7 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 - Die Prüfungsaufgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
 
-#### Hinweise zur Abgabe
+### Hinweise zur Abgabe
 - Fügen Sie – wie für die Praktikumsaufgaben – in den Steckbrief einen Link auf die fertige und lauffähige Anwendung ein.
 - Fügen Sie außerdem im Steckbrief einen Link auf eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt ein:
   1. alle Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
@@ -40,11 +40,11 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 - Der Inhalt der Datenbaken ist nicht abzugeben.
 
-## Aufgaben zur Wahl
+### Aufgaben zur Wahl
 
 Zur Erinnerung: _Sie müssen nur **EINE** dieser drei Aufgaben bearbeiten._
 
-### Aufgabe A: Eisdiele
+#### Aufgabe A: Eisdiele
 
 Entwickeln Sie eine Online-Eisdiele, bei der es zwei Ansichten gibt:
 
@@ -52,7 +52,7 @@ Entwickeln Sie eine Online-Eisdiele, bei der es zwei Ansichten gibt:
 
 - eine Ansicht für die Eisdielenbetreiber um die eingegangenen Bestellungen einzusehen, zu bearbeiten, und zu löschen (die Betreiber-Seite braucht nicht durch ein Passwort geschützt werden und kann frei zugänglich bleiben)
 
-### Aufgabe B: HFU Chat
+#### Aufgabe B: HFU Chat
 
 Entwickeln sie einen Online-Chat mit persistenten Chatverläufen (d.h. Chatverläufe werden auch noch angezeigt, wenn man sich nach beliebiger Zeit erneut einloggt) und folgenden Eigenschaften:
 
@@ -62,7 +62,7 @@ Entwickeln sie einen Online-Chat mit persistenten Chatverläufen (d.h. Chatverl�
 
 - lediglich angemeldete Nutzer sollen in der Lage sein, Chatnachrichten zu sehen und zu schreiben
 
-### Aufgabe C: Neue Praktikumsseite
+#### Aufgabe C: Neue Praktikumsseite
 
 Entwickeln Sie eine neue GIS-Praktikumsseite mit folgenden Eigenschaften:
 
@@ -85,7 +85,7 @@ Entwickeln Sie eine neue GIS-Praktikumsseite mit folgenden Eigenschaften:
 
 Bauen Sie gerne weitere Features ein, die Sie für sinnvoll halten (z.B. Timestamps, Layout, Gruppen, etc.), sowohl für die Professoren als auch die Studierenden. Eine Validierung der Regsitrierung ist nicht notwendig. Orientieren Sie sich nicht allzu stark an der exitierenden Seite (höchstens um zu wissen, was man alles verbessern könnte :-) ).
 
-#### Empfehlungen und Tipps
+### Empfehlungen und Tipps
 
 Haben Sie keine Angst vor nicht komplett funktionierenden Abgaben. Sofern kleinere Teile nicht funktionieren aber Sie im mündlichen Teil erklären können was nicht funktioniert und warum, und was Sie versucht haben um das Problem zu lösen, können Sie immer noch eine sehr gute Note erreichen.
 
@@ -118,7 +118,7 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 
 **Bei Problemen/Unklarheiten:** sollten Sie zum Praktikum kommen oder per Discord/Mail Fragen stellen.
 
-#### Typescript Dokumentation
+### Typescript Dokumentation
 
 [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 
