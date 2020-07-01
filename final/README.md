@@ -107,7 +107,7 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 2. Datenstrukturen planen, Interfaces anlegen
 3. Beispieldaten anlegen (werden später aus DB geladen)
 4. benötigte HTML-Seiten anlegen (zunächst statisch mit Beispieldaten gefüllt)
-5. erste grundsätliche CSS-Stilvorlage anlegen
+5. erste grundsätzliche CSS-Stilvorlage anlegen
 6. Media Queries und responsive Design einfügen
 7. TS-Code für den dynamischen Seitenaufbau implementieren (mit Beispieldaten)
 8. TS-Code für Seiteninteraktion mit Event Listenern implementieren

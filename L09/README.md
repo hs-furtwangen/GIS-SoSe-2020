@@ -204,7 +204,7 @@ Versuchen Sie, statt über GET über POST eine Anfrage zu verschicken und auszul
 
 ### **Abgabetermin: 28.06.2020 um 18:00!**
 
-Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_9). Außerdem einen github.com Link zur Ihrer server.ts Datei. 
+Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter dem GitHub issues link) in Ihrer Steckbrief.htm, der auf das Ergebnis verweist (bspw. nutzername.github.io/GIS-SoSe-2020/Aufgabe_9). Außerdem einen github.com **Link zur Ihrer server.ts Datei**.
 
 >### **Achtung!:** Eine fehlerhafte Abgabe fürt zu einer 🚦 die **im Praktikum** verteidigt werden muss. Keine Abgabe zu 2 🚦 von denen nur 1e 🚦 verteidigt werden kann.
 
