@@ -115,7 +115,7 @@ Die eigentlichen Daten kann man so nicht einsehen, sie werden in einem effizient
 
 > **Hinweis:** Wenn bei den nächsten Übungen etwas nicht funktionieren sollte, bitte direkt melden. Bis eine Antwort kommt, können Sie mit dem folgenden Video weiter machen...  
 
-> - Öffnen Sie in einem zweiten Terminalfenster mit `mongo` die MongoShell. Beobachten Sie im ersten Fenster, dass MongoDB einen Verbindungsversuch registriert und diesen akzeptiert.
+> - Öffnen Sie in einem zweiten Terminalfenster mit `mongo` die MongoShell (die ausführbare `mongo` Datei befindet sich im gleichen Ordner wie die `mongod` Datei). Beobachten Sie im ersten Fenster, dass MongoDB einen Verbindungsversuch registriert und diesen akzeptiert.
 > - Geben Sie `show dbs` in der Shell ein, es sollten Infos zu den drei internen Datenbanken angezeigt werden.
 > - Legen Sie mit `use Test` eine neue Datenbank mit Namen "Test" an. Die Shell bestätigt "switched to db Test". Test ist nun für die folgenden Befehle die Datenbank, mit der gearbeitet wird.
 > - Geben Sie `show collections` ein. Da noch keine Collections in Test angelegt sind, sollte nichts ausgegeben werden. Tatsächlich wird auch `show dbs` noch nicht die Datenbank Test ausgeben, da diese noch leer ist.
