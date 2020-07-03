@@ -148,7 +148,7 @@ Die Datenbank auf dem Entwicklungsrechner ist natürlich nur zum Testen da, von 
   - Klicken Sie auf `Create Cluster`
   - Warten Sie, bis das Cluster erstellt wurde (ca. 1-3 Minuten)
 
-- Folgen Sie jetzt dem `Get Started`-Guide zum Anlegen ihrer Datenbank. Sie müssen sich noch NICHT über einen eigenen Server darauf verbinden! Das machen wir nächste Woche. [https://docs.atlas.mongodb.com/getting-started/](https://docs.atlas.mongodb.com/getting-started/) 
+- Folgen Sie jetzt dem `Get Started`-Guide zum Anlegen ihrer Datenbank (Part 1-4). Sie müssen sich noch NICHT über einen eigenen Server darauf verbinden und auch nicht über PyMongo irgendwas anlegen oder so! Über Server darauf programmatisch Zugreifen machen wir nächste Woche. [https://docs.atlas.mongodb.com/getting-started/](https://docs.atlas.mongodb.com/getting-started/) 
   - Erlauben Sie ihrem Testuser den Read/Write-Zugriff
   - Erlauben Sie in der Whitelist Zugriff von überall mit der IP-Adresse `0.0.0.0/0`
   - Legen Sie **`KEINE`** Beispieldaten an
