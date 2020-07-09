@@ -1,4 +1,4 @@
-## **Ω _---_** Prüfungsaufgabe
+## **Ω _---_** Prüfungsaufgabe und mündliche Prüfung
 
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
@@ -8,11 +8,14 @@ Ihnen stehen drei Aufgabenstellungen zur Wahl (siehe unten), die Sie selbststän
 
 Die Bewertung der Aufgabenlösungen folgt einem einheitlichen [Kriterienkatalog](criteria). Sie werden in der mündlichen Prüfung aufgefordert die Details der Implementierung Ihrer Lösung zu erläutern.
 
-### Letztmöglicher Abgabetermin ist Sonntag, 26. Juli 2020, 23:59.
+### Letztmöglicher Abgabetermin für die Lösung der Prüfungsabgabe ist Sonntag, 26. Juli 2020, 23:59.
 
 Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Lösung der gewählten Prüfungsaufgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls. Nährere Informationen zum Ablauf und Zeitplan der mündlichen Prüfungen werden rechtzeitig veröffentlicht.
 
-### Allgemeine Hinweise
+### Hinweise zur mündlichen Prüfung
+Die Hinweise zur mündlichen Prüfung (Modalitäten, Vorraussetzungen, Anmeldung) erscheinen bis zum Montag, den 13. Juli 2020 an dieser Stelle.
+
+### Allgemeine Hinweise zur Prüfungsaufgabe
 
 - **Jeder muss eine eigene Lösung erarbeiten.** Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
@@ -26,7 +29,7 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 - Die Prüfungsaufgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
 
-### Hinweise zur Abgabe
+### Hinweise zur Abgabe der Prüfungsaufgabe
 - Fügen Sie – wie für die Praktikumsaufgaben – in den Steckbrief einen Link auf die fertige und lauffähige Anwendung ein.
 - Fügen Sie außerdem im Steckbrief einen Link auf eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt ein:
   1. alle Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
@@ -40,7 +43,7 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 
 - Der Inhalt der Datenbaken ist nicht abzugeben.
 
-### Aufgaben zur Wahl
+### Prüfungsaufgaben zur Wahl
 
 Zur Erinnerung: _Sie müssen nur **EINE** dieser drei Aufgaben bearbeiten._
 
@@ -85,7 +88,7 @@ Entwickeln Sie eine neue GIS-Praktikumsseite mit folgenden Eigenschaften:
 
 Bauen Sie gerne weitere Features ein, die Sie für sinnvoll halten (z.B. Timestamps, Layout, Gruppen, etc.), sowohl für die Professoren als auch die Studierenden. Eine Validierung der Regsitrierung ist nicht notwendig. Orientieren Sie sich nicht allzu stark an der exitierenden Seite (höchstens um zu wissen, was man alles verbessern könnte :-) ).
 
-### Empfehlungen und Tipps
+### Empfehlungen und Tipps zur Lösung der Prüfungsaufgaben
 
 Haben Sie keine Angst vor nicht komplett funktionierenden Abgaben. Sofern kleinere Teile nicht funktionieren aber Sie im mündlichen Teil erklären können was nicht funktioniert und warum, und was Sie versucht haben um das Problem zu lösen, können Sie immer noch eine sehr gute Note erreichen.
 
