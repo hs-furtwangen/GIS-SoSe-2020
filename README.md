@@ -157,4 +157,4 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 
 ---
 
-## [**Ω _---_** Prüfungsaufgabe](final)
+## [**Ω _---_** Prüfungsaufgabe und mündliche Prüfung](final)
