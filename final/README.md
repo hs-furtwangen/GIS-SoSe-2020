@@ -2,22 +2,32 @@
 
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
 
-Die Prüfungsaufgabe ist, gemeinsam mit der mündlichen Prüfung, die Prüfungsleistung für das Modul GIS. Die Prüfungsaufgabe und die mündliche Prüfung ersetzen zusammen die schriftliche Klausur, die dieses Semester nicht durchgeführt werden kann.
+Die Modulprüfung zu GIS besteht im Sommersemester 2020 aus einer Prüfungsaufgabe und einer mündlichen Prüfung. Die Lösung der Prüfungsaufgabe und die mündliche Prüfung ersetzen zusammen die schriftliche Klausur, die dieses Semester nicht durchgeführt werden kann. Zum Bestehen der Modulprüfung müssen beide Prüfungsteile erfolgreich abgeschlossen werden.
 
-Ihnen stehen drei Aufgabenstellungen zur Wahl (siehe unten), die Sie selbstständig bearbeiten sollen. Die Lösung der Aufgabe ist im besten Fall eine lauffähige Anwendung, die der jeweiligen Beschreibung genügt und in Ihrem Steckbrief (auf der Praktikumsseite) veröffentlicht ist.
+Ihnen stehen drei Aufgabenstellungen zur Wahl ([siehe unten](#prüfungsaufgaben-zur-wahl)), die Sie selbstständig bearbeiten sollen. Die Lösung der Aufgabe ist im besten Fall eine lauffähige Anwendung, die der jeweiligen Beschreibung genügt ([siehe unten](#hinweise-zur-abgabe-der-prüfungsaufgabe)).
 
 Die Bewertung der Aufgabenlösungen folgt einem einheitlichen [Kriterienkatalog](criteria). Sie werden in der mündlichen Prüfung aufgefordert die Details der Implementierung Ihrer Lösung zu erläutern.
 
-### Letztmöglicher Abgabetermin für die Lösung der Prüfungsabgabe ist Sonntag, 26. Juli 2020, 23:59.
+Der letztmögliche **Abgabetermin für die Lösung der Prüfungsabgabe** ist **Sonntag, 26. Juli 2020, 23:59.**
 
-Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Lösung der gewählten Prüfungsaufgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls. Nährere Informationen zum Ablauf und Zeitplan der mündlichen Prüfungen werden rechtzeitig veröffentlicht.
+Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Lösung der gewählten Prüfungsaufgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls. 
 
-### Hinweise zur mündlichen Prüfung
-Die Hinweise zur mündlichen Prüfung (Modalitäten, Vorraussetzungen, Anmeldung) erscheinen bis zum Montag, den 13. Juli 2020 an dieser Stelle.
+Die **mündlichen Prüfungen** finden am **3., 4. und 5. August** statt (weitere Prüfungen am 6. August sind möglich).
+
+### Hinweise zur Prüfungsanmeldung
+
+Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 26. Juli 2020 in den Felixkurs *GIS Modulprüfung SoSe 2020 (MIB und OMB)* einschreiben. Dieser bietet die Infrastruktur für folgende Elemente:
+- Abgabe der *Einwilligungserklärung zur Durchführung von Online-Prüfungen*
+- Eintragung eines Termins für die mündliche Prüfung
+- Abgabe der Lösung der Prüfungsaufgabe (siehe unten)
+
+Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Prüfung zugelassen zu werden. Die Eintragung eines Prüfungstermins ist erst nach Abgabe der Einwilligungserklärung möglich.
+
+Der Felixkurs *GIS Modulprüfung SoSe 2020 (MIB und OMB)* wird bis zum bis zum Freitag, den 17. Juli 2020, veröffentlicht und hier verlinkt.
 
 ### Allgemeine Hinweise zur Prüfungsaufgabe
 
-- **Jeder muss eine eigene Lösung erarbeiten.** Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
+- Jeder muss eine **eigene Lösung** erarbeiten! Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
 <!-- - Ihre Abgabe wird nur akzeptiert, wenn Sie die <a id="raw-url" href="https://github.com/hs-furtwangen/GIS-SoSe-2020/raw/master/final/Eidesstattliche_Erkl%C3%A4rung.pdf">Eidesstattliche Erklärung</a> unterschreiben und gemeinsam mit Ihrer Lösung abgeben. -->
 
@@ -25,27 +35,38 @@ Die Hinweise zur mündlichen Prüfung (Modalitäten, Vorraussetzungen, Anmeldung
 
 - Testen Sie die Applikation regelmäßig, ausgiebig und frühzeitig. Lassen Sie auch andere Personen testen um festzustellen, ob die Anwendung bedienbar und fehlertolerant ist. 
 
-- Die Aufgaben lassen nicht zufällig einiges an Interpretationsspielraum. Toben Sie sich aus, machen Sie sich Gedanken, seien Sie kreativ, haben Sie Spaß.
+- Die Aufgaben lassen nicht zufällig einiges an Interpretationsspielraum. Toben Sie sich aus, machen Sie sich Gedanken, **seien Sie kreativ**, **haben Sie Spaß**.
 
 - Die Prüfungsaufgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
 
 ### Hinweise zur Abgabe der Prüfungsaufgabe
-- Fügen Sie – wie für die Praktikumsaufgaben – in den Steckbrief einen Link auf die fertige und lauffähige Anwendung ein.
-- Fügen Sie außerdem im Steckbrief einen Link auf eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt ein:
-  1. alle Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
-  2. eine kurze(!) Anleitung, wie man die Anwendung ausführt (z.B. Welche Datei muss als Node Server ausgeführt werden? – Welche html Datei im Browser geöffnet? – Muss ein *LiveServer* verwendet werden?)
-  3. eine einfache Beschreibung/Darstellung ihrer Datenbankstruktur in JSON-ähnlicher Syntax oder als Graphen (Baumstruktur)
-  4. eine (unterschriebene) *Eidesstattliche Erklärung*, welche die eigenständige Lösungserarbeitung bestätigt (z.B. als PDF nach [dieser Vorlage](ee.pdf))
+⚠ **Achtung: veränderte Abgabemodalitäten seit Montag, 13. Juli** ⚠
 
-- Achten Sie auf eine sinnvolle Ordner-/Dateistruktur.
+- Verwenden Sie – wie für die Praktikumsaufgaben – ein *GitHub* Repository für den Quellcode und die damit assoziierten *GitHub Pages* um die – möglichst lauffähige und vollständige – Anwendung zugänglich zu machen (siehe [Einführung vom 22. April](../L01)).
+
+- Laden Sie in Ihren Abgabeordner im Felixkurs der Modulprüfung (siehe oben) eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt hoch
+  1. alle Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
+  2. eine kurze(!) Anleitung, wie man die Anwendung ausführt z.B.:
+  - Welche Datei muss als Node Server ausgeführt werden?
+  - Welche html Datei im Browser geöffnet?
+  - Muss ein *LiveServer* verwendet werden?
+  3. einen (*GitHub Pages*) Link auf die möglichst lauffähige und vollständige Lösung
+  4. eine einfache Beschreibung/Darstellung ihrer Datenbankstruktur in JSON-ähnlicher Syntax oder als Graphen (Baumstruktur)
+  5. eine (unterschriebene) *Eidesstattliche Erklärung*, welche die eigenständige Lösungserarbeitung bestätigt (z.B. als PDF nach [dieser Vorlage](ee.pdf))
+
+- Die Anleitung (2.), der Link (3.) und die Datenbankstruktur (4.) können gerne in ein Dokument zusammengefaßt werden (z.B. PDF, MarkDown, TXT).
+
+- Achten Sie auf eine sinnvolle Ordner-/Dateistruktur für ihren Quellcode sowie für das gesamte Archiv Ihrer Abgabe.
 
 - Benennen Sie das Datenarchiv nach folgendem Schema: `<Nachname>_<Vorname>_<Matrikelnummer>.zip`
 
 - Der Inhalt der Datenbaken ist nicht abzugeben.
 
+- Letztmöglicher **Abgabetermin: Sonntag, 26. Juli 2020, 23:59.**.
+
 ### Prüfungsaufgaben zur Wahl
 
-Zur Erinnerung: _Sie müssen nur **EINE** dieser drei Aufgaben bearbeiten._
+Zur Erinnerung: _Sie müssen nur **eine** dieser drei Aufgaben bearbeiten._
 
 #### Aufgabe A: Eisdiele
 
