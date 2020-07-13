@@ -1,6 +1,7 @@
 ## **8 _JuLi_** Datenbankzugriff über Server
 *[direkt zur Praktikumsaufgabe](#a--praktikumsaufgabe)*
 *[direkt zu Q&A](#-qa-fragen-und-antworten)*
+*[direkt zur Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe11/Client)* *[direkt zum Beispiel-Servercode](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe11/Server/)*
 
 
 

@@ -155,6 +155,8 @@ Beantworten Sie auch gerne die von Ihren Kommilitonen erstellten GitHub Issues.
 - Datenbank & Node.js Kommunikation
 - Pipeline: HTML → Server → Datenbank
 
+[Beispiellösung](https://plagiatus.github.io/GIS_SoSe2020/Aufgabe11/Client), [Servercode](https://github.com/Plagiatus/GIS_SoSe2020/blob/master/Aufgabe11/Server/)
+
 ---
 
 ## [**Ω _---_** Prüfungsaufgabe und mündliche Prüfung](final)
