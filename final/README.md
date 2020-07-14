@@ -37,7 +37,7 @@ Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Pr
 - Die Prüfungsaufgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
 
 ### Hinweise zur Abgabe der Prüfungsaufgabe
-⚠ **Achtung: veränderte Abgabemodalitäten seit Montag, 14. Juli** ⚠
+⚠ **Achtung: veränderte Abgabemodalitäten seit Dienstag, 14. Juli** ⚠
 
 - Verwenden Sie – wie für die Praktikumsaufgaben – ein *GitHub* Repository für den Quellcode und die damit assoziierten *GitHub Pages* um die – möglichst lauffähige und vollständige – Anwendung zugänglich zu machen (siehe [Einführung vom 22. April](../L01)).
 
