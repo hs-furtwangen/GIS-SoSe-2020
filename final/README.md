@@ -17,7 +17,7 @@ Die **mündlichen Prüfungen** finden am **3., 4. und 5. August** statt (weitere
 ### Hinweise zur Prüfungsanmeldung
 ⚠ **Achtung: veränderte Modalitäten zur Prüfungsanmeldung seit Dienstag, 14. Juli** ⚠
 
-Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 26. Juli 2020 in das [Felix-Kursmodul *GIS Modulprüfung SoSe 2020 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3983966357) einschreiben. Dieses Kursmodul bietet die Infrastruktur für folgende Schritte zur Moduleprüfung:
+Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 26. Juli 2020 in das [FELIX-Kursmodul *GIS Modulprüfung SoSe 2020 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3983966357) einschreiben. Dieses Kursmodul bietet die Infrastruktur für folgende Schritte zur Moduleprüfung:
 1. Abgabe der *Einwilligungserklärung zur Durchführung von Online-Prüfungen*
 2. Eintragung eines Termins für die mündliche Prüfung
 3. Abgabe der Lösung der Prüfungsaufgabe (siehe unten)
@@ -28,8 +28,6 @@ Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Pr
 
 - Jeder muss eine **eigene Lösung** erarbeiten! Unter diesem Gesichtspunkt ist Gruppenarbeit nur sehr eingeschränkt bei allgemeineren Problemen möglich. So wie die Aufgaben gestellt sind, ist es äußerst unwahrscheinlich, dass es zwei oder mehr gleiche (oder verdächtig ähnliche) Lösungen gibt. Einander gleichende Lösungen werden nicht akzeptiert.
 
-<!-- - Ihre Abgabe wird nur akzeptiert, wenn Sie die <a id="raw-url" href="https://github.com/hs-furtwangen/GIS-SoSe-2020/raw/master/final/Eidesstattliche_Erkl%C3%A4rung.pdf">Eidesstattliche Erklärung</a> unterschreiben und gemeinsam mit Ihrer Lösung abgeben. -->
-
 - Implementieren Sie Ihre Lösung der gewählten Endaufgabe syntaktisch korrekt mit Hilfe von *HTML*, *CSS*, *Typescript*, *NodeJS* und *MongoDB*.
 
 - Testen Sie die Applikation regelmäßig, ausgiebig und frühzeitig. Lassen Sie auch andere Personen testen um festzustellen, ob die Anwendung bedienbar und fehlertolerant ist. 
@@ -39,11 +37,11 @@ Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Pr
 - Die Prüfungsaufgabe ist **nicht** Teil des Praktikums und muss für das Bestehen des Praktikums nicht abgegeben werden.
 
 ### Hinweise zur Abgabe der Prüfungsaufgabe
-⚠ **Achtung: veränderte Abgabemodalitäten seit Montag, 13. Juli** ⚠
+⚠ **Achtung: veränderte Abgabemodalitäten seit Montag, 14. Juli** ⚠
 
 - Verwenden Sie – wie für die Praktikumsaufgaben – ein *GitHub* Repository für den Quellcode und die damit assoziierten *GitHub Pages* um die – möglichst lauffähige und vollständige – Anwendung zugänglich zu machen (siehe [Einführung vom 22. April](../L01)).
 
-- Laden Sie in Ihren Abgabeordner im Felixkurs der Modulprüfung (siehe oben) eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt hoch
+- Laden Sie im Bereich *Prüfungsaufgabe* des FELIX-Kursmoduls der GIS Modulprüfung (siehe oben) eine Archivdatei (z.B. eine ZIP-Datei) mit folgendem Inhalt hoch
   1. alle Dateien, die zur Ausführung der Anwendung notwendig sind: Javascript/Typescript-Quellcode (client- und server-seitig), HTML- und CSS-Quellcode sowie ggf. Bild- und Audiodateien
   2. eine kurze(!) Anleitung, wie man die Anwendung ausführt z.B.:
   - Welche Datei muss als Node Server ausgeführt werden?
@@ -53,7 +51,7 @@ Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Pr
   4. eine einfache Beschreibung/Darstellung ihrer Datenbankstruktur in JSON-ähnlicher Syntax oder als Graphen (Baumstruktur)
   5. eine (unterschriebene) *Eidesstattliche Erklärung*, welche die eigenständige Lösungserarbeitung bestätigt (z.B. als PDF nach [dieser Vorlage](ee.pdf))
 
-- Die Anleitung (2.), der Link (3.) und die Datenbankstruktur (4.) können gerne in ein Dokument zusammengefaßt werden (z.B. PDF, MarkDown, TXT).
+- Die Anleitung (2.), der Link (3.) und die Datenbankstruktur (4.) können gerne in ein Dokument zusammengefaßt werden (z.B. PDF, MarkDown, TXT), so dass es sich hier um 3 bis Dokumente handelt.
 
 - Achten Sie auf eine sinnvolle Ordner-/Dateistruktur für ihren Quellcode sowie für das gesamte Archiv Ihrer Abgabe.
 
