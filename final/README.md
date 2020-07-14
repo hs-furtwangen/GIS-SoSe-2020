@@ -15,15 +15,14 @@ Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit I
 Die **mündlichen Prüfungen** finden am **3., 4. und 5. August** statt (weitere Prüfungen am 6. August sind möglich).
 
 ### Hinweise zur Prüfungsanmeldung
+⚠ **Achtung: veränderte Modalitäten zur Prüfungsanmeldung seit Dienstag, 14. Juli** ⚠
 
-Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 26. Juli 2020 in den Felixkurs *GIS Modulprüfung SoSe 2020 (MIB und OMB)* einschreiben. Dieser bietet die Infrastruktur für folgende Elemente:
-- Abgabe der *Einwilligungserklärung zur Durchführung von Online-Prüfungen*
-- Eintragung eines Termins für die mündliche Prüfung
-- Abgabe der Lösung der Prüfungsaufgabe (siehe unten)
+Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 26. Juli 2020 in das [Felix-Kursmodul *GIS Modulprüfung SoSe 2020 (MIB und OMB)*](https://felix.hs-furtwangen.de/auth/RepositoryEntry/3983966357) einschreiben. Dieses Kursmodul bietet die Infrastruktur für folgende Schritte zur Moduleprüfung:
+1. Abgabe der *Einwilligungserklärung zur Durchführung von Online-Prüfungen*
+2. Eintragung eines Termins für die mündliche Prüfung
+3. Abgabe der Lösung der Prüfungsaufgabe (siehe unten)
 
-Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Prüfung zugelassen zu werden. Die Eintragung eines Prüfungstermins ist erst nach Abgabe der Einwilligungserklärung möglich.
-
-Der Felixkurs *GIS Modulprüfung SoSe 2020 (MIB und OMB)* wird bis zum bis zum Freitag, den 17. Juli 2020, veröffentlicht und hier verlinkt.
+Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Prüfung zugelassen zu werden. Die Eintragung eines Prüfungstermins für die mündliche Prüfung sowie die Abgabe ihrer Lösung der Prüfungsaufgabe ist erst nach Abgabe der Einwilligungserklärung möglich. Bitte beachten Sie, dass die Bestätigung der Abgabe der Einwilligungserklärung bis zu 48 Stunden in Anspruch nehmen kann und warten Sie mit der Abgabe nicht bis zum letztmöglichen Termin.
 
 ### Allgemeine Hinweise zur Prüfungsaufgabe
 
