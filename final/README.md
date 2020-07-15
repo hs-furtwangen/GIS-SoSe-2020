@@ -151,6 +151,15 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 
 Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 
+### Reicht bei der fortlaufenden Darstellung eine Anzeige als Zahl?
+Man muss nicht unbedingt grafisch jede einzelne Kugel anzeigen, sondern visuell alles abbilden. D.h. es sollte klar dargestellt werden, welche einzelnen Kugeln da sind.
+
+### Darf ich SASS oder ähnliches verwenden?
+Wer es versteht und es erklären kann, darf dies gerne verwenden
+
+### Muss die Darstellung auch auf dem Handy/Tablet dargestellt werden?
+Ja, da die Website responsive sein soll. Also das Bild muss nicht perfekt sein, aber man sollte alles erreichen können.
+
 ### Welches Datum sollen wir auf die Einwilligungserklärung schreiben?
 Schreiben Sie bitte den 3-5.08.2020 auf ihre Einwilligung.
 
