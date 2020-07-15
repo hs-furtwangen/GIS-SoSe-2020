@@ -22,7 +22,7 @@ Um an der Modulprüfung teilzunehmen müssen Sie sich bis spätestens 26. Juli 2
 2. Eintragung eines Termins für die mündliche Prüfung
 3. Abgabe der Lösung der Prüfungsaufgabe (siehe unten)
 
-Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Prüfung zugelassen zu werden. Die Eintragung eines Prüfungstermins für die mündliche Prüfung sowie die Abgabe ihrer Lösung der Prüfungsaufgabe ist erst nach Abgabe der Einwilligungserklärung möglich. Bitte beachten Sie, dass die Bestätigung der Abgabe der Einwilligungserklärung bis zu 48 Stunden in Anspruch nehmen kann und warten Sie mit der Abgabe nicht bis zum letztmöglichen Termin.
+Die Abgabe der Einwilligungserklärung ist Vorraussetzung um zur mündlichen Prüfung zugelassen zu werden. Die Eintragung eines Prüfungstermins für die mündliche Prüfung sowie die Abgabe ihrer Lösung der Prüfungsaufgabe ist erst nach Abgabe der Einwilligungserklärung möglich.
 
 ### Allgemeine Hinweise zur Prüfungsaufgabe
 
