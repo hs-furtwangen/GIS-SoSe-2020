@@ -151,6 +151,27 @@ Die Vorgehensweise um eine Lösung der von Ihnen gewählten Aufgabe zu erarbeite
 
 Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 
+### Reicht bei der fortlaufenden Darstellung eine Anzeige als Zahl?
+Man muss nicht unbedingt grafisch jede einzelne Kugel anzeigen, sondern visuell alles abbilden. D.h. es sollte klar dargestellt werden, welche einzelnen Kugeln da sind.
+
+### Darf ich SASS oder ähnliches verwenden?
+Wer es versteht und es erklären kann, darf dies gerne verwenden
+
+### Muss die Darstellung auch auf dem Handy/Tablet dargestellt werden?
+Ja, da die Website responsive sein soll. Also das Bild muss nicht perfekt sein, aber man sollte alles erreichen können.
+
+### Welches Datum sollen wir auf die Einwilligungserklärung schreiben?
+Schreiben Sie bitte den 3-5.08.2020 auf ihre Einwilligung.
+
+### Wie genau soll die Chat-Aktualisierung funktionieren?
+Damit es immer direkt bei allen Nutzern aktualisiert wird, müsste man eine Socket Verbindung oder ähnliches aufbauen. Da wir das nicht behandelt haben, wäre es gut, wenn man nicht immer reloaden müsste, sondern nur die neuen Daten vielleicht alle 10 Sekunden erneuert werden (d.h. dem Server sagen, dass er einem alle neuen Nachrichten geben soll).
+
+### Endabgabe Fehler ohne Eigenverschulden
+Gehen sie davon aus, dass es funktioniert. Gehen sie z.B. nicht davon aus, dass Heroku abstürzt oder ähnliches. Wenn aufgrund so eines Fehlers etwas bei der Kontrolle nicht funktioniert, werden wir uns darum kümmern.
+
+### Was ist mit REST-Schnittstellen gemeint?
+Alles was dazu gehört, inklusive GET und POST.
+
 ### Mathe-Prüfung gleichzeitig mit GIS-Prüfung, was tun?
 Ihr habt die Möglichkeit euch den Termin für die Prüfung selbst auszusuchen. Am Mittwoch den 08.07.2020 um 9:30 wird die Anmeldung freigeschaltet (wahrscheinlich ein Issue auf GitHub). Bitte schaut selbst, dass ihr keinen überschneidenden Termin wählt. Wenn dies trotzdem passiert, meldet euch bitte zeitnah!
 

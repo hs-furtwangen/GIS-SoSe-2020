@@ -100,12 +100,20 @@ Bitte erstellen Sie nach Fertigstellung einen Link als oberstes Element (unter d
 
 (die Publikation der Zusammenfassung erfolgt nach dem Q&A Termin)
 
-Zusammenfassung von: [&lt;GitHub Nutzername&gt;](https://github.com/link-zu-github-profil)
+Zusammenfassung von: [&lt;TawsTm&gt;](https://github.com/TawsTm)
 
-### Erste Frage?
-LoremLabore labore cillum mollit pariatur reprehenderit dolor laboris reprehenderit dolor sit officia ea non. Lorem reprehenderit exercitation labore eiusmod aute do nostrud officia aute proident sunt. Labore non tempor aliqua voluptate. Exercitation culpa officia ut aliqua nostrud laborum irure est. Minim eu sunt culpa adipisicing laborum consectetur aliqua quis.
+### Aufgrund von MogoDB in GIS-Ordner aktualisiert sich der Live Server ständig?
+Ihr könnt die html-Datei einfach direkt öffnen, da ihr den Live-Server gerade nicht braucht. Für die Endabgabe müsst ihr schauen, dass ihr die DB nicht in denselben Ordner legt, wenn ihr einen Live-Server benutzt.
 
-### Zweite Frage?
-Mollit aliquip veniam sit eiusmod tempor anim ipsum tempor. Aliqua sunt voluptate ea dolor. Nulla est mollit consectetur cupidatat ut cillum ipsum minim. Est ex et nulla laborum fugiat dolore. Aliquip laboris sint exercitation commodo dolor sint mollit qui sunt ipsum fugiat occaecat id enim.
+### Server Datenbank Wer spricht mit wem?
+Wir haben unseren Client Server und die Datenbank. Der Server bei Heroku der Client bei Github und die DB bei Mongo. Anfrage von Client an Server, der es verarbeitet und es an die Datenbank weiterleitet. Die Datenbank kommuniziert mit dem Server und der Server gibt im Anschluss an den Client die Antwort.
 
-## ...
+### Die Anfrage an den Server läuft über eine URL?
+Ja, hier kommen GET und POST ins Spiel.
+
+### Wie ist MongoDB aufgebaut?
+MongoDB besteht aus einem Clusterkopf, in dem die Datenbanken drin sind, in einer Datenbank können Collections sein. In den Collections finde ich meine Dateien als JavaScript bzw. JSON-Objekte wieder.
+
+### Wie ist es mit Username und Passwort anlegen?
+Es geht eine Anfrage an den Server und dieser verarbeitet die eingegebenen Daten und speichert diese im Falle von Richtigkeit in der Datenbank und gibt im besten Fall dem Client eine Rückmeldung.
+
