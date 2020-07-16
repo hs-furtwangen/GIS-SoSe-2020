@@ -10,9 +10,9 @@ Die Bewertung der Aufgabenlösungen folgt einem einheitlichen [Kriterienkatalog]
 
 Der letztmögliche **Abgabetermin für die Lösung der Prüfungsabgabe** ist **Sonntag, 26. Juli 2020, 23:59.**
 
-Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Lösung der gewählten Prüfungsaufgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls. 
+Die mündliche Prüfung besteht aus einer detaillierten Auseinandersetzung mit Ihrer Lösung der gewählten Prüfungsaufgabe und allgemeinen Fragen zu den Lehrinhalten des Moduls.
 
-Die **mündlichen Prüfungen** finden am **3., 4. und 5. August** statt (weitere Prüfungen am 6. August sind möglich).
+Die **mündlichen Prüfungen** finden am **3., 4. und 5. August** über Videokonferenz statt (weitere Prüfungen am 6. August sind möglich).
 
 ### Hinweise zur Prüfungsanmeldung
 ⚠ **Achtung: veränderte Modalitäten zur Prüfungsanmeldung seit Dienstag, 14. Juli** ⚠
